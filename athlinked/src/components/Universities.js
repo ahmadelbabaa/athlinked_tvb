@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PageHeader from './PageHeader';
 
 function Universities() {
   const [universities] = useState([
@@ -113,79 +114,94 @@ function Universities() {
   const conferences = ['all', 'America East', 'Atlantic 10', 'ASUN', 'Southern Conference'];
 
   return (
-    <div className="universities-page">
-      <div className="search-section">
-        <input
-          type="text"
-          placeholder="Search universities..."
-          className="search-input"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-        <select
-          className="filter-select"
-          value={filterConference}
-          onChange={(e) => setFilterConference(e.target.value)}
-        >
-          {conferences.map(conf => (
-            <option key={conf} value={conf}>
-              {conf === 'all' ? 'All Conferences' : conf}
-            </option>
+    <>
+      <PageHeader 
+        title="University Programs" 
+        subtitle="Explore top collegiate soccer programs and scholarship opportunities"
+        backgroundImage="url(https://images.unsplash.com/photo-1498079022511-d15614cb1c02?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80)"
+      />
+      
+      <div className="elevo-page">
+        <div className="elevo-search-container">
+          <input
+            type="text"
+            placeholder="Search universities..."
+            className="elevo-search-input"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          <select
+            className="elevo-filter-select"
+            value={filterConference}
+            onChange={(e) => setFilterConference(e.target.value)}
+          >
+            {conferences.map(conf => (
+              <option key={conf} value={conf}>
+                {conf === 'all' ? 'All Conferences' : conf}
+              </option>
+            ))}
+          </select>
+          
+          <button className="elevo-filter-button" onClick={() => {
+            setSearchTerm('');
+            setFilterConference('all');
+          }}>
+            Reset Filters
+          </button>
+        </div>
+
+        <div className="elevo-players-grid">
+          {filteredUniversities.map((university, index) => (
+            <div key={index} className="elevo-player-card">
+              <div className="elevo-university-header">
+                <h3>{university.name}</h3>
+                <p className="elevo-university-fullname">{university.fullName}</p>
+              </div>
+              
+              <div className="elevo-university-info">
+                <p className="elevo-location">{university.location}</p>
+                <p className="elevo-division">{university.division} • {university.conference}</p>
+              </div>
+
+              <div className="elevo-player-stats">
+                <div className="elevo-stat">
+                  <div className="elevo-stat-value">{university.stats.nationalTitles}</div>
+                  <div className="elevo-stat-label">National Titles</div>
+                </div>
+                <div className="elevo-stat">
+                  <div className="elevo-stat-value">{university.stats.conferenceChampionships}</div>
+                  <div className="elevo-stat-label">Conference Titles</div>
+                </div>
+                <div className="elevo-stat">
+                  <div className="elevo-stat-value">#{university.stats.currentRanking}</div>
+                  <div className="elevo-stat-label">Current Rank</div>
+                </div>
+              </div>
+
+              <div className="elevo-university-programs">
+                <h4>Soccer Programs</h4>
+                <div className="elevo-programs-info">
+                  {university.program.mensSoccer && <span className="elevo-program-tag">Men's Soccer</span>}
+                  {university.program.womensSoccer && <span className="elevo-program-tag">Women's Soccer</span>}
+                </div>
+                <p className="elevo-scholarships">{university.program.scholarships}</p>
+              </div>
+
+              <div className="elevo-university-achievements">
+                <h4>Recent Achievements</h4>
+                <ul>
+                  {university.achievements.map((achievement, i) => (
+                    <li key={i}>{achievement}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <button className="elevo-view-profile-button">LEARN MORE</button>
+            </div>
           ))}
-        </select>
+        </div>
       </div>
-
-      <div className="universities-grid">
-        {filteredUniversities.map((university, index) => (
-          <div key={index} className="university-card">
-            <div className="university-header">
-              <h3>{university.name}</h3>
-              <p className="university-fullname">{university.fullName}</p>
-            </div>
-            
-            <div className="university-info">
-              <p className="location">{university.location}</p>
-              <p className="division">{university.division} • {university.conference}</p>
-            </div>
-
-            <div className="university-stats">
-              <div className="stat">
-                <span className="stat-value">{university.stats.nationalTitles}</span>
-                <span className="stat-label">National Titles</span>
-              </div>
-              <div className="stat">
-                <span className="stat-value">{university.stats.conferenceChampionships}</span>
-                <span className="stat-label">Conference Titles</span>
-              </div>
-              <div className="stat">
-                <span className="stat-value">#{university.stats.currentRanking}</span>
-                <span className="stat-label">Current Rank</span>
-              </div>
-            </div>
-
-            <div className="university-programs">
-              <h4>Soccer Programs</h4>
-              <div className="programs-info">
-                {university.program.mensSoccer && <span className="program-tag">Men's Soccer</span>}
-                {university.program.womensSoccer && <span className="program-tag">Women's Soccer</span>}
-              </div>
-              <p className="scholarships">{university.program.scholarships}</p>
-            </div>
-
-            <div className="university-achievements">
-              <h4>Recent Achievements</h4>
-              <ul>
-                {university.achievements.map((achievement, i) => (
-                  <li key={i}>{achievement}</li>
-                ))}
-              </ul>
-            </div>
-
-            <button className="connect-button">Learn More</button>
-          </div>
-        ))}
-      </div>
-    </div>
+    </>
   );
 }
 

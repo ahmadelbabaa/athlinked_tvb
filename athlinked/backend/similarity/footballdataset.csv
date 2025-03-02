@@ -1,0 +1,1001 @@
+Unique User ID,Name,Nationality,Current Team,Current League,Current City,Age,Position,Goals,Assists,Games Played,Pass Accuracy,Dribbles Completed,Key Passes per Game,Box to Box Coverage,Tackles per Game,Aerial Duel Win %,Pace,Passing Range & Build-Up Play,Save Percentage,Distribution Accuracy,1v1 Success Rate
+1001,Fatima Kumar,Portugal,Lisbon FC U20,Portuguese Youth League,Lisbon,19,Defender,0,0,15,79%,13,0.4,7,2.2,60%,24 km/h,9,0%,0%,30%
+1002,Sophia Tanaka,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,17,Goalkeeper,0,0,25,64%,0,0.0,3,0.0,0%,18 km/h,8,83%,64%,22%
+1003,Ana Rodríguez,Spain,Barcelona FC U18,La Liga Juvenil,Barcelona,17,Forward,5,3,23,76%,36,1.5,2,0.4,44%,31 km/h,4,0%,0%,75%
+1004,Sophia Silva,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,15,Defender,0,3,17,77%,11,0.6,4,2.2,67%,25 km/h,4,0%,0%,41%
+1005,Pierre Müller,Spain,Barcelona FC U17,La Liga Juvenil,Barcelona,16,Defender,1,0,19,83%,15,0.6,7,3.0,63%,28 km/h,8,0%,0%,50%
+1006,Yuki Oliveira,USA,Los Angeles FC U18,US Youth Soccer,Los Angeles,18,Defender,1,3,35,83%,10,0.8,6,3.5,73%,26 km/h,8,0%,0%,48%
+1007,Lucas Smith,USA,Los Angeles FC U18,US Youth Soccer,Los Angeles,17,Midfielder,2,10,31,87%,24,1.6,9,1.3,30%,30 km/h,6,0%,0%,60%
+1008,Yuki García,South Korea,Seoul FC U17,K League Youth,Seoul,16,Midfielder,5,8,33,79%,25,1.5,6,1.5,46%,29 km/h,9,0%,0%,68%
+1009,Rajesh Schmidt,South Korea,Seoul FC U16,K League Youth,Seoul,16,Goalkeeper,0,0,25,73%,0,0.0,3,0.0,0%,22 km/h,9,69%,59%,27%
+1010,Carlos Patel,Italy,Milan FC U20,Campionato Primavera,Milan,19,Goalkeeper,0,0,23,64%,0,0.0,1,0.0,0%,18 km/h,6,76%,55%,35%
+1011,Wei Martínez,Brazil,São Paulo FC U15,Brazilian Youth League,São Paulo,15,Defender,2,1,29,78%,12,0.5,8,3.0,66%,25 km/h,5,0%,0%,47%
+1012,Wei Silva,Italy,Milan FC U15,Campionato Primavera,Milan,15,Midfielder,2,3,33,89%,13,1.8,8,2.8,32%,26 km/h,8,0%,0%,56%
+1013,Sophia García,Argentina,Buenos Aires FC U14,Argentine Youth League,Buenos Aires,14,Defender,2,1,34,83%,15,0.8,4,2.7,65%,27 km/h,5,0%,0%,30%
+1014,Yuki Rodríguez,Argentina,Buenos Aires FC U17,Argentine Youth League,Buenos Aires,16,Goalkeeper,0,0,28,72%,0,0.0,1,0.0,0%,22 km/h,9,76%,67%,20%
+1015,Rajesh Patel,Germany,Munich FC U16,Bundesliga U19,Munich,15,Midfielder,7,3,16,75%,28,1.5,6,2.6,38%,31 km/h,10,0%,0%,62%
+1016,Elena Silva,England,Manchester FC U15,Premier League U18,Manchester,15,Defender,1,4,17,79%,15,0.7,5,4.4,73%,25 km/h,8,0%,0%,41%
+1017,Mohammed Silva,France,Paris FC U18,Championnat National U19,Paris,17,Goalkeeper,0,0,23,71%,0,0.0,1,0.0,0%,22 km/h,8,79%,60%,30%
+1018,Lucas Kumar,Nigeria,Lagos FC U18,Nigerian Youth League,Lagos,17,Goalkeeper,0,0,19,66%,0,0.0,1,0.0,0%,21 km/h,10,66%,60%,24%
+1019,Mohammed Müller,Brazil,São Paulo FC U16,Brazilian Youth League,São Paulo,16,Goalkeeper,0,0,33,68%,0,0.0,1,0.0,0%,18 km/h,6,72%,64%,36%
+1020,Sophia Santos,Netherlands,Amsterdam FC U18,Eredivisie Youth,Amsterdam,18,Forward,9,7,20,78%,30,1.2,2,0.7,43%,31 km/h,9,0%,0%,74%
+1021,Pierre Martínez,Argentina,Buenos Aires FC U17,Argentine Youth League,Buenos Aires,17,Midfielder,7,3,34,79%,29,1.4,6,2.5,50%,31 km/h,5,0%,0%,64%
+1022,Mei García,Germany,Munich FC U15,Bundesliga U19,Munich,15,Midfielder,7,9,18,77%,12,1.7,6,1.3,42%,27 km/h,4,0%,0%,51%
+1023,Sophia Müller,Spain,Barcelona FC U16,La Liga Juvenil,Barcelona,15,Forward,9,8,32,80%,26,1.9,6,1.1,37%,35 km/h,4,0%,0%,63%
+1024,Harry García,USA,Los Angeles FC U20,US Youth Soccer,Los Angeles,19,Defender,2,4,21,75%,11,0.4,6,3.8,60%,25 km/h,7,0%,0%,33%
+1025,Carlos García,Netherlands,Amsterdam FC U20,Eredivisie Youth,Amsterdam,19,Defender,0,4,22,77%,5,0.3,6,4.5,63%,28 km/h,8,0%,0%,48%
+1026,Pierre Khan,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,14,Midfielder,6,8,15,82%,17,2.0,10,2.9,37%,31 km/h,3,0%,0%,55%
+1027,Ana Santos,Brazil,São Paulo FC U15,Brazilian Youth League,São Paulo,15,Defender,0,3,31,79%,9,0.7,6,4.2,65%,26 km/h,7,0%,0%,45%
+1028,Maria Bello,India,Mumbai FC U18,Indian Youth League,Mumbai,18,Midfielder,4,9,31,89%,27,2.1,9,1.3,43%,31 km/h,4,0%,0%,57%
+1029,João Patel,Spain,Barcelona FC U16,La Liga Juvenil,Barcelona,15,Goalkeeper,0,0,27,65%,0,0.0,3,0.0,0%,19 km/h,10,78%,61%,34%
+1030,Mohammed Oliveira,Mexico,Mexico City FC U15,Liga MX Juvenil,Mexico City,14,Goalkeeper,0,0,30,75%,0,0.0,2,0.0,0%,19 km/h,4,68%,69%,32%
+1031,Carlos Smith,Italy,Milan FC U19,Campionato Primavera,Milan,18,Forward,13,7,20,66%,37,1.6,2,0.4,54%,35 km/h,4,0%,0%,68%
+1032,Elena Rossi,Nigeria,Lagos FC U20,Nigerian Youth League,Lagos,19,Forward,11,7,15,75%,38,0.8,2,0.8,50%,32 km/h,9,0%,0%,72%
+1033,João Johnson,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,15,Goalkeeper,0,0,16,72%,0,0.0,1,0.0,0%,19 km/h,8,79%,65%,36%
+1034,Giulia Müller,Brazil,São Paulo FC U19,Brazilian Youth League,São Paulo,19,Midfielder,3,8,24,77%,18,1.9,6,2.6,32%,31 km/h,5,0%,0%,61%
+1035,Elena Silva,France,Paris FC U15,Championnat National U19,Paris,15,Defender,1,0,21,84%,9,0.3,6,2.8,75%,24 km/h,8,0%,0%,44%
+1036,Sofia Patel,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,16,Forward,5,8,23,73%,29,1.1,2,1.4,32%,31 km/h,9,0%,0%,70%
+1037,Sophia Oliveira,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,14,Defender,1,1,35,82%,9,0.2,8,2.1,67%,26 km/h,3,0%,0%,37%
+1038,Mei Bianchi,Nigeria,Lagos FC U17,Nigerian Youth League,Lagos,16,Goalkeeper,0,0,21,74%,0,0.0,2,0.0,0%,20 km/h,3,78%,59%,38%
+1039,Lukas Bello,Spain,Barcelona FC U15,La Liga Juvenil,Barcelona,14,Midfielder,8,8,16,86%,20,2.4,9,1.6,44%,30 km/h,6,0%,0%,64%
+1040,Carlos Patel,Brazil,São Paulo FC U16,Brazilian Youth League,São Paulo,15,Defender,3,4,16,85%,11,0.5,7,2.8,64%,24 km/h,4,0%,0%,42%
+1041,Harry Leroy,Brazil,São Paulo FC U15,Brazilian Youth League,São Paulo,14,Forward,7,8,15,70%,23,1.0,5,0.9,29%,31 km/h,8,0%,0%,62%
+1042,Yuki Silva,Brazil,São Paulo FC U18,Brazilian Youth League,São Paulo,18,Midfielder,7,8,16,78%,30,2.2,9,2.9,50%,31 km/h,7,0%,0%,51%
+1043,Rajesh Nakamura,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,16,Defender,3,0,34,82%,12,0.4,5,3.1,62%,23 km/h,8,0%,0%,45%
+1044,Fatima Khan,Brazil,São Paulo FC U18,Brazilian Youth League,São Paulo,17,Midfielder,2,6,34,79%,22,1.2,7,1.1,43%,29 km/h,3,0%,0%,54%
+1045,Fatima Leroy,Germany,Munich FC U16,Bundesliga U19,Munich,16,Midfielder,8,5,15,82%,22,2.2,7,1.1,42%,28 km/h,3,0%,0%,66%
+1046,Mohammed Schmidt,India,Mumbai FC U17,Indian Youth League,Mumbai,16,Midfielder,7,7,32,80%,27,2.3,8,1.9,31%,31 km/h,7,0%,0%,70%
+1047,Yuki Rossi,France,Paris FC U18,Championnat National U19,Paris,18,Goalkeeper,0,0,30,63%,0,0.0,1,0.0,0%,22 km/h,4,82%,67%,28%
+1048,Lukas Nakamura,Italy,Milan FC U14,Campionato Primavera,Milan,14,Midfielder,3,5,24,90%,22,2.3,6,1.9,47%,26 km/h,8,0%,0%,54%
+1049,Lucas Khan,Germany,Munich FC U19,Bundesliga U19,Munich,18,Defender,0,4,33,81%,9,0.2,5,2.9,70%,25 km/h,7,0%,0%,49%
+1050,Carlos Bello,Japan,Tokyo FC U15,J-League Youth,Tokyo,14,Goalkeeper,0,0,34,65%,0,0.0,3,0.0,0%,18 km/h,8,83%,64%,38%
+1051,Mohammed García,USA,Los Angeles FC U14,US Youth Soccer,Los Angeles,14,Defender,2,0,22,79%,6,0.6,8,2.6,73%,23 km/h,7,0%,0%,32%
+1052,Wei Schmidt,India,Mumbai FC U20,Indian Youth League,Mumbai,19,Defender,1,4,35,83%,14,0.7,7,2.8,74%,27 km/h,8,0%,0%,41%
+1053,Carlos Müller,France,Paris FC U19,Championnat National U19,Paris,19,Goalkeeper,0,0,26,73%,0,0.0,1,0.0,0%,22 km/h,10,74%,63%,23%
+1054,João Oliveira,Italy,Milan FC U19,Campionato Primavera,Milan,19,Defender,1,4,25,77%,6,0.3,4,3.8,80%,26 km/h,6,0%,0%,46%
+1055,Giulia Oliveira,Mexico,Mexico City FC U15,Liga MX Juvenil,Mexico City,14,Goalkeeper,0,0,30,70%,0,0.0,1,0.0,0%,22 km/h,3,85%,62%,31%
+1056,Elena Khan,Japan,Tokyo FC U16,J-League Youth,Tokyo,16,Defender,2,3,28,79%,9,0.4,8,3.1,80%,27 km/h,9,0%,0%,42%
+1057,Mohammed Silva,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,16,Defender,3,0,23,81%,9,0.3,5,3.0,72%,27 km/h,9,0%,0%,47%
+1058,Ana Santos,Netherlands,Amsterdam FC U16,Eredivisie Youth,Amsterdam,15,Forward,13,6,21,79%,20,1.8,6,0.6,25%,35 km/h,4,0%,0%,70%
+1059,Fatima Müller,Brazil,São Paulo FC U20,Brazilian Youth League,São Paulo,19,Forward,9,3,26,80%,41,1.7,3,1.0,38%,30 km/h,9,0%,0%,73%
+1060,Giulia Bello,Nigeria,Lagos FC U19,Nigerian Youth League,Lagos,18,Forward,11,3,33,65%,41,1.9,4,0.3,47%,32 km/h,3,0%,0%,60%
+1061,Aisha Santos,Mexico,Mexico City FC U14,Liga MX Juvenil,Mexico City,14,Midfielder,3,6,35,81%,21,1.5,7,2.6,47%,30 km/h,3,0%,0%,67%
+1062,Giulia Tanaka,USA,Los Angeles FC U20,US Youth Soccer,Los Angeles,19,Forward,8,8,22,74%,30,1.4,6,0.8,44%,30 km/h,10,0%,0%,71%
+1063,Giulia Rossi,Nigeria,Lagos FC U15,Nigerian Youth League,Lagos,15,Defender,0,2,25,81%,7,0.5,5,3.5,68%,28 km/h,7,0%,0%,49%
+1064,Wei Khan,France,Paris FC U18,Championnat National U19,Paris,18,Midfielder,3,7,35,75%,30,1.8,6,2.9,32%,29 km/h,10,0%,0%,54%
+1065,Pierre Silva,Mexico,Mexico City FC U18,Liga MX Juvenil,Mexico City,18,Midfielder,8,4,24,81%,21,2.3,6,1.8,49%,30 km/h,3,0%,0%,61%
+1066,Harry Patel,Mexico,Mexico City FC U17,Liga MX Juvenil,Mexico City,16,Forward,14,4,29,77%,36,1.0,4,0.5,37%,34 km/h,9,0%,0%,67%
+1067,Fatima Schmidt,Italy,Milan FC U15,Campionato Primavera,Milan,15,Midfielder,7,5,22,75%,29,2.3,7,2.9,36%,29 km/h,7,0%,0%,60%
+1068,Fatima Martínez,Brazil,São Paulo FC U19,Brazilian Youth League,São Paulo,19,Defender,0,1,32,79%,13,0.6,6,3.6,72%,26 km/h,6,0%,0%,31%
+1069,Elena Schmidt,England,Manchester FC U15,Premier League U18,Manchester,14,Forward,9,7,32,79%,26,1.1,6,0.6,46%,35 km/h,8,0%,0%,63%
+1070,Giulia Dubois,Mexico,Mexico City FC U18,Liga MX Juvenil,Mexico City,17,Forward,15,2,26,79%,48,1.7,5,1.0,39%,33 km/h,8,0%,0%,72%
+1071,Maria Patel,USA,Los Angeles FC U16,US Youth Soccer,Los Angeles,16,Midfielder,3,6,18,76%,30,2.5,6,1.5,41%,31 km/h,7,0%,0%,66%
+1072,Carlos Smith,Mexico,Mexico City FC U17,Liga MX Juvenil,Mexico City,16,Forward,6,8,33,66%,37,1.7,6,0.7,25%,33 km/h,4,0%,0%,68%
+1073,Mohammed Bianchi,France,Paris FC U19,Championnat National U19,Paris,19,Midfielder,5,4,25,84%,23,1.3,9,1.8,39%,31 km/h,3,0%,0%,62%
+1074,Lucas Bello,USA,Los Angeles FC U17,US Youth Soccer,Los Angeles,16,Goalkeeper,0,0,30,65%,0,0.0,3,0.0,0%,22 km/h,5,79%,62%,26%
+1075,Liam Santos,Italy,Milan FC U15,Campionato Primavera,Milan,14,Midfielder,5,7,24,86%,22,1.1,10,2.7,45%,29 km/h,4,0%,0%,63%
+1076,Rajesh Rodríguez,Portugal,Lisbon FC U20,Portuguese Youth League,Lisbon,19,Forward,9,4,32,70%,22,1.6,3,1.1,31%,34 km/h,6,0%,0%,68%
+1077,Maria Bianchi,France,Paris FC U16,Championnat National U19,Paris,16,Midfielder,5,10,27,76%,21,1.2,10,2.0,31%,30 km/h,8,0%,0%,53%
+1078,Sofia Santos,India,Mumbai FC U16,Indian Youth League,Mumbai,15,Midfielder,8,6,35,87%,16,2.1,9,1.6,46%,28 km/h,6,0%,0%,64%
+1079,Ana Smith,France,Paris FC U17,Championnat National U19,Paris,17,Defender,0,4,21,78%,13,0.8,6,3.0,66%,22 km/h,3,0%,0%,49%
+1080,Ana García,England,Manchester FC U19,Premier League U18,Manchester,18,Midfielder,6,8,31,83%,10,1.2,10,1.4,31%,28 km/h,7,0%,0%,51%
+1081,Lukas Rossi,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,16,Midfielder,2,9,34,81%,23,1.0,7,1.5,43%,25 km/h,8,0%,0%,59%
+1082,Lucas Patel,Japan,Tokyo FC U17,J-League Youth,Tokyo,17,Forward,8,3,17,74%,48,1.1,3,0.7,35%,34 km/h,9,0%,0%,79%
+1083,Mohammed Nakamura,Japan,Tokyo FC U15,J-League Youth,Tokyo,14,Defender,0,4,32,82%,10,0.4,7,3.2,73%,23 km/h,6,0%,0%,39%
+1084,Maria García,Netherlands,Amsterdam FC U14,Eredivisie Youth,Amsterdam,14,Forward,9,6,22,77%,28,1.7,4,0.9,26%,35 km/h,9,0%,0%,76%
+1085,Pierre Rodríguez,USA,Los Angeles FC U19,US Youth Soccer,Los Angeles,19,Forward,15,2,27,80%,29,1.6,6,0.8,52%,32 km/h,3,0%,0%,64%
+1086,Wei Patel,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,18,Midfielder,5,9,31,84%,18,2.4,10,3.0,31%,28 km/h,5,0%,0%,60%
+1087,Maria Nakamura,Japan,Tokyo FC U14,J-League Youth,Tokyo,14,Forward,6,3,20,68%,28,0.8,2,1.1,32%,35 km/h,4,0%,0%,77%
+1088,Aisha Martínez,Germany,Munich FC U17,Bundesliga U19,Munich,16,Defender,0,1,35,80%,5,0.5,7,3.9,72%,27 km/h,9,0%,0%,36%
+1089,Rajesh Martínez,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,14,Defender,2,2,33,76%,14,0.3,8,2.5,64%,23 km/h,8,0%,0%,38%
+1090,Maria Leroy,Italy,Milan FC U18,Campionato Primavera,Milan,17,Defender,0,2,18,85%,12,0.4,4,2.2,67%,24 km/h,10,0%,0%,34%
+1091,João Tanaka,USA,Los Angeles FC U20,US Youth Soccer,Los Angeles,19,Goalkeeper,0,0,21,68%,0,0.0,2,0.0,0%,18 km/h,5,74%,54%,38%
+1092,Rajesh Müller,Nigeria,Lagos FC U20,Nigerian Youth League,Lagos,19,Forward,14,5,17,67%,30,1.0,2,0.8,41%,35 km/h,7,0%,0%,70%
+1093,Giulia Müller,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,18,Goalkeeper,0,0,23,72%,0,0.0,1,0.0,0%,22 km/h,8,68%,64%,24%
+1094,Mohammed Schmidt,Japan,Tokyo FC U18,J-League Youth,Tokyo,17,Defender,0,2,33,77%,10,0.6,7,3.7,78%,28 km/h,10,0%,0%,36%
+1095,Elena Johnson,Germany,Munich FC U16,Bundesliga U19,Munich,16,Defender,0,2,25,77%,13,0.6,5,3.3,71%,26 km/h,9,0%,0%,38%
+1096,Liam Tanaka,USA,Los Angeles FC U19,US Youth Soccer,Los Angeles,18,Goalkeeper,0,0,28,61%,0,0.0,2,0.0,0%,20 km/h,6,73%,55%,33%
+1097,Liam Martínez,Portugal,Lisbon FC U14,Portuguese Youth League,Lisbon,14,Forward,8,7,19,77%,47,1.4,6,0.6,53%,31 km/h,10,0%,0%,64%
+1098,Giulia Johnson,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,18,Midfielder,5,4,20,86%,21,1.8,9,1.1,45%,29 km/h,3,0%,0%,66%
+1099,Wei Johnson,Italy,Milan FC U18,Campionato Primavera,Milan,17,Forward,12,4,24,77%,22,1.7,6,1.5,49%,30 km/h,10,0%,0%,67%
+1100,Sophia Tanaka,India,Mumbai FC U15,Indian Youth League,Mumbai,14,Forward,9,7,28,66%,44,1.0,3,0.8,40%,34 km/h,7,0%,0%,74%
+1101,Wei Nakamura,Brazil,São Paulo FC U15,Brazilian Youth League,São Paulo,15,Midfielder,6,10,23,82%,14,1.4,7,3.0,46%,28 km/h,6,0%,0%,64%
+1102,Aisha Santos,Portugal,Lisbon FC U20,Portuguese Youth League,Lisbon,19,Defender,2,1,21,83%,12,0.7,8,2.4,60%,26 km/h,3,0%,0%,49%
+1103,Lucas Rodríguez,Japan,Tokyo FC U19,J-League Youth,Tokyo,18,Goalkeeper,0,0,17,65%,0,0.0,1,0.0,0%,19 km/h,7,74%,59%,23%
+1104,Maria Tanaka,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,15,Defender,1,0,24,81%,15,0.7,8,3.5,79%,28 km/h,8,0%,0%,31%
+1105,Yuki Patel,USA,Los Angeles FC U18,US Youth Soccer,Los Angeles,17,Goalkeeper,0,0,25,72%,0,0.0,1,0.0,0%,20 km/h,10,69%,60%,29%
+1106,Sophia Nakamura,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,14,Goalkeeper,0,0,22,63%,0,0.0,3,0.0,0%,20 km/h,3,77%,67%,38%
+1107,Rajesh Schmidt,Argentina,Buenos Aires FC U15,Argentine Youth League,Buenos Aires,15,Goalkeeper,0,0,34,74%,0,0.0,1,0.0,0%,19 km/h,6,83%,69%,37%
+1108,Lukas Johnson,France,Paris FC U18,Championnat National U19,Paris,17,Forward,11,8,17,75%,29,1.5,6,0.7,52%,34 km/h,5,0%,0%,65%
+1109,Aisha Johnson,Netherlands,Amsterdam FC U19,Eredivisie Youth,Amsterdam,19,Goalkeeper,0,0,20,74%,0,0.0,2,0.0,0%,20 km/h,9,65%,53%,39%
+1110,João Silva,France,Paris FC U18,Championnat National U19,Paris,17,Forward,15,5,35,71%,49,1.9,6,1.4,51%,35 km/h,9,0%,0%,62%
+1111,Wei Santos,Spain,Barcelona FC U14,La Liga Juvenil,Barcelona,14,Defender,1,0,28,76%,10,0.3,5,2.4,65%,28 km/h,4,0%,0%,35%
+1112,Elena Johnson,South Korea,Seoul FC U17,K League Youth,Seoul,17,Goalkeeper,0,0,25,63%,0,0.0,1,0.0,0%,20 km/h,8,66%,65%,35%
+1113,Wei Dubois,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,16,Defender,0,4,25,80%,12,0.3,6,3.6,75%,28 km/h,7,0%,0%,42%
+1114,Rajesh Smith,Brazil,São Paulo FC U19,Brazilian Youth League,São Paulo,19,Forward,6,8,21,70%,33,1.6,2,1.3,27%,35 km/h,4,0%,0%,64%
+1115,Wei Patel,Portugal,Lisbon FC U16,Portuguese Youth League,Lisbon,15,Defender,2,3,31,81%,15,0.5,6,3.6,69%,23 km/h,4,0%,0%,30%
+1116,Carlos Schmidt,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,19,Goalkeeper,0,0,18,67%,0,0.0,1,0.0,0%,21 km/h,8,68%,58%,36%
+1117,Pierre Smith,USA,Los Angeles FC U20,US Youth Soccer,Los Angeles,19,Defender,0,4,25,78%,7,0.2,7,2.5,70%,22 km/h,7,0%,0%,34%
+1118,Lukas Kumar,Netherlands,Amsterdam FC U17,Eredivisie Youth,Amsterdam,16,Forward,10,5,21,77%,31,0.9,3,1.5,25%,32 km/h,9,0%,0%,63%
+1119,Rajesh Patel,Germany,Munich FC U19,Bundesliga U19,Munich,18,Defender,1,2,23,83%,7,0.3,4,3.9,70%,27 km/h,7,0%,0%,36%
+1120,Carlos Tanaka,Germany,Munich FC U20,Bundesliga U19,Munich,19,Midfielder,3,5,15,90%,27,1.0,9,3.0,36%,31 km/h,7,0%,0%,50%
+1121,Harry Bianchi,Nigeria,Lagos FC U15,Nigerian Youth League,Lagos,15,Defender,1,3,21,82%,13,0.2,4,3.0,77%,25 km/h,7,0%,0%,30%
+1122,Fatima Bello,Italy,Milan FC U18,Campionato Primavera,Milan,17,Forward,10,5,20,72%,35,2.0,6,0.3,44%,34 km/h,3,0%,0%,68%
+1123,João Johnson,Spain,Barcelona FC U17,La Liga Juvenil,Barcelona,17,Defender,1,4,20,79%,9,0.3,5,2.1,73%,22 km/h,10,0%,0%,36%
+1124,Wei Müller,England,Manchester FC U17,Premier League U18,Manchester,17,Goalkeeper,0,0,21,65%,0,0.0,1,0.0,0%,18 km/h,5,76%,51%,29%
+1125,Ana Santos,Argentina,Buenos Aires FC U17,Argentine Youth League,Buenos Aires,16,Midfielder,6,3,22,83%,23,2.0,10,1.3,42%,27 km/h,5,0%,0%,68%
+1126,Ana Rossi,Germany,Munich FC U17,Bundesliga U19,Munich,17,Forward,14,5,27,79%,50,1.6,5,0.7,26%,35 km/h,9,0%,0%,69%
+1127,João García,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,14,Midfielder,2,5,21,81%,17,1.4,10,2.5,44%,29 km/h,3,0%,0%,59%
+1128,Ana Kumar,India,Mumbai FC U20,Indian Youth League,Mumbai,19,Midfielder,6,3,30,89%,11,1.1,10,1.1,49%,30 km/h,9,0%,0%,51%
+1129,Sofia Tanaka,Netherlands,Amsterdam FC U19,Eredivisie Youth,Amsterdam,18,Goalkeeper,0,0,16,75%,0,0.0,1,0.0,0%,18 km/h,5,78%,56%,38%
+1130,Mei Johnson,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,14,Midfielder,3,5,34,78%,10,2.0,7,1.2,40%,28 km/h,10,0%,0%,67%
+1131,Mei García,Italy,Milan FC U17,Campionato Primavera,Milan,17,Goalkeeper,0,0,19,69%,0,0.0,2,0.0,0%,18 km/h,8,79%,68%,21%
+1132,Aisha Bello,Germany,Munich FC U15,Bundesliga U19,Munich,14,Midfielder,6,8,32,86%,16,2.4,9,2.8,40%,28 km/h,7,0%,0%,53%
+1133,João Nakamura,Nigeria,Lagos FC U19,Nigerian Youth League,Lagos,19,Forward,5,6,32,67%,28,1.1,5,1.2,38%,31 km/h,8,0%,0%,71%
+1134,Carlos Rossi,France,Paris FC U14,Championnat National U19,Paris,14,Goalkeeper,0,0,24,66%,0,0.0,3,0.0,0%,22 km/h,9,85%,63%,35%
+1135,Harry Bianchi,South Korea,Seoul FC U19,K League Youth,Seoul,18,Forward,14,2,33,73%,46,0.9,6,0.5,41%,31 km/h,8,0%,0%,80%
+1136,Giulia Leroy,India,Mumbai FC U15,Indian Youth League,Mumbai,14,Midfielder,7,8,31,78%,18,1.2,8,2.2,32%,28 km/h,10,0%,0%,68%
+1137,Aisha Schmidt,Germany,Munich FC U20,Bundesliga U19,Munich,19,Midfielder,6,4,28,80%,13,2.2,6,2.9,48%,27 km/h,8,0%,0%,60%
+1138,Liam Khan,Portugal,Lisbon FC U19,Portuguese Youth League,Lisbon,19,Goalkeeper,0,0,20,67%,0,0.0,1,0.0,0%,18 km/h,8,73%,56%,27%
+1139,Mohammed Oliveira,USA,Los Angeles FC U20,US Youth Soccer,Los Angeles,19,Goalkeeper,0,0,25,71%,0,0.0,1,0.0,0%,18 km/h,7,66%,69%,37%
+1140,Giulia Bello,Brazil,São Paulo FC U18,Brazilian Youth League,São Paulo,18,Defender,3,0,22,83%,13,0.6,5,4.1,65%,22 km/h,6,0%,0%,41%
+1141,Pierre Dubois,Germany,Munich FC U18,Bundesliga U19,Munich,17,Forward,12,7,35,79%,29,1.0,2,1.0,48%,30 km/h,3,0%,0%,65%
+1142,Fatima Leroy,Netherlands,Amsterdam FC U15,Eredivisie Youth,Amsterdam,14,Goalkeeper,0,0,24,61%,0,0.0,3,0.0,0%,20 km/h,6,78%,65%,37%
+1143,João Rossi,Germany,Munich FC U15,Bundesliga U19,Munich,15,Midfielder,4,5,19,87%,10,2.5,8,3.0,35%,28 km/h,7,0%,0%,63%
+1144,Elena Khan,Netherlands,Amsterdam FC U20,Eredivisie Youth,Amsterdam,19,Goalkeeper,0,0,35,71%,0,0.0,2,0.0,0%,20 km/h,5,80%,64%,37%
+1145,Ana Silva,Argentina,Buenos Aires FC U14,Argentine Youth League,Buenos Aires,14,Goalkeeper,0,0,26,62%,0,0.0,1,0.0,0%,22 km/h,5,66%,53%,25%
+1146,Harry Nakamura,England,Manchester FC U15,Premier League U18,Manchester,14,Midfielder,4,7,28,89%,19,2.4,6,1.6,50%,28 km/h,6,0%,0%,66%
+1147,Ana Martínez,England,Manchester FC U17,Premier League U18,Manchester,16,Defender,3,0,17,85%,8,0.4,4,3.2,63%,23 km/h,4,0%,0%,30%
+1148,Harry Silva,Spain,Barcelona FC U18,La Liga Juvenil,Barcelona,18,Midfielder,2,10,25,89%,20,2.5,6,1.2,36%,27 km/h,3,0%,0%,57%
+1149,João Patel,Spain,Barcelona FC U15,La Liga Juvenil,Barcelona,14,Midfielder,2,10,33,83%,28,1.5,8,2.8,42%,28 km/h,6,0%,0%,64%
+1150,Sophia Dubois,Netherlands,Amsterdam FC U20,Eredivisie Youth,Amsterdam,19,Goalkeeper,0,0,25,63%,0,0.0,2,0.0,0%,21 km/h,6,77%,64%,25%
+1151,Pierre Kumar,Portugal,Lisbon FC U16,Portuguese Youth League,Lisbon,15,Forward,14,7,35,72%,22,1.2,3,0.7,34%,31 km/h,9,0%,0%,68%
+1152,Giulia Oliveira,India,Mumbai FC U19,Indian Youth League,Mumbai,18,Forward,14,7,19,73%,27,1.9,2,1.0,32%,31 km/h,7,0%,0%,66%
+1153,Lukas Bello,South Korea,Seoul FC U19,K League Youth,Seoul,19,Midfielder,2,5,28,75%,10,1.6,9,2.3,39%,27 km/h,5,0%,0%,57%
+1154,Pierre Johnson,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,18,Goalkeeper,0,0,20,73%,0,0.0,3,0.0,0%,19 km/h,6,71%,54%,24%
+1155,Sofia Rodríguez,South Korea,Seoul FC U19,K League Youth,Seoul,19,Goalkeeper,0,0,30,68%,0,0.0,3,0.0,0%,21 km/h,10,82%,69%,29%
+1156,Giulia Tanaka,Germany,Munich FC U17,Bundesliga U19,Munich,17,Goalkeeper,0,0,16,75%,0,0.0,3,0.0,0%,18 km/h,5,73%,59%,35%
+1157,Aisha Nakamura,Netherlands,Amsterdam FC U19,Eredivisie Youth,Amsterdam,18,Defender,2,1,29,84%,14,0.3,8,2.0,70%,22 km/h,10,0%,0%,39%
+1158,Yuki Schmidt,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,15,Goalkeeper,0,0,17,72%,0,0.0,1,0.0,0%,18 km/h,9,66%,65%,24%
+1159,Carlos Schmidt,Mexico,Mexico City FC U17,Liga MX Juvenil,Mexico City,16,Forward,5,3,20,72%,49,0.9,3,0.5,33%,33 km/h,9,0%,0%,65%
+1160,João Martínez,Argentina,Buenos Aires FC U17,Argentine Youth League,Buenos Aires,16,Forward,13,2,16,66%,34,1.1,4,1.5,31%,32 km/h,6,0%,0%,69%
+1161,Pierre Smith,Brazil,São Paulo FC U19,Brazilian Youth League,São Paulo,18,Goalkeeper,0,0,34,63%,0,0.0,2,0.0,0%,22 km/h,9,73%,61%,24%
+1162,Giulia Tanaka,England,Manchester FC U16,Premier League U18,Manchester,16,Midfielder,4,4,31,76%,12,1.4,9,1.8,42%,31 km/h,4,0%,0%,54%
+1163,Giulia Leroy,India,Mumbai FC U19,Indian Youth League,Mumbai,19,Midfielder,4,8,32,87%,20,2.3,6,1.2,44%,30 km/h,10,0%,0%,67%
+1164,Carlos Rodríguez,France,Paris FC U17,Championnat National U19,Paris,17,Goalkeeper,0,0,31,71%,0,0.0,1,0.0,0%,22 km/h,6,85%,53%,24%
+1165,Aisha Leroy,Netherlands,Amsterdam FC U17,Eredivisie Youth,Amsterdam,17,Forward,14,7,18,74%,31,0.8,4,1.2,48%,35 km/h,3,0%,0%,68%
+1166,Lukas García,South Korea,Seoul FC U17,K League Youth,Seoul,17,Defender,3,3,30,76%,12,0.6,4,2.7,75%,23 km/h,4,0%,0%,42%
+1167,Sophia Bello,India,Mumbai FC U18,Indian Youth League,Mumbai,17,Goalkeeper,0,0,15,73%,0,0.0,1,0.0,0%,21 km/h,9,84%,50%,33%
+1168,Ana Martínez,Mexico,Mexico City FC U20,Liga MX Juvenil,Mexico City,19,Goalkeeper,0,0,28,74%,0,0.0,3,0.0,0%,19 km/h,4,73%,59%,34%
+1169,Yuki Johnson,Italy,Milan FC U18,Campionato Primavera,Milan,18,Forward,6,8,26,66%,44,1.2,3,1.5,35%,30 km/h,7,0%,0%,70%
+1170,Mohammed Schmidt,Italy,Milan FC U19,Campionato Primavera,Milan,19,Goalkeeper,0,0,18,64%,0,0.0,3,0.0,0%,22 km/h,9,74%,65%,30%
+1171,Elena Tanaka,South Korea,Seoul FC U15,K League Youth,Seoul,14,Midfielder,2,3,15,77%,13,2.3,10,1.1,45%,30 km/h,5,0%,0%,67%
+1172,Fatima Kumar,Argentina,Buenos Aires FC U17,Argentine Youth League,Buenos Aires,16,Midfielder,4,7,29,85%,17,1.6,10,1.8,34%,26 km/h,3,0%,0%,59%
+1173,Yuki García,Netherlands,Amsterdam FC U19,Eredivisie Youth,Amsterdam,18,Forward,5,4,30,75%,48,1.9,5,0.7,46%,35 km/h,7,0%,0%,64%
+1174,Elena Santos,Italy,Milan FC U17,Campionato Primavera,Milan,16,Defender,0,1,20,85%,11,0.5,6,3.1,65%,22 km/h,5,0%,0%,42%
+1175,Elena Khan,South Korea,Seoul FC U15,K League Youth,Seoul,15,Midfielder,8,8,16,79%,16,2.3,9,2.8,34%,27 km/h,4,0%,0%,53%
+1176,Lucas Nakamura,France,Paris FC U18,Championnat National U19,Paris,17,Forward,14,5,30,76%,30,0.9,4,1.5,36%,30 km/h,8,0%,0%,62%
+1177,Harry Khan,Spain,Barcelona FC U15,La Liga Juvenil,Barcelona,14,Goalkeeper,0,0,23,66%,0,0.0,1,0.0,0%,18 km/h,3,68%,54%,37%
+1178,Lucas Bianchi,South Korea,Seoul FC U18,K League Youth,Seoul,17,Midfielder,2,6,34,81%,28,1.6,10,2.2,35%,30 km/h,10,0%,0%,56%
+1179,Lucas Dubois,Nigeria,Lagos FC U19,Nigerian Youth League,Lagos,19,Goalkeeper,0,0,31,61%,0,0.0,1,0.0,0%,21 km/h,10,73%,70%,24%
+1180,Yuki Leroy,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,16,Forward,12,6,15,71%,33,1.5,5,0.8,39%,34 km/h,8,0%,0%,66%
+1181,Mei Dubois,USA,Los Angeles FC U16,US Youth Soccer,Los Angeles,15,Goalkeeper,0,0,18,63%,0,0.0,2,0.0,0%,20 km/h,9,71%,54%,36%
+1182,Sophia Rossi,England,Manchester FC U20,Premier League U18,Manchester,19,Forward,15,8,21,65%,30,1.2,5,1.4,36%,33 km/h,7,0%,0%,75%
+1183,Aisha Tanaka,Mexico,Mexico City FC U15,Liga MX Juvenil,Mexico City,14,Forward,12,3,29,73%,31,1.4,2,1.4,54%,34 km/h,9,0%,0%,78%
+1184,Rajesh Rossi,Italy,Milan FC U15,Campionato Primavera,Milan,15,Goalkeeper,0,0,32,63%,0,0.0,2,0.0,0%,19 km/h,5,66%,50%,24%
+1185,Ana Bianchi,South Korea,Seoul FC U15,K League Youth,Seoul,15,Midfielder,8,8,34,76%,28,2.4,10,2.6,41%,27 km/h,8,0%,0%,55%
+1186,Lukas Leroy,Italy,Milan FC U18,Campionato Primavera,Milan,17,Defender,2,4,27,80%,11,0.4,8,3.4,71%,24 km/h,7,0%,0%,39%
+1187,Giulia Khan,Italy,Milan FC U14,Campionato Primavera,Milan,14,Goalkeeper,0,0,30,63%,0,0.0,1,0.0,0%,18 km/h,9,65%,56%,31%
+1188,Fatima Rossi,Germany,Munich FC U17,Bundesliga U19,Munich,17,Goalkeeper,0,0,30,72%,0,0.0,2,0.0,0%,20 km/h,7,75%,58%,25%
+1189,Sophia Schmidt,Mexico,Mexico City FC U18,Liga MX Juvenil,Mexico City,18,Goalkeeper,0,0,18,62%,0,0.0,3,0.0,0%,21 km/h,6,82%,50%,38%
+1190,Liam Nakamura,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,14,Midfielder,8,10,27,77%,25,2.3,10,1.6,48%,31 km/h,6,0%,0%,67%
+1191,Sophia Martínez,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,18,Forward,14,5,29,67%,33,0.9,4,0.4,52%,30 km/h,10,0%,0%,61%
+1192,Maria Bello,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,15,Forward,12,6,17,70%,45,0.9,4,0.7,38%,33 km/h,4,0%,0%,66%
+1193,Rajesh García,France,Paris FC U15,Championnat National U19,Paris,14,Goalkeeper,0,0,25,60%,0,0.0,2,0.0,0%,22 km/h,6,69%,55%,21%
+1194,Lukas Kumar,USA,Los Angeles FC U19,US Youth Soccer,Los Angeles,18,Defender,0,3,21,75%,11,0.2,4,3.1,78%,28 km/h,4,0%,0%,49%
+1195,Carlos Nakamura,Germany,Munich FC U15,Bundesliga U19,Munich,14,Midfielder,6,4,35,84%,13,2.4,6,2.5,36%,29 km/h,7,0%,0%,67%
+1196,Mei Dubois,Italy,Milan FC U15,Campionato Primavera,Milan,14,Midfielder,3,8,18,77%,25,1.6,8,2.9,49%,27 km/h,3,0%,0%,64%
+1197,Maria García,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,16,Forward,13,5,26,77%,50,1.4,4,0.6,41%,33 km/h,5,0%,0%,77%
+1198,Lukas Khan,India,Mumbai FC U20,Indian Youth League,Mumbai,19,Midfielder,4,5,35,83%,15,1.5,6,2.6,35%,29 km/h,6,0%,0%,65%
+1199,Fatima Santos,England,Manchester FC U15,Premier League U18,Manchester,14,Midfielder,2,3,30,84%,28,1.1,10,1.7,47%,26 km/h,3,0%,0%,52%
+1200,Fatima Santos,Japan,Tokyo FC U18,J-League Youth,Tokyo,18,Forward,8,5,28,67%,43,1.1,6,1.2,53%,34 km/h,4,0%,0%,72%
+1201,Yuki Schmidt,Italy,Milan FC U17,Campionato Primavera,Milan,17,Goalkeeper,0,0,24,73%,0,0.0,1,0.0,0%,21 km/h,10,70%,57%,32%
+1202,Fatima Martínez,Argentina,Buenos Aires FC U15,Argentine Youth League,Buenos Aires,14,Defender,0,1,21,75%,13,0.7,7,2.9,69%,26 km/h,7,0%,0%,31%
+1203,Rajesh Khan,India,Mumbai FC U17,Indian Youth League,Mumbai,16,Midfielder,4,4,22,90%,11,2.1,10,2.7,43%,30 km/h,6,0%,0%,67%
+1204,Giulia Patel,Italy,Milan FC U16,Campionato Primavera,Milan,16,Goalkeeper,0,0,24,63%,0,0.0,2,0.0,0%,18 km/h,6,82%,66%,33%
+1205,Elena Müller,India,Mumbai FC U19,Indian Youth League,Mumbai,19,Defender,3,3,25,82%,11,0.6,8,4.1,66%,24 km/h,5,0%,0%,34%
+1206,Rajesh Kumar,Japan,Tokyo FC U14,J-League Youth,Tokyo,14,Goalkeeper,0,0,32,71%,0,0.0,3,0.0,0%,20 km/h,7,68%,57%,27%
+1207,Lukas García,Nigeria,Lagos FC U20,Nigerian Youth League,Lagos,19,Forward,11,2,18,73%,36,1.8,6,0.8,33%,34 km/h,7,0%,0%,71%
+1208,Sofia Khan,India,Mumbai FC U19,Indian Youth League,Mumbai,19,Goalkeeper,0,0,33,61%,0,0.0,2,0.0,0%,19 km/h,4,77%,63%,27%
+1209,Sofia García,India,Mumbai FC U16,Indian Youth League,Mumbai,15,Forward,12,4,25,79%,30,1.7,5,1.3,52%,35 km/h,6,0%,0%,66%
+1210,Lukas Tanaka,Germany,Munich FC U14,Bundesliga U19,Munich,14,Goalkeeper,0,0,32,68%,0,0.0,1,0.0,0%,18 km/h,5,80%,52%,26%
+1211,Ana Leroy,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,16,Goalkeeper,0,0,28,73%,0,0.0,1,0.0,0%,20 km/h,6,75%,61%,31%
+1212,Elena Kumar,USA,Los Angeles FC U19,US Youth Soccer,Los Angeles,19,Defender,3,3,31,76%,7,0.3,6,4.1,71%,25 km/h,9,0%,0%,38%
+1213,Giulia Bello,Argentina,Buenos Aires FC U20,Argentine Youth League,Buenos Aires,19,Midfielder,3,6,34,77%,12,2.4,8,1.2,33%,26 km/h,5,0%,0%,64%
+1214,Sophia Martínez,Netherlands,Amsterdam FC U18,Eredivisie Youth,Amsterdam,17,Midfielder,4,7,25,78%,16,1.5,8,1.2,33%,27 km/h,4,0%,0%,64%
+1215,Ana Smith,USA,Los Angeles FC U18,US Youth Soccer,Los Angeles,18,Goalkeeper,0,0,34,65%,0,0.0,2,0.0,0%,22 km/h,8,84%,57%,37%
+1216,Sofia Schmidt,Argentina,Buenos Aires FC U18,Argentine Youth League,Buenos Aires,17,Defender,1,3,21,78%,11,0.7,6,3.4,73%,22 km/h,3,0%,0%,50%
+1217,João Bianchi,Spain,Barcelona FC U16,La Liga Juvenil,Barcelona,15,Midfielder,7,6,23,76%,29,2.2,7,1.7,44%,31 km/h,7,0%,0%,57%
+1218,Sophia Bello,Germany,Munich FC U19,Bundesliga U19,Munich,18,Defender,2,4,18,83%,9,0.7,5,4.3,63%,26 km/h,8,0%,0%,32%
+1219,Lukas Johnson,Germany,Munich FC U15,Bundesliga U19,Munich,15,Midfielder,2,7,18,84%,27,2.4,10,1.1,42%,25 km/h,6,0%,0%,51%
+1220,Aisha Dubois,Italy,Milan FC U17,Campionato Primavera,Milan,16,Goalkeeper,0,0,15,64%,0,0.0,1,0.0,0%,18 km/h,3,67%,61%,27%
+1221,Maria García,Netherlands,Amsterdam FC U15,Eredivisie Youth,Amsterdam,15,Goalkeeper,0,0,17,62%,0,0.0,2,0.0,0%,19 km/h,4,67%,62%,38%
+1222,Lukas Silva,Germany,Munich FC U18,Bundesliga U19,Munich,18,Forward,14,7,30,74%,44,1.2,3,0.9,39%,30 km/h,6,0%,0%,72%
+1223,Pierre Dubois,Japan,Tokyo FC U15,J-League Youth,Tokyo,14,Forward,13,4,20,72%,20,1.4,5,0.5,38%,34 km/h,3,0%,0%,60%
+1224,Maria Bello,Italy,Milan FC U17,Campionato Primavera,Milan,17,Midfielder,3,5,33,88%,10,2.4,7,3.0,46%,29 km/h,4,0%,0%,63%
+1225,Rajesh Silva,Italy,Milan FC U15,Campionato Primavera,Milan,14,Midfielder,6,8,15,78%,17,2.1,7,2.6,48%,31 km/h,6,0%,0%,56%
+1226,Carlos Dubois,Mexico,Mexico City FC U15,Liga MX Juvenil,Mexico City,14,Forward,8,2,15,72%,30,1.4,5,0.8,31%,34 km/h,8,0%,0%,77%
+1227,Yuki Dubois,Nigeria,Lagos FC U16,Nigerian Youth League,Lagos,15,Forward,6,4,22,73%,30,0.9,3,1.5,27%,34 km/h,5,0%,0%,80%
+1228,Maria Martínez,Italy,Milan FC U17,Campionato Primavera,Milan,16,Midfielder,2,3,23,85%,21,1.9,8,2.6,41%,28 km/h,3,0%,0%,55%
+1229,Sophia Johnson,Netherlands,Amsterdam FC U19,Eredivisie Youth,Amsterdam,18,Forward,6,6,32,70%,34,1.5,4,1.0,47%,30 km/h,10,0%,0%,63%
+1230,Carlos Rossi,France,Paris FC U15,Championnat National U19,Paris,14,Midfielder,3,10,30,78%,20,1.7,8,2.1,47%,31 km/h,3,0%,0%,52%
+1231,Mohammed Nakamura,USA,Los Angeles FC U16,US Youth Soccer,Los Angeles,16,Midfielder,6,3,19,90%,25,2.0,10,2.9,46%,28 km/h,5,0%,0%,60%
+1232,Wei Rossi,USA,Los Angeles FC U17,US Youth Soccer,Los Angeles,17,Defender,0,1,16,77%,7,0.2,7,3.7,79%,24 km/h,5,0%,0%,46%
+1233,Elena Silva,France,Paris FC U18,Championnat National U19,Paris,18,Forward,13,6,35,73%,27,1.0,3,0.8,41%,34 km/h,7,0%,0%,69%
+1234,Aisha Nakamura,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,18,Forward,12,3,24,65%,23,1.4,2,1.2,48%,31 km/h,8,0%,0%,66%
+1235,Rajesh Bello,Spain,Barcelona FC U15,La Liga Juvenil,Barcelona,15,Goalkeeper,0,0,25,62%,0,0.0,2,0.0,0%,18 km/h,6,77%,62%,30%
+1236,Sofia Bianchi,Mexico,Mexico City FC U15,Liga MX Juvenil,Mexico City,14,Midfielder,3,8,28,87%,12,2.4,8,1.1,35%,30 km/h,4,0%,0%,63%
+1237,Carlos Leroy,France,Paris FC U14,Championnat National U19,Paris,14,Forward,10,3,26,65%,40,1.3,3,0.6,50%,33 km/h,10,0%,0%,79%
+1238,Sophia Santos,Germany,Munich FC U17,Bundesliga U19,Munich,17,Midfielder,2,6,30,79%,16,1.2,6,1.3,47%,29 km/h,3,0%,0%,70%
+1239,Pierre Santos,Italy,Milan FC U17,Campionato Primavera,Milan,17,Defender,3,0,31,85%,15,0.7,8,3.5,71%,24 km/h,10,0%,0%,42%
+1240,Pierre Schmidt,South Korea,Seoul FC U19,K League Youth,Seoul,19,Goalkeeper,0,0,29,75%,0,0.0,1,0.0,0%,19 km/h,10,82%,50%,40%
+1241,Giulia Tanaka,Japan,Tokyo FC U17,J-League Youth,Tokyo,17,Defender,2,0,25,79%,13,0.4,5,4.1,76%,22 km/h,9,0%,0%,44%
+1242,Wei Oliveira,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,17,Defender,0,4,34,85%,5,0.7,4,2.0,74%,25 km/h,10,0%,0%,50%
+1243,Rajesh Dubois,South Korea,Seoul FC U14,K League Youth,Seoul,14,Midfielder,5,10,23,85%,10,1.5,8,2.8,34%,25 km/h,5,0%,0%,56%
+1244,Lukas Patel,India,Mumbai FC U17,Indian Youth League,Mumbai,16,Defender,1,0,20,83%,14,0.5,6,2.5,73%,24 km/h,4,0%,0%,45%
+1245,Sophia Khan,India,Mumbai FC U17,Indian Youth League,Mumbai,16,Goalkeeper,0,0,25,72%,0,0.0,1,0.0,0%,20 km/h,7,82%,53%,25%
+1246,Sophia Dubois,Spain,Barcelona FC U14,La Liga Juvenil,Barcelona,14,Defender,1,2,26,75%,13,0.6,4,2.3,75%,24 km/h,10,0%,0%,30%
+1247,Carlos Müller,Spain,Barcelona FC U18,La Liga Juvenil,Barcelona,18,Forward,11,7,24,73%,22,1.2,3,1.2,27%,34 km/h,3,0%,0%,76%
+1248,João Tanaka,USA,Los Angeles FC U17,US Youth Soccer,Los Angeles,16,Midfielder,3,3,35,87%,14,2.5,9,2.5,49%,28 km/h,7,0%,0%,63%
+1249,Lucas Kumar,Brazil,São Paulo FC U17,Brazilian Youth League,São Paulo,17,Defender,2,0,22,81%,5,0.8,8,2.5,78%,28 km/h,3,0%,0%,42%
+1250,Sophia Nakamura,England,Manchester FC U15,Premier League U18,Manchester,15,Goalkeeper,0,0,15,67%,0,0.0,1,0.0,0%,20 km/h,9,66%,58%,22%
+1251,Lukas García,France,Paris FC U18,Championnat National U19,Paris,17,Forward,15,4,19,67%,46,1.5,6,0.6,49%,35 km/h,4,0%,0%,79%
+1252,Wei Martínez,Mexico,Mexico City FC U17,Liga MX Juvenil,Mexico City,16,Forward,5,6,22,79%,48,1.9,6,0.3,37%,30 km/h,5,0%,0%,75%
+1253,Elena Nakamura,Portugal,Lisbon FC U16,Portuguese Youth League,Lisbon,15,Midfielder,3,6,20,78%,11,1.9,8,1.9,45%,26 km/h,3,0%,0%,66%
+1254,Fatima Santos,Netherlands,Amsterdam FC U17,Eredivisie Youth,Amsterdam,17,Midfielder,2,5,28,88%,11,1.6,10,1.6,44%,28 km/h,6,0%,0%,58%
+1255,Pierre Dubois,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,17,Forward,12,3,23,67%,25,1.6,3,1.4,35%,32 km/h,9,0%,0%,61%
+1256,Liam Oliveira,Spain,Barcelona FC U17,La Liga Juvenil,Barcelona,16,Forward,7,3,27,80%,36,1.7,5,1.0,28%,30 km/h,4,0%,0%,68%
+1257,Rajesh Rossi,Argentina,Buenos Aires FC U15,Argentine Youth League,Buenos Aires,14,Forward,11,2,30,73%,36,1.0,5,0.6,51%,31 km/h,10,0%,0%,72%
+1258,Fatima García,Japan,Tokyo FC U15,J-League Youth,Tokyo,15,Forward,6,8,27,65%,22,0.8,3,1.3,52%,31 km/h,7,0%,0%,65%
+1259,Wei Smith,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,15,Midfielder,2,8,31,77%,12,1.5,6,1.5,50%,26 km/h,3,0%,0%,66%
+1260,Sofia Leroy,South Korea,Seoul FC U19,K League Youth,Seoul,19,Defender,1,2,35,77%,12,0.5,8,4.1,64%,28 km/h,7,0%,0%,36%
+1261,Mei Dubois,Nigeria,Lagos FC U17,Nigerian Youth League,Lagos,17,Defender,3,1,19,79%,12,0.7,7,2.8,60%,26 km/h,8,0%,0%,36%
+1262,Lukas Martínez,Italy,Milan FC U15,Campionato Primavera,Milan,15,Forward,9,3,27,69%,37,0.9,5,0.3,36%,35 km/h,4,0%,0%,78%
+1263,Rajesh Silva,Spain,Barcelona FC U17,La Liga Juvenil,Barcelona,16,Goalkeeper,0,0,19,70%,0,0.0,1,0.0,0%,22 km/h,9,67%,61%,29%
+1264,Lukas Rossi,Nigeria,Lagos FC U17,Nigerian Youth League,Lagos,17,Goalkeeper,0,0,20,68%,0,0.0,2,0.0,0%,21 km/h,10,71%,67%,28%
+1265,Pierre Nakamura,Italy,Milan FC U19,Campionato Primavera,Milan,19,Midfielder,4,7,27,86%,17,1.8,6,2.8,31%,30 km/h,6,0%,0%,61%
+1266,Mohammed Kumar,Mexico,Mexico City FC U14,Liga MX Juvenil,Mexico City,14,Midfielder,3,5,35,83%,12,2.4,10,1.4,40%,31 km/h,3,0%,0%,55%
+1267,Giulia Müller,Portugal,Lisbon FC U19,Portuguese Youth League,Lisbon,19,Goalkeeper,0,0,17,74%,0,0.0,1,0.0,0%,19 km/h,7,76%,53%,24%
+1268,João Johnson,Italy,Milan FC U17,Campionato Primavera,Milan,17,Goalkeeper,0,0,26,63%,0,0.0,2,0.0,0%,21 km/h,6,83%,69%,32%
+1269,Lukas Müller,France,Paris FC U17,Championnat National U19,Paris,17,Forward,15,3,34,75%,26,1.0,5,0.5,29%,35 km/h,4,0%,0%,75%
+1270,Carlos Johnson,Brazil,São Paulo FC U17,Brazilian Youth League,São Paulo,17,Forward,13,8,22,65%,49,0.9,6,1.5,31%,34 km/h,7,0%,0%,79%
+1271,Liam Johnson,Mexico,Mexico City FC U18,Liga MX Juvenil,Mexico City,18,Midfielder,6,10,17,75%,21,1.7,10,2.3,33%,28 km/h,5,0%,0%,59%
+1272,Carlos García,Japan,Tokyo FC U16,J-League Youth,Tokyo,16,Midfielder,8,7,19,75%,14,2.4,7,1.7,31%,25 km/h,9,0%,0%,67%
+1273,Yuki Dubois,India,Mumbai FC U15,Indian Youth League,Mumbai,15,Goalkeeper,0,0,20,75%,0,0.0,3,0.0,0%,21 km/h,9,65%,53%,20%
+1274,Ana Schmidt,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,18,Defender,2,2,33,85%,9,0.6,7,2.1,80%,26 km/h,7,0%,0%,44%
+1275,Carlos Oliveira,England,Manchester FC U17,Premier League U18,Manchester,16,Defender,2,3,30,84%,5,0.8,4,2.5,77%,24 km/h,8,0%,0%,35%
+1276,Rajesh García,Argentina,Buenos Aires FC U15,Argentine Youth League,Buenos Aires,15,Forward,12,3,24,68%,37,1.1,2,1.4,42%,30 km/h,6,0%,0%,77%
+1277,João Schmidt,Germany,Munich FC U18,Bundesliga U19,Munich,17,Goalkeeper,0,0,17,74%,0,0.0,2,0.0,0%,18 km/h,9,73%,56%,23%
+1278,Lucas Kumar,England,Manchester FC U14,Premier League U18,Manchester,14,Midfielder,3,4,24,87%,30,2.1,8,2.5,48%,26 km/h,9,0%,0%,53%
+1279,Fatima Rodríguez,USA,Los Angeles FC U18,US Youth Soccer,Los Angeles,18,Midfielder,2,4,27,76%,11,1.5,9,1.8,49%,26 km/h,6,0%,0%,56%
+1280,Mohammed García,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,17,Goalkeeper,0,0,15,68%,0,0.0,1,0.0,0%,21 km/h,10,67%,69%,40%
+1281,Sophia Khan,Mexico,Mexico City FC U14,Liga MX Juvenil,Mexico City,14,Defender,3,1,27,77%,11,0.3,4,3.8,76%,27 km/h,7,0%,0%,48%
+1282,Aisha Nakamura,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,15,Forward,10,3,32,68%,20,1.6,4,0.9,44%,30 km/h,9,0%,0%,60%
+1283,Mohammed García,France,Paris FC U15,Championnat National U19,Paris,14,Forward,11,2,35,69%,22,1.9,6,1.0,26%,30 km/h,5,0%,0%,77%
+1284,Maria Rodríguez,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,14,Defender,2,2,23,76%,11,0.7,5,2.1,78%,24 km/h,7,0%,0%,40%
+1285,Sofia Nakamura,Netherlands,Amsterdam FC U14,Eredivisie Youth,Amsterdam,14,Midfielder,4,4,16,87%,10,2.3,6,1.8,33%,28 km/h,4,0%,0%,58%
+1286,Mohammed Nakamura,Spain,Barcelona FC U20,La Liga Juvenil,Barcelona,19,Goalkeeper,0,0,25,73%,0,0.0,3,0.0,0%,21 km/h,5,66%,53%,30%
+1287,Sophia Müller,Japan,Tokyo FC U20,J-League Youth,Tokyo,19,Midfielder,3,4,15,75%,22,1.9,9,1.8,37%,25 km/h,8,0%,0%,64%
+1288,Harry Schmidt,Netherlands,Amsterdam FC U16,Eredivisie Youth,Amsterdam,15,Forward,10,5,27,71%,49,1.6,2,1.1,46%,30 km/h,8,0%,0%,70%
+1289,Lucas Johnson,England,Manchester FC U15,Premier League U18,Manchester,15,Forward,12,4,29,71%,48,1.8,6,0.5,42%,32 km/h,4,0%,0%,62%
+1290,Yuki Rossi,Italy,Milan FC U19,Campionato Primavera,Milan,19,Goalkeeper,0,0,32,72%,0,0.0,2,0.0,0%,19 km/h,8,73%,62%,35%
+1291,Elena Patel,Netherlands,Amsterdam FC U17,Eredivisie Youth,Amsterdam,17,Forward,7,4,23,80%,42,0.8,2,1.5,41%,35 km/h,5,0%,0%,79%
+1292,Maria Johnson,South Korea,Seoul FC U19,K League Youth,Seoul,19,Midfielder,2,7,21,75%,21,2.0,8,2.0,34%,28 km/h,6,0%,0%,64%
+1293,João Smith,Italy,Milan FC U14,Campionato Primavera,Milan,14,Goalkeeper,0,0,33,64%,0,0.0,3,0.0,0%,20 km/h,4,73%,59%,29%
+1294,Mei Dubois,Mexico,Mexico City FC U17,Liga MX Juvenil,Mexico City,16,Midfielder,3,9,16,89%,24,2.1,6,2.3,35%,27 km/h,9,0%,0%,55%
+1295,Pierre Bello,France,Paris FC U19,Championnat National U19,Paris,18,Defender,2,0,22,79%,11,0.3,7,3.1,69%,25 km/h,10,0%,0%,30%
+1296,Mohammed Dubois,Mexico,Mexico City FC U17,Liga MX Juvenil,Mexico City,17,Goalkeeper,0,0,29,72%,0,0.0,3,0.0,0%,18 km/h,8,84%,65%,28%
+1297,Sofia Oliveira,Brazil,São Paulo FC U19,Brazilian Youth League,São Paulo,19,Goalkeeper,0,0,35,74%,0,0.0,3,0.0,0%,21 km/h,3,85%,63%,35%
+1298,Maria Müller,Spain,Barcelona FC U16,La Liga Juvenil,Barcelona,16,Goalkeeper,0,0,35,68%,0,0.0,2,0.0,0%,20 km/h,4,85%,52%,28%
+1299,Aisha Rodríguez,France,Paris FC U20,Championnat National U19,Paris,19,Defender,0,0,32,83%,14,0.8,5,2.2,73%,22 km/h,8,0%,0%,39%
+1300,Pierre Oliveira,Germany,Munich FC U15,Bundesliga U19,Munich,14,Defender,1,3,24,85%,12,0.7,4,3.7,69%,26 km/h,10,0%,0%,39%
+1301,Pierre García,England,Manchester FC U18,Premier League U18,Manchester,17,Midfielder,2,4,19,84%,24,2.2,9,1.6,50%,31 km/h,9,0%,0%,56%
+1302,Harry Patel,Japan,Tokyo FC U14,J-League Youth,Tokyo,14,Forward,13,8,17,71%,37,1.9,4,0.6,40%,31 km/h,3,0%,0%,75%
+1303,Ana Johnson,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,14,Goalkeeper,0,0,21,66%,0,0.0,1,0.0,0%,18 km/h,4,84%,70%,38%
+1304,Giulia Silva,Brazil,São Paulo FC U15,Brazilian Youth League,São Paulo,15,Forward,5,5,29,72%,38,1.7,2,1.3,46%,35 km/h,7,0%,0%,64%
+1305,Lukas Leroy,France,Paris FC U17,Championnat National U19,Paris,17,Goalkeeper,0,0,30,71%,0,0.0,1,0.0,0%,22 km/h,7,78%,57%,36%
+1306,Pierre Rodríguez,Italy,Milan FC U14,Campionato Primavera,Milan,14,Defender,2,0,26,79%,9,0.6,4,2.1,71%,24 km/h,10,0%,0%,42%
+1307,Lucas Oliveira,Mexico,Mexico City FC U20,Liga MX Juvenil,Mexico City,19,Defender,0,4,23,84%,14,0.7,6,2.3,61%,28 km/h,3,0%,0%,44%
+1308,Wei Rossi,Nigeria,Lagos FC U20,Nigerian Youth League,Lagos,19,Goalkeeper,0,0,22,61%,0,0.0,3,0.0,0%,22 km/h,3,82%,60%,30%
+1309,Fatima Dubois,France,Paris FC U20,Championnat National U19,Paris,19,Defender,2,3,17,77%,8,0.3,4,4.0,66%,23 km/h,6,0%,0%,49%
+1310,Ana Silva,France,Paris FC U19,Championnat National U19,Paris,19,Defender,2,1,18,78%,11,0.6,4,4.1,76%,27 km/h,9,0%,0%,32%
+1311,Lukas Johnson,France,Paris FC U17,Championnat National U19,Paris,17,Goalkeeper,0,0,35,64%,0,0.0,2,0.0,0%,20 km/h,9,69%,68%,36%
+1312,Fatima García,Mexico,Mexico City FC U19,Liga MX Juvenil,Mexico City,18,Goalkeeper,0,0,29,70%,0,0.0,1,0.0,0%,22 km/h,4,79%,50%,34%
+1313,Giulia Dubois,Brazil,São Paulo FC U17,Brazilian Youth League,São Paulo,17,Forward,9,3,27,67%,37,1.3,4,0.9,53%,33 km/h,3,0%,0%,68%
+1314,Lucas Müller,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,15,Forward,12,2,16,72%,45,1.6,2,1.3,49%,33 km/h,9,0%,0%,77%
+1315,Rajesh Santos,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,16,Defender,3,1,35,77%,14,0.4,6,2.2,77%,25 km/h,6,0%,0%,42%
+1316,Elena Tanaka,South Korea,Seoul FC U16,K League Youth,Seoul,16,Midfielder,3,4,35,81%,27,1.4,9,2.4,39%,28 km/h,3,0%,0%,66%
+1317,Carlos Rodríguez,South Korea,Seoul FC U20,K League Youth,Seoul,19,Defender,1,3,17,79%,6,0.5,4,3.4,67%,24 km/h,3,0%,0%,36%
+1318,Maria Kumar,India,Mumbai FC U15,Indian Youth League,Mumbai,14,Goalkeeper,0,0,34,68%,0,0.0,1,0.0,0%,21 km/h,3,76%,54%,39%
+1319,Sofia Bello,France,Paris FC U19,Championnat National U19,Paris,19,Forward,15,2,22,72%,49,1.8,5,1.0,43%,31 km/h,4,0%,0%,63%
+1320,Mei Schmidt,Spain,Barcelona FC U16,La Liga Juvenil,Barcelona,15,Goalkeeper,0,0,28,71%,0,0.0,1,0.0,0%,18 km/h,3,81%,67%,30%
+1321,Maria Leroy,England,Manchester FC U18,Premier League U18,Manchester,18,Goalkeeper,0,0,25,63%,0,0.0,3,0.0,0%,21 km/h,5,73%,65%,23%
+1322,Harry Khan,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,14,Forward,13,5,16,79%,32,1.3,3,1.0,33%,30 km/h,10,0%,0%,73%
+1323,Elena Nakamura,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,14,Goalkeeper,0,0,22,72%,0,0.0,1,0.0,0%,22 km/h,8,84%,67%,20%
+1324,Rajesh Martínez,South Korea,Seoul FC U19,K League Youth,Seoul,19,Midfielder,3,6,28,82%,28,1.1,8,1.5,44%,25 km/h,10,0%,0%,69%
+1325,João Dubois,South Korea,Seoul FC U16,K League Youth,Seoul,16,Defender,3,0,32,75%,7,0.4,8,3.1,69%,23 km/h,7,0%,0%,47%
+1326,Aisha Kumar,India,Mumbai FC U14,Indian Youth League,Mumbai,14,Goalkeeper,0,0,32,69%,0,0.0,3,0.0,0%,19 km/h,6,70%,54%,25%
+1327,Sophia Tanaka,England,Manchester FC U18,Premier League U18,Manchester,17,Midfielder,8,4,35,83%,16,2.2,6,2.2,48%,31 km/h,6,0%,0%,50%
+1328,Aisha Bianchi,Nigeria,Lagos FC U20,Nigerian Youth League,Lagos,19,Forward,7,6,22,72%,23,1.5,3,1.0,44%,33 km/h,9,0%,0%,77%
+1329,Wei Silva,Japan,Tokyo FC U20,J-League Youth,Tokyo,19,Goalkeeper,0,0,21,68%,0,0.0,3,0.0,0%,22 km/h,10,81%,62%,31%
+1330,Fatima Kumar,Mexico,Mexico City FC U14,Liga MX Juvenil,Mexico City,14,Midfielder,8,5,34,81%,18,2.5,7,1.8,48%,25 km/h,3,0%,0%,54%
+1331,Pierre Johnson,Netherlands,Amsterdam FC U15,Eredivisie Youth,Amsterdam,15,Goalkeeper,0,0,32,65%,0,0.0,3,0.0,0%,20 km/h,10,80%,63%,21%
+1332,Aisha Leroy,England,Manchester FC U18,Premier League U18,Manchester,17,Midfielder,5,5,33,80%,28,2.0,8,2.9,35%,26 km/h,6,0%,0%,65%
+1333,Wei Müller,Brazil,São Paulo FC U19,Brazilian Youth League,São Paulo,18,Defender,3,3,21,85%,9,0.4,7,3.9,76%,25 km/h,10,0%,0%,38%
+1334,Giulia Bello,England,Manchester FC U15,Premier League U18,Manchester,15,Midfielder,3,3,22,80%,20,2.1,7,2.4,42%,26 km/h,9,0%,0%,53%
+1335,Aisha Nakamura,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,15,Defender,1,0,22,79%,6,0.6,7,3.9,64%,22 km/h,5,0%,0%,39%
+1336,Elena Smith,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,16,Defender,1,4,15,80%,5,0.2,6,4.5,74%,24 km/h,5,0%,0%,37%
+1337,Carlos Bianchi,Mexico,Mexico City FC U19,Liga MX Juvenil,Mexico City,19,Defender,3,2,23,83%,13,0.3,6,2.9,76%,27 km/h,7,0%,0%,45%
+1338,Fatima Martínez,Nigeria,Lagos FC U15,Nigerian Youth League,Lagos,15,Forward,9,7,28,72%,28,1.4,2,0.6,38%,30 km/h,3,0%,0%,63%
+1339,Aisha Santos,Nigeria,Lagos FC U17,Nigerian Youth League,Lagos,16,Goalkeeper,0,0,35,63%,0,0.0,3,0.0,0%,20 km/h,10,68%,69%,40%
+1340,Carlos Dubois,Italy,Milan FC U20,Campionato Primavera,Milan,19,Midfielder,8,5,31,80%,10,1.4,7,2.4,41%,26 km/h,9,0%,0%,61%
+1341,Wei Leroy,India,Mumbai FC U18,Indian Youth League,Mumbai,17,Defender,1,4,22,82%,5,0.6,7,4.0,61%,26 km/h,9,0%,0%,48%
+1342,Sophia Smith,Nigeria,Lagos FC U18,Nigerian Youth League,Lagos,17,Forward,8,3,17,65%,33,1.5,2,0.6,45%,31 km/h,4,0%,0%,76%
+1343,Yuki Patel,France,Paris FC U15,Championnat National U19,Paris,14,Defender,2,2,25,76%,15,0.2,7,2.4,73%,27 km/h,10,0%,0%,35%
+1344,Ana Tanaka,Spain,Barcelona FC U17,La Liga Juvenil,Barcelona,16,Defender,3,2,34,80%,5,0.6,5,3.3,65%,22 km/h,7,0%,0%,38%
+1345,Aisha Leroy,Nigeria,Lagos FC U14,Nigerian Youth League,Lagos,14,Goalkeeper,0,0,23,61%,0,0.0,2,0.0,0%,22 km/h,5,82%,54%,33%
+1346,Maria García,India,Mumbai FC U17,Indian Youth League,Mumbai,17,Defender,2,4,30,81%,9,0.7,5,3.1,76%,25 km/h,8,0%,0%,46%
+1347,Giulia Santos,South Korea,Seoul FC U18,K League Youth,Seoul,18,Forward,7,4,31,65%,26,1.7,6,1.4,40%,32 km/h,9,0%,0%,61%
+1348,Ana Bianchi,South Korea,Seoul FC U20,K League Youth,Seoul,19,Defender,0,3,18,80%,15,0.3,6,4.4,74%,24 km/h,4,0%,0%,48%
+1349,Lukas Rossi,Germany,Munich FC U19,Bundesliga U19,Munich,18,Defender,1,4,22,82%,7,0.4,5,3.1,75%,23 km/h,5,0%,0%,36%
+1350,Fatima Rossi,South Korea,Seoul FC U18,K League Youth,Seoul,18,Midfielder,2,5,16,83%,14,2.0,7,2.0,31%,29 km/h,5,0%,0%,70%
+1351,Lukas Kumar,India,Mumbai FC U17,Indian Youth League,Mumbai,16,Midfielder,7,9,24,84%,22,2.1,9,1.6,35%,29 km/h,6,0%,0%,53%
+1352,Mohammed Oliveira,Portugal,Lisbon FC U16,Portuguese Youth League,Lisbon,15,Defender,0,1,17,77%,6,0.8,5,4.4,62%,27 km/h,3,0%,0%,49%
+1353,Carlos Leroy,England,Manchester FC U14,Premier League U18,Manchester,14,Midfielder,5,6,16,79%,20,1.6,8,3.0,31%,26 km/h,6,0%,0%,60%
+1354,Lucas Rodríguez,Netherlands,Amsterdam FC U17,Eredivisie Youth,Amsterdam,17,Goalkeeper,0,0,29,62%,0,0.0,3,0.0,0%,22 km/h,3,71%,63%,40%
+1355,Lukas Schmidt,Brazil,São Paulo FC U17,Brazilian Youth League,São Paulo,16,Midfielder,5,8,33,84%,13,2.2,6,1.4,36%,27 km/h,4,0%,0%,60%
+1356,João Silva,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,15,Forward,11,8,35,76%,45,1.3,6,1.3,55%,34 km/h,10,0%,0%,79%
+1357,Sophia Schmidt,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,19,Midfielder,7,5,33,75%,27,1.6,9,1.6,45%,30 km/h,4,0%,0%,64%
+1358,Carlos Rodríguez,Brazil,São Paulo FC U15,Brazilian Youth League,São Paulo,14,Goalkeeper,0,0,29,65%,0,0.0,2,0.0,0%,22 km/h,9,85%,58%,21%
+1359,Lukas Silva,Nigeria,Lagos FC U15,Nigerian Youth League,Lagos,15,Forward,8,2,25,78%,33,1.3,2,0.6,44%,31 km/h,9,0%,0%,75%
+1360,Mohammed Johnson,USA,Los Angeles FC U19,US Youth Soccer,Los Angeles,19,Forward,14,5,30,76%,34,1.8,3,1.3,30%,35 km/h,5,0%,0%,64%
+1361,Lucas Rossi,Argentina,Buenos Aires FC U20,Argentine Youth League,Buenos Aires,19,Defender,2,1,22,76%,14,0.5,8,2.3,77%,23 km/h,6,0%,0%,45%
+1362,Aisha Rossi,England,Manchester FC U18,Premier League U18,Manchester,17,Forward,15,7,19,76%,21,0.9,3,0.8,33%,34 km/h,3,0%,0%,60%
+1363,Yuki Smith,France,Paris FC U20,Championnat National U19,Paris,19,Goalkeeper,0,0,27,75%,0,0.0,1,0.0,0%,18 km/h,6,73%,65%,24%
+1364,Elena Leroy,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,18,Goalkeeper,0,0,18,74%,0,0.0,1,0.0,0%,18 km/h,6,70%,66%,26%
+1365,Elena Leroy,Netherlands,Amsterdam FC U20,Eredivisie Youth,Amsterdam,19,Midfielder,6,9,31,89%,11,1.7,9,1.6,34%,30 km/h,5,0%,0%,51%
+1366,Harry Rossi,Portugal,Lisbon FC U16,Portuguese Youth League,Lisbon,15,Defender,2,1,35,84%,5,0.7,8,2.8,63%,28 km/h,3,0%,0%,31%
+1367,Liam Müller,Germany,Munich FC U19,Bundesliga U19,Munich,19,Goalkeeper,0,0,26,71%,0,0.0,3,0.0,0%,22 km/h,4,84%,62%,32%
+1368,Lucas Kumar,Spain,Barcelona FC U17,La Liga Juvenil,Barcelona,17,Midfielder,5,10,29,75%,13,1.2,10,1.9,33%,28 km/h,4,0%,0%,62%
+1369,Ana Patel,USA,Los Angeles FC U14,US Youth Soccer,Los Angeles,14,Goalkeeper,0,0,26,64%,0,0.0,2,0.0,0%,22 km/h,6,71%,64%,35%
+1370,Aisha Nakamura,Nigeria,Lagos FC U18,Nigerian Youth League,Lagos,18,Midfielder,8,10,22,86%,18,2.3,10,1.2,47%,30 km/h,5,0%,0%,62%
+1371,Sofia Patel,South Korea,Seoul FC U16,K League Youth,Seoul,15,Goalkeeper,0,0,28,69%,0,0.0,3,0.0,0%,20 km/h,8,70%,67%,21%
+1372,Pierre Khan,Spain,Barcelona FC U18,La Liga Juvenil,Barcelona,18,Midfielder,8,6,23,87%,14,1.9,8,1.9,33%,29 km/h,4,0%,0%,61%
+1373,Sofia Tanaka,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,16,Forward,5,2,15,67%,35,1.7,6,0.6,38%,30 km/h,5,0%,0%,60%
+1374,Giulia Dubois,Germany,Munich FC U18,Bundesliga U19,Munich,18,Forward,12,7,25,65%,44,1.2,6,0.7,35%,33 km/h,6,0%,0%,63%
+1375,Aisha Bianchi,Argentina,Buenos Aires FC U20,Argentine Youth League,Buenos Aires,19,Forward,10,6,20,77%,44,1.6,3,0.4,28%,31 km/h,3,0%,0%,65%
+1376,Harry García,France,Paris FC U20,Championnat National U19,Paris,19,Forward,5,7,22,70%,21,1.4,3,0.9,44%,30 km/h,10,0%,0%,72%
+1377,Maria Johnson,England,Manchester FC U17,Premier League U18,Manchester,16,Goalkeeper,0,0,26,73%,0,0.0,2,0.0,0%,19 km/h,5,83%,66%,36%
+1378,Fatima Silva,Netherlands,Amsterdam FC U15,Eredivisie Youth,Amsterdam,14,Goalkeeper,0,0,20,74%,0,0.0,3,0.0,0%,19 km/h,5,68%,67%,32%
+1379,Lucas Bianchi,Japan,Tokyo FC U19,J-League Youth,Tokyo,18,Defender,1,4,32,78%,10,0.4,7,2.7,74%,26 km/h,9,0%,0%,48%
+1380,Sofia Bianchi,Brazil,São Paulo FC U18,Brazilian Youth League,São Paulo,17,Forward,15,6,25,68%,50,1.8,6,1.3,50%,30 km/h,8,0%,0%,63%
+1381,Giulia Schmidt,Nigeria,Lagos FC U17,Nigerian Youth League,Lagos,17,Forward,11,8,26,80%,41,1.6,6,1.5,38%,33 km/h,10,0%,0%,69%
+1382,Carlos Tanaka,Spain,Barcelona FC U15,La Liga Juvenil,Barcelona,14,Forward,10,6,27,68%,46,1.2,6,0.5,35%,35 km/h,9,0%,0%,67%
+1383,Carlos Leroy,Germany,Munich FC U19,Bundesliga U19,Munich,18,Defender,3,1,17,75%,5,0.3,6,2.4,65%,22 km/h,10,0%,0%,35%
+1384,Giulia Johnson,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,18,Forward,15,4,17,73%,26,1.3,3,1.5,26%,30 km/h,5,0%,0%,62%
+1385,Carlos Khan,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,15,Forward,8,5,30,68%,29,1.6,6,1.2,41%,34 km/h,4,0%,0%,64%
+1386,Sofia Smith,Argentina,Buenos Aires FC U18,Argentine Youth League,Buenos Aires,17,Goalkeeper,0,0,23,70%,0,0.0,3,0.0,0%,21 km/h,6,66%,59%,28%
+1387,Sophia Schmidt,Germany,Munich FC U16,Bundesliga U19,Munich,16,Defender,0,1,28,75%,11,0.8,4,2.8,63%,24 km/h,3,0%,0%,50%
+1388,Harry Khan,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,17,Forward,9,4,18,69%,24,1.8,5,0.5,31%,30 km/h,6,0%,0%,69%
+1389,Harry Bianchi,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,16,Defender,3,4,15,84%,6,0.4,8,2.3,64%,27 km/h,4,0%,0%,40%
+1390,Aisha Nakamura,Italy,Milan FC U16,Campionato Primavera,Milan,15,Forward,6,4,24,71%,22,1.8,2,1.0,55%,32 km/h,5,0%,0%,61%
+1391,Liam Leroy,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,15,Midfielder,5,8,17,82%,18,1.6,10,2.1,43%,31 km/h,5,0%,0%,69%
+1392,Carlos García,Netherlands,Amsterdam FC U14,Eredivisie Youth,Amsterdam,14,Midfielder,8,7,20,86%,30,2.3,7,2.8,32%,27 km/h,3,0%,0%,53%
+1393,Rajesh Rodríguez,Germany,Munich FC U15,Bundesliga U19,Munich,14,Forward,7,2,22,78%,30,0.8,6,1.0,31%,31 km/h,6,0%,0%,77%
+1394,Yuki Kumar,Nigeria,Lagos FC U19,Nigerian Youth League,Lagos,18,Forward,5,8,31,79%,31,1.0,3,1.2,28%,31 km/h,4,0%,0%,72%
+1395,Rajesh Patel,Spain,Barcelona FC U20,La Liga Juvenil,Barcelona,19,Goalkeeper,0,0,31,64%,0,0.0,1,0.0,0%,22 km/h,5,78%,66%,20%
+1396,Lukas Rossi,England,Manchester FC U19,Premier League U18,Manchester,18,Midfielder,3,10,31,78%,29,2.4,7,1.9,38%,31 km/h,6,0%,0%,68%
+1397,Liam García,India,Mumbai FC U19,Indian Youth League,Mumbai,19,Defender,1,0,28,85%,14,0.7,7,2.8,64%,22 km/h,5,0%,0%,44%
+1398,Ana Nakamura,France,Paris FC U16,Championnat National U19,Paris,15,Forward,12,7,26,79%,20,1.8,4,0.3,51%,31 km/h,5,0%,0%,80%
+1399,Aisha Khan,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,18,Defender,1,3,35,84%,12,0.7,4,2.3,74%,22 km/h,4,0%,0%,31%
+1400,Carlos Leroy,Netherlands,Amsterdam FC U15,Eredivisie Youth,Amsterdam,14,Defender,1,1,35,83%,13,0.5,7,2.1,74%,22 km/h,7,0%,0%,39%
+1401,Mohammed Leroy,Italy,Milan FC U16,Campionato Primavera,Milan,16,Forward,8,5,25,75%,47,1.4,5,0.7,54%,33 km/h,10,0%,0%,74%
+1402,Elena Oliveira,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,16,Goalkeeper,0,0,17,73%,0,0.0,2,0.0,0%,18 km/h,5,80%,57%,29%
+1403,João Rodríguez,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,16,Goalkeeper,0,0,28,71%,0,0.0,3,0.0,0%,18 km/h,3,81%,53%,38%
+1404,Rajesh Johnson,Nigeria,Lagos FC U16,Nigerian Youth League,Lagos,15,Goalkeeper,0,0,20,72%,0,0.0,3,0.0,0%,21 km/h,10,72%,54%,21%
+1405,Liam Leroy,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,19,Goalkeeper,0,0,34,65%,0,0.0,2,0.0,0%,20 km/h,3,66%,69%,27%
+1406,Mei Santos,Japan,Tokyo FC U16,J-League Youth,Tokyo,16,Defender,1,0,27,85%,15,0.5,5,2.9,60%,22 km/h,8,0%,0%,37%
+1407,Ana Oliveira,USA,Los Angeles FC U16,US Youth Soccer,Los Angeles,15,Midfielder,3,8,28,82%,18,1.3,8,2.8,30%,30 km/h,5,0%,0%,59%
+1408,João García,India,Mumbai FC U19,Indian Youth League,Mumbai,18,Defender,0,1,29,85%,5,0.2,6,2.6,67%,26 km/h,8,0%,0%,48%
+1409,Lukas Khan,Italy,Milan FC U16,Campionato Primavera,Milan,15,Goalkeeper,0,0,26,72%,0,0.0,1,0.0,0%,20 km/h,6,81%,51%,32%
+1410,Sophia Nakamura,Spain,Barcelona FC U17,La Liga Juvenil,Barcelona,16,Defender,2,1,34,75%,8,0.4,4,3.1,72%,28 km/h,3,0%,0%,49%
+1411,Yuki Patel,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,18,Defender,2,2,32,77%,15,0.4,6,2.4,78%,22 km/h,7,0%,0%,42%
+1412,Sofia Rodríguez,Brazil,São Paulo FC U16,Brazilian Youth League,São Paulo,15,Defender,3,1,19,77%,11,0.6,6,3.6,74%,26 km/h,10,0%,0%,42%
+1413,Wei Kumar,France,Paris FC U19,Championnat National U19,Paris,18,Midfielder,8,10,19,75%,14,1.1,9,2.6,49%,31 km/h,5,0%,0%,60%
+1414,Fatima Bello,Germany,Munich FC U17,Bundesliga U19,Munich,17,Goalkeeper,0,0,26,70%,0,0.0,2,0.0,0%,19 km/h,6,81%,63%,25%
+1415,Fatima Santos,Brazil,São Paulo FC U20,Brazilian Youth League,São Paulo,19,Midfielder,4,6,15,84%,24,2.1,10,2.0,49%,28 km/h,7,0%,0%,56%
+1416,Yuki Rossi,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,17,Midfielder,2,9,35,81%,27,2.2,6,1.8,48%,29 km/h,6,0%,0%,62%
+1417,Liam Khan,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,18,Goalkeeper,0,0,29,70%,0,0.0,3,0.0,0%,21 km/h,7,77%,65%,40%
+1418,Ana Nakamura,England,Manchester FC U17,Premier League U18,Manchester,17,Defender,0,2,26,78%,8,0.7,7,4.3,67%,26 km/h,8,0%,0%,46%
+1419,Rajesh Nakamura,India,Mumbai FC U16,Indian Youth League,Mumbai,16,Midfielder,8,10,17,86%,24,2.5,10,2.4,31%,30 km/h,3,0%,0%,58%
+1420,Yuki Johnson,England,Manchester FC U16,Premier League U18,Manchester,15,Goalkeeper,0,0,15,65%,0,0.0,1,0.0,0%,19 km/h,5,65%,68%,24%
+1421,Maria Santos,USA,Los Angeles FC U19,US Youth Soccer,Los Angeles,18,Forward,7,7,17,80%,42,0.9,5,0.8,43%,31 km/h,4,0%,0%,68%
+1422,Ana Oliveira,Brazil,São Paulo FC U16,Brazilian Youth League,São Paulo,16,Defender,0,0,27,79%,11,0.6,8,4.3,74%,25 km/h,5,0%,0%,41%
+1423,Rajesh Khan,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,15,Midfielder,5,10,31,75%,15,1.7,10,2.8,31%,25 km/h,7,0%,0%,64%
+1424,Fatima Santos,Argentina,Buenos Aires FC U17,Argentine Youth League,Buenos Aires,17,Defender,3,1,25,81%,5,0.5,7,3.4,64%,24 km/h,10,0%,0%,47%
+1425,Ana Dubois,Mexico,Mexico City FC U19,Liga MX Juvenil,Mexico City,19,Defender,3,0,21,84%,11,0.4,7,2.8,66%,22 km/h,5,0%,0%,38%
+1426,Mei Patel,Italy,Milan FC U14,Campionato Primavera,Milan,14,Midfielder,2,6,31,90%,10,2.4,7,2.8,39%,26 km/h,10,0%,0%,62%
+1427,João Khan,Italy,Milan FC U15,Campionato Primavera,Milan,15,Midfielder,2,9,23,80%,26,2.3,8,1.5,41%,31 km/h,4,0%,0%,53%
+1428,Carlos Khan,Spain,Barcelona FC U16,La Liga Juvenil,Barcelona,16,Defender,0,4,24,84%,5,0.3,6,2.8,71%,25 km/h,10,0%,0%,35%
+1429,Giulia Johnson,Brazil,São Paulo FC U19,Brazilian Youth League,São Paulo,19,Forward,7,3,24,77%,28,0.8,5,1.2,26%,33 km/h,3,0%,0%,75%
+1430,Fatima Johnson,South Korea,Seoul FC U15,K League Youth,Seoul,14,Goalkeeper,0,0,28,60%,0,0.0,3,0.0,0%,22 km/h,8,70%,53%,34%
+1431,Harry Nakamura,Spain,Barcelona FC U16,La Liga Juvenil,Barcelona,15,Goalkeeper,0,0,27,64%,0,0.0,3,0.0,0%,18 km/h,10,83%,57%,36%
+1432,Sofia Santos,Argentina,Buenos Aires FC U14,Argentine Youth League,Buenos Aires,14,Goalkeeper,0,0,33,72%,0,0.0,2,0.0,0%,22 km/h,4,73%,64%,23%
+1433,Wei Santos,Nigeria,Lagos FC U14,Nigerian Youth League,Lagos,14,Defender,3,4,21,78%,10,0.2,6,3.5,76%,22 km/h,6,0%,0%,34%
+1434,Ana Martínez,Brazil,São Paulo FC U14,Brazilian Youth League,São Paulo,14,Goalkeeper,0,0,24,70%,0,0.0,1,0.0,0%,21 km/h,4,77%,55%,21%
+1435,Wei Khan,South Korea,Seoul FC U15,K League Youth,Seoul,15,Defender,0,4,16,75%,12,0.3,4,2.4,76%,24 km/h,7,0%,0%,37%
+1436,Harry Smith,Italy,Milan FC U15,Campionato Primavera,Milan,14,Midfielder,7,7,25,76%,14,2.1,10,1.4,45%,26 km/h,5,0%,0%,55%
+1437,Rajesh Kumar,South Korea,Seoul FC U17,K League Youth,Seoul,16,Forward,9,8,22,71%,30,1.5,5,0.8,36%,35 km/h,7,0%,0%,75%
+1438,Maria Johnson,Japan,Tokyo FC U16,J-League Youth,Tokyo,15,Defender,3,1,24,75%,6,0.8,7,3.4,80%,28 km/h,6,0%,0%,30%
+1439,João Leroy,Spain,Barcelona FC U17,La Liga Juvenil,Barcelona,16,Midfielder,8,3,26,89%,27,2.1,9,2.6,49%,31 km/h,10,0%,0%,67%
+1440,Fatima Santos,Nigeria,Lagos FC U14,Nigerian Youth League,Lagos,14,Defender,1,4,17,83%,11,0.5,7,2.8,75%,27 km/h,7,0%,0%,40%
+1441,Yuki Santos,England,Manchester FC U20,Premier League U18,Manchester,19,Forward,13,5,26,74%,42,1.2,5,1.0,44%,31 km/h,10,0%,0%,69%
+1442,Lukas Rodríguez,South Korea,Seoul FC U19,K League Youth,Seoul,19,Goalkeeper,0,0,35,60%,0,0.0,2,0.0,0%,18 km/h,3,65%,56%,30%
+1443,Ana Tanaka,USA,Los Angeles FC U20,US Youth Soccer,Los Angeles,19,Forward,9,7,34,67%,34,1.3,6,1.2,43%,30 km/h,6,0%,0%,66%
+1444,Carlos Bianchi,Germany,Munich FC U15,Bundesliga U19,Munich,15,Defender,1,0,21,84%,15,0.7,7,2.2,71%,28 km/h,6,0%,0%,32%
+1445,Carlos Müller,Nigeria,Lagos FC U15,Nigerian Youth League,Lagos,15,Goalkeeper,0,0,32,66%,0,0.0,1,0.0,0%,22 km/h,7,77%,65%,37%
+1446,Sofia Dubois,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,15,Defender,2,2,33,82%,5,0.7,8,4.3,61%,26 km/h,5,0%,0%,32%
+1447,Sofia Johnson,Netherlands,Amsterdam FC U18,Eredivisie Youth,Amsterdam,17,Midfielder,6,5,27,83%,10,2.5,9,2.6,50%,31 km/h,10,0%,0%,68%
+1448,Carlos García,USA,Los Angeles FC U14,US Youth Soccer,Los Angeles,14,Midfielder,3,9,19,82%,26,2.4,10,2.4,41%,28 km/h,4,0%,0%,53%
+1449,Giulia Santos,India,Mumbai FC U17,Indian Youth League,Mumbai,16,Midfielder,8,5,34,80%,23,1.3,6,1.8,41%,29 km/h,5,0%,0%,69%
+1450,João Smith,Germany,Munich FC U20,Bundesliga U19,Munich,19,Midfielder,8,8,23,82%,24,1.3,9,2.0,37%,30 km/h,9,0%,0%,53%
+1451,Yuki Smith,India,Mumbai FC U14,Indian Youth League,Mumbai,14,Goalkeeper,0,0,30,69%,0,0.0,2,0.0,0%,22 km/h,4,69%,53%,38%
+1452,Liam Smith,Brazil,São Paulo FC U15,Brazilian Youth League,São Paulo,14,Midfielder,7,10,21,82%,20,2.1,7,1.0,35%,31 km/h,7,0%,0%,51%
+1453,Carlos Müller,France,Paris FC U17,Championnat National U19,Paris,16,Forward,11,7,31,79%,31,1.0,4,1.1,46%,35 km/h,10,0%,0%,78%
+1454,Yuki Kumar,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,15,Forward,10,8,24,76%,45,1.0,4,1.0,50%,31 km/h,10,0%,0%,70%
+1455,Giulia Tanaka,Mexico,Mexico City FC U14,Liga MX Juvenil,Mexico City,14,Forward,15,8,21,77%,43,1.0,3,0.4,50%,34 km/h,8,0%,0%,74%
+1456,Sophia Schmidt,Mexico,Mexico City FC U15,Liga MX Juvenil,Mexico City,14,Defender,3,2,27,85%,8,0.8,8,3.4,65%,23 km/h,8,0%,0%,33%
+1457,Carlos Bello,Germany,Munich FC U16,Bundesliga U19,Munich,15,Defender,1,0,22,79%,11,0.7,7,4.0,73%,25 km/h,7,0%,0%,30%
+1458,João Bello,England,Manchester FC U20,Premier League U18,Manchester,19,Forward,12,7,32,77%,43,1.5,2,0.4,25%,35 km/h,3,0%,0%,67%
+1459,Liam Johnson,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,15,Goalkeeper,0,0,28,68%,0,0.0,2,0.0,0%,21 km/h,8,69%,66%,30%
+1460,Carlos Patel,Japan,Tokyo FC U14,J-League Youth,Tokyo,14,Defender,1,3,33,84%,15,0.4,5,4.5,72%,27 km/h,8,0%,0%,41%
+1461,Rajesh Schmidt,USA,Los Angeles FC U18,US Youth Soccer,Los Angeles,17,Goalkeeper,0,0,25,72%,0,0.0,1,0.0,0%,21 km/h,3,82%,53%,35%
+1462,Lukas Müller,Mexico,Mexico City FC U18,Liga MX Juvenil,Mexico City,18,Defender,3,4,32,77%,5,0.2,6,2.5,68%,26 km/h,7,0%,0%,48%
+1463,Maria Patel,India,Mumbai FC U19,Indian Youth League,Mumbai,18,Goalkeeper,0,0,23,61%,0,0.0,1,0.0,0%,21 km/h,4,73%,60%,21%
+1464,Yuki Tanaka,Brazil,São Paulo FC U16,Brazilian Youth League,São Paulo,15,Midfielder,5,7,33,79%,22,1.2,7,1.9,48%,31 km/h,4,0%,0%,53%
+1465,Mei Bello,Germany,Munich FC U14,Bundesliga U19,Munich,14,Forward,12,5,31,77%,34,1.5,6,1.3,25%,35 km/h,4,0%,0%,76%
+1466,Aisha Khan,England,Manchester FC U16,Premier League U18,Manchester,15,Goalkeeper,0,0,32,65%,0,0.0,2,0.0,0%,22 km/h,7,76%,61%,29%
+1467,Fatima Nakamura,Brazil,São Paulo FC U18,Brazilian Youth League,São Paulo,18,Midfielder,4,10,16,86%,13,1.8,9,1.6,50%,25 km/h,6,0%,0%,65%
+1468,João Bianchi,India,Mumbai FC U18,Indian Youth League,Mumbai,17,Goalkeeper,0,0,16,73%,0,0.0,3,0.0,0%,20 km/h,4,77%,62%,27%
+1469,Carlos Silva,South Korea,Seoul FC U19,K League Youth,Seoul,19,Goalkeeper,0,0,24,71%,0,0.0,3,0.0,0%,21 km/h,8,85%,53%,24%
+1470,Maria Rossi,Spain,Barcelona FC U16,La Liga Juvenil,Barcelona,15,Midfielder,7,3,25,90%,26,2.3,7,2.7,41%,27 km/h,7,0%,0%,52%
+1471,Pierre Nakamura,USA,Los Angeles FC U17,US Youth Soccer,Los Angeles,17,Defender,2,4,24,80%,8,0.7,7,2.1,60%,22 km/h,9,0%,0%,44%
+1472,Ana Müller,South Korea,Seoul FC U19,K League Youth,Seoul,19,Defender,3,1,17,76%,5,0.8,5,2.3,74%,24 km/h,8,0%,0%,42%
+1473,Ana Leroy,Brazil,São Paulo FC U16,Brazilian Youth League,São Paulo,16,Midfielder,8,3,32,87%,16,2.2,10,1.8,35%,31 km/h,8,0%,0%,57%
+1474,Pierre Rossi,Japan,Tokyo FC U16,J-League Youth,Tokyo,15,Midfielder,7,9,33,76%,18,1.3,6,2.2,38%,29 km/h,3,0%,0%,54%
+1475,João Silva,Japan,Tokyo FC U17,J-League Youth,Tokyo,17,Forward,7,7,35,77%,28,1.8,5,0.3,37%,34 km/h,6,0%,0%,76%
+1476,Harry Bello,Spain,Barcelona FC U15,La Liga Juvenil,Barcelona,15,Defender,1,4,26,76%,15,0.3,5,3.1,77%,22 km/h,10,0%,0%,50%
+1477,Pierre Tanaka,Portugal,Lisbon FC U16,Portuguese Youth League,Lisbon,15,Goalkeeper,0,0,16,71%,0,0.0,2,0.0,0%,20 km/h,9,73%,65%,38%
+1478,Elena Oliveira,Portugal,Lisbon FC U19,Portuguese Youth League,Lisbon,19,Defender,2,0,31,84%,13,0.3,5,3.2,69%,22 km/h,5,0%,0%,36%
+1479,Mohammed Silva,Portugal,Lisbon FC U16,Portuguese Youth League,Lisbon,15,Forward,5,2,23,78%,41,1.7,4,1.2,54%,33 km/h,9,0%,0%,73%
+1480,Lucas Johnson,Nigeria,Lagos FC U17,Nigerian Youth League,Lagos,17,Midfielder,2,9,18,86%,22,2.3,8,2.4,40%,28 km/h,9,0%,0%,59%
+1481,Mei Leroy,South Korea,Seoul FC U18,K League Youth,Seoul,18,Goalkeeper,0,0,16,61%,0,0.0,3,0.0,0%,21 km/h,6,69%,55%,34%
+1482,Fatima Johnson,India,Mumbai FC U19,Indian Youth League,Mumbai,18,Defender,2,3,18,85%,14,0.4,5,2.6,60%,27 km/h,10,0%,0%,46%
+1483,Yuki Nakamura,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,15,Goalkeeper,0,0,30,68%,0,0.0,3,0.0,0%,20 km/h,8,82%,52%,25%
+1484,Rajesh Santos,Italy,Milan FC U18,Campionato Primavera,Milan,18,Midfielder,5,9,26,90%,29,2.3,8,1.7,32%,25 km/h,10,0%,0%,56%
+1485,Giulia Kumar,South Korea,Seoul FC U19,K League Youth,Seoul,18,Defender,2,4,32,78%,5,0.7,5,4.4,75%,26 km/h,4,0%,0%,49%
+1486,João Müller,Netherlands,Amsterdam FC U15,Eredivisie Youth,Amsterdam,14,Forward,12,3,23,68%,27,1.1,5,1.2,52%,32 km/h,8,0%,0%,61%
+1487,Ana García,Japan,Tokyo FC U15,J-League Youth,Tokyo,14,Goalkeeper,0,0,27,64%,0,0.0,1,0.0,0%,19 km/h,8,79%,57%,21%
+1488,Sofia Rossi,France,Paris FC U14,Championnat National U19,Paris,14,Forward,5,2,31,75%,38,1.3,3,0.6,41%,30 km/h,6,0%,0%,70%
+1489,Aisha García,Spain,Barcelona FC U15,La Liga Juvenil,Barcelona,14,Goalkeeper,0,0,17,61%,0,0.0,1,0.0,0%,20 km/h,4,66%,61%,23%
+1490,Harry Dubois,India,Mumbai FC U15,Indian Youth League,Mumbai,15,Forward,9,8,15,67%,38,1.7,2,0.5,43%,35 km/h,10,0%,0%,60%
+1491,Carlos Schmidt,Brazil,São Paulo FC U17,Brazilian Youth League,São Paulo,16,Defender,2,0,35,81%,12,0.6,8,4.3,71%,27 km/h,8,0%,0%,47%
+1492,Lukas Silva,Nigeria,Lagos FC U14,Nigerian Youth League,Lagos,14,Midfielder,7,8,27,88%,26,2.2,7,1.2,50%,30 km/h,4,0%,0%,59%
+1493,Mohammed Santos,England,Manchester FC U17,Premier League U18,Manchester,17,Forward,13,6,19,74%,31,1.3,4,1.1,52%,32 km/h,7,0%,0%,60%
+1494,Rajesh Smith,Spain,Barcelona FC U15,La Liga Juvenil,Barcelona,14,Defender,2,3,30,83%,8,0.6,7,2.7,78%,26 km/h,10,0%,0%,37%
+1495,João Oliveira,India,Mumbai FC U16,Indian Youth League,Mumbai,15,Defender,1,0,21,75%,5,0.7,4,3.9,60%,27 km/h,6,0%,0%,40%
+1496,Carlos Khan,France,Paris FC U19,Championnat National U19,Paris,18,Defender,0,0,29,77%,12,0.5,7,3.2,63%,22 km/h,7,0%,0%,33%
+1497,Pierre Johnson,Argentina,Buenos Aires FC U14,Argentine Youth League,Buenos Aires,14,Forward,5,5,33,67%,44,1.2,4,0.6,50%,30 km/h,8,0%,0%,66%
+1498,Yuki Kumar,South Korea,Seoul FC U14,K League Youth,Seoul,14,Goalkeeper,0,0,28,71%,0,0.0,3,0.0,0%,22 km/h,3,74%,65%,31%
+1499,João Leroy,USA,Los Angeles FC U19,US Youth Soccer,Los Angeles,19,Goalkeeper,0,0,27,72%,0,0.0,1,0.0,0%,21 km/h,4,69%,51%,34%
+1500,Sofia Tanaka,Argentina,Buenos Aires FC U19,Argentine Youth League,Buenos Aires,18,Midfielder,3,7,22,77%,28,1.2,7,1.3,30%,30 km/h,6,0%,0%,60%
+1501,Fatima García,Portugal,Lisbon FC U19,Portuguese Youth League,Lisbon,19,Goalkeeper,0,0,17,73%,0,0.0,3,0.0,0%,20 km/h,7,68%,65%,27%
+1502,Ana Schmidt,Germany,Munich FC U15,Bundesliga U19,Munich,14,Midfielder,3,7,26,80%,21,2.0,8,2.6,32%,28 km/h,5,0%,0%,65%
+1503,Mohammed Kumar,India,Mumbai FC U19,Indian Youth League,Mumbai,19,Defender,3,2,35,82%,5,0.5,4,3.5,67%,24 km/h,8,0%,0%,37%
+1504,Yuki Santos,Argentina,Buenos Aires FC U15,Argentine Youth League,Buenos Aires,14,Defender,2,0,21,82%,14,0.5,4,2.0,71%,27 km/h,6,0%,0%,47%
+1505,Fatima García,India,Mumbai FC U17,Indian Youth League,Mumbai,17,Goalkeeper,0,0,20,74%,0,0.0,1,0.0,0%,22 km/h,4,66%,68%,26%
+1506,Fatima Martínez,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,15,Defender,3,0,20,82%,6,0.4,4,3.7,78%,24 km/h,10,0%,0%,48%
+1507,Lucas Oliveira,Netherlands,Amsterdam FC U16,Eredivisie Youth,Amsterdam,16,Goalkeeper,0,0,18,65%,0,0.0,2,0.0,0%,18 km/h,6,77%,70%,32%
+1508,Ana Rossi,Japan,Tokyo FC U15,J-League Youth,Tokyo,15,Goalkeeper,0,0,23,75%,0,0.0,2,0.0,0%,19 km/h,4,83%,67%,40%
+1509,Fatima Bello,Germany,Munich FC U17,Bundesliga U19,Munich,16,Midfielder,3,5,32,78%,25,2.0,10,2.0,37%,25 km/h,6,0%,0%,58%
+1510,Mohammed Tanaka,England,Manchester FC U16,Premier League U18,Manchester,16,Forward,5,7,19,67%,27,1.6,5,0.4,33%,35 km/h,5,0%,0%,73%
+1511,Carlos Patel,Netherlands,Amsterdam FC U20,Eredivisie Youth,Amsterdam,19,Forward,9,2,20,69%,36,2.0,5,0.3,30%,35 km/h,6,0%,0%,65%
+1512,Mohammed García,Spain,Barcelona FC U14,La Liga Juvenil,Barcelona,14,Defender,1,1,30,82%,10,0.5,7,3.4,70%,26 km/h,10,0%,0%,47%
+1513,Elena García,England,Manchester FC U19,Premier League U18,Manchester,18,Defender,1,4,16,76%,15,0.3,8,2.5,69%,24 km/h,10,0%,0%,40%
+1514,Giulia Martínez,South Korea,Seoul FC U19,K League Youth,Seoul,19,Goalkeeper,0,0,26,69%,0,0.0,1,0.0,0%,18 km/h,9,81%,63%,34%
+1515,Lukas Müller,Nigeria,Lagos FC U16,Nigerian Youth League,Lagos,16,Midfielder,6,8,18,89%,12,2.3,10,2.9,41%,28 km/h,5,0%,0%,60%
+1516,Lukas Leroy,Nigeria,Lagos FC U18,Nigerian Youth League,Lagos,17,Defender,1,0,17,84%,12,0.5,6,2.3,77%,27 km/h,6,0%,0%,34%
+1517,Lukas Kumar,Nigeria,Lagos FC U18,Nigerian Youth League,Lagos,18,Defender,1,1,29,76%,15,0.3,7,2.4,73%,25 km/h,7,0%,0%,34%
+1518,Wei Schmidt,Japan,Tokyo FC U18,J-League Youth,Tokyo,18,Forward,5,2,30,80%,44,1.2,2,0.6,26%,31 km/h,4,0%,0%,69%
+1519,Lucas Müller,Japan,Tokyo FC U14,J-League Youth,Tokyo,14,Forward,8,2,18,73%,23,1.4,4,0.5,31%,30 km/h,5,0%,0%,73%
+1520,Ana Martínez,Nigeria,Lagos FC U15,Nigerian Youth League,Lagos,15,Midfielder,8,3,34,90%,16,1.7,7,1.9,48%,25 km/h,3,0%,0%,69%
+1521,Maria Rossi,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,16,Goalkeeper,0,0,32,65%,0,0.0,2,0.0,0%,21 km/h,10,81%,63%,20%
+1522,Sofia Schmidt,Japan,Tokyo FC U18,J-League Youth,Tokyo,18,Midfielder,8,6,16,83%,30,1.7,10,2.6,46%,26 km/h,9,0%,0%,67%
+1523,Elena Santos,Germany,Munich FC U19,Bundesliga U19,Munich,19,Forward,13,3,20,68%,20,1.0,2,0.6,44%,32 km/h,8,0%,0%,68%
+1524,Sophia Kumar,USA,Los Angeles FC U19,US Youth Soccer,Los Angeles,19,Midfielder,6,9,22,85%,12,1.4,9,2.6,39%,25 km/h,4,0%,0%,59%
+1525,Maria Smith,Nigeria,Lagos FC U19,Nigerian Youth League,Lagos,18,Forward,14,7,20,77%,20,0.9,3,0.6,31%,30 km/h,9,0%,0%,68%
+1526,Pierre Müller,France,Paris FC U17,Championnat National U19,Paris,16,Goalkeeper,0,0,30,73%,0,0.0,1,0.0,0%,22 km/h,5,72%,50%,27%
+1527,Mei Bello,South Korea,Seoul FC U16,K League Youth,Seoul,16,Midfielder,6,10,19,86%,19,1.5,10,1.8,37%,25 km/h,6,0%,0%,56%
+1528,Wei Patel,Mexico,Mexico City FC U17,Liga MX Juvenil,Mexico City,17,Forward,6,6,26,74%,30,1.6,4,0.5,41%,34 km/h,3,0%,0%,78%
+1529,Carlos Leroy,India,Mumbai FC U18,Indian Youth League,Mumbai,17,Defender,1,3,33,76%,7,0.4,7,3.3,66%,23 km/h,9,0%,0%,42%
+1530,Carlos Silva,USA,Los Angeles FC U17,US Youth Soccer,Los Angeles,16,Midfielder,6,9,28,82%,13,1.4,7,1.2,30%,28 km/h,7,0%,0%,60%
+1531,Wei Dubois,Netherlands,Amsterdam FC U18,Eredivisie Youth,Amsterdam,18,Midfielder,2,6,31,84%,23,1.8,6,1.1,34%,26 km/h,3,0%,0%,60%
+1532,Maria Rodríguez,Portugal,Lisbon FC U17,Portuguese Youth League,Lisbon,17,Defender,1,4,31,78%,6,0.8,7,3.9,66%,28 km/h,9,0%,0%,34%
+1533,Mei Nakamura,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,15,Forward,12,8,34,70%,36,1.4,4,1.1,31%,31 km/h,9,0%,0%,71%
+1534,Harry Oliveira,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,15,Goalkeeper,0,0,32,73%,0,0.0,2,0.0,0%,22 km/h,10,80%,70%,35%
+1535,Fatima Johnson,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,15,Midfielder,2,3,27,79%,13,1.8,7,2.8,45%,29 km/h,9,0%,0%,68%
+1536,Lucas Bello,Portugal,Lisbon FC U14,Portuguese Youth League,Lisbon,14,Goalkeeper,0,0,31,69%,0,0.0,1,0.0,0%,22 km/h,4,77%,62%,37%
+1537,Wei Patel,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,14,Forward,11,3,23,69%,25,1.9,3,1.2,52%,34 km/h,8,0%,0%,71%
+1538,Mohammed Schmidt,Brazil,São Paulo FC U17,Brazilian Youth League,São Paulo,16,Defender,2,2,35,80%,12,0.5,5,2.8,76%,25 km/h,3,0%,0%,50%
+1539,Rajesh Johnson,Mexico,Mexico City FC U19,Liga MX Juvenil,Mexico City,19,Midfielder,4,6,25,88%,15,1.7,9,1.3,31%,25 km/h,5,0%,0%,56%
+1540,Wei Bianchi,South Korea,Seoul FC U15,K League Youth,Seoul,14,Goalkeeper,0,0,15,67%,0,0.0,3,0.0,0%,21 km/h,6,81%,58%,23%
+1541,Pierre Oliveira,France,Paris FC U16,Championnat National U19,Paris,16,Forward,10,2,29,73%,44,1.3,4,1.2,44%,31 km/h,8,0%,0%,63%
+1542,João Oliveira,Spain,Barcelona FC U14,La Liga Juvenil,Barcelona,14,Defender,2,0,30,83%,15,0.2,8,2.4,70%,24 km/h,6,0%,0%,47%
+1543,Lukas Johnson,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,18,Midfielder,4,7,23,75%,18,1.2,10,1.3,49%,31 km/h,9,0%,0%,57%
+1544,Liam Nakamura,Netherlands,Amsterdam FC U16,Eredivisie Youth,Amsterdam,16,Midfielder,5,9,16,80%,22,1.8,7,1.0,42%,30 km/h,3,0%,0%,64%
+1545,Elena García,Nigeria,Lagos FC U17,Nigerian Youth League,Lagos,17,Forward,13,3,22,66%,39,1.8,5,1.0,49%,35 km/h,6,0%,0%,71%
+1546,Giulia Santos,Argentina,Buenos Aires FC U14,Argentine Youth League,Buenos Aires,14,Midfielder,3,5,34,75%,25,1.4,7,1.9,49%,29 km/h,7,0%,0%,51%
+1547,Maria Nakamura,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,16,Defender,2,3,34,85%,12,0.8,4,3.1,62%,23 km/h,7,0%,0%,48%
+1548,Yuki Patel,USA,Los Angeles FC U20,US Youth Soccer,Los Angeles,19,Defender,3,1,16,78%,8,0.4,7,3.1,71%,25 km/h,3,0%,0%,31%
+1549,Rajesh Rodríguez,Netherlands,Amsterdam FC U19,Eredivisie Youth,Amsterdam,18,Defender,1,0,18,80%,11,0.6,4,4.3,75%,26 km/h,10,0%,0%,39%
+1550,João Nakamura,France,Paris FC U15,Championnat National U19,Paris,14,Defender,3,0,23,76%,6,0.3,5,3.9,69%,28 km/h,7,0%,0%,32%
+1551,Yuki Silva,Argentina,Buenos Aires FC U15,Argentine Youth League,Buenos Aires,15,Midfielder,6,8,18,82%,29,2.0,10,2.7,39%,26 km/h,6,0%,0%,60%
+1552,Lucas Rodríguez,Spain,Barcelona FC U18,La Liga Juvenil,Barcelona,18,Goalkeeper,0,0,17,74%,0,0.0,1,0.0,0%,18 km/h,8,71%,67%,23%
+1553,Liam Nakamura,Germany,Munich FC U18,Bundesliga U19,Munich,17,Midfielder,8,8,22,82%,14,2.3,9,2.3,31%,29 km/h,5,0%,0%,59%
+1554,Fatima Bianchi,Mexico,Mexico City FC U20,Liga MX Juvenil,Mexico City,19,Forward,9,5,26,80%,25,1.1,5,1.2,38%,33 km/h,7,0%,0%,73%
+1555,Giulia Silva,France,Paris FC U17,Championnat National U19,Paris,16,Goalkeeper,0,0,27,66%,0,0.0,2,0.0,0%,19 km/h,4,85%,69%,22%
+1556,Lucas Bello,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,14,Midfielder,5,7,30,89%,24,1.5,10,2.8,33%,31 km/h,9,0%,0%,53%
+1557,Rajesh Johnson,Germany,Munich FC U16,Bundesliga U19,Munich,15,Midfielder,4,5,24,78%,30,2.2,7,1.5,32%,31 km/h,5,0%,0%,55%
+1558,Harry Tanaka,South Korea,Seoul FC U17,K League Youth,Seoul,16,Forward,8,4,31,65%,40,0.8,4,0.9,46%,35 km/h,4,0%,0%,74%
+1559,Sofia Rossi,Portugal,Lisbon FC U16,Portuguese Youth League,Lisbon,16,Defender,3,3,29,84%,6,0.2,8,4.0,74%,27 km/h,4,0%,0%,30%
+1560,João Smith,Japan,Tokyo FC U19,J-League Youth,Tokyo,19,Defender,0,2,15,77%,9,0.7,7,2.4,61%,25 km/h,4,0%,0%,46%
+1561,Ana Nakamura,Portugal,Lisbon FC U17,Portuguese Youth League,Lisbon,16,Midfielder,8,4,31,83%,17,1.2,8,2.9,36%,27 km/h,9,0%,0%,57%
+1562,Elena Bello,India,Mumbai FC U17,Indian Youth League,Mumbai,16,Goalkeeper,0,0,32,75%,0,0.0,1,0.0,0%,22 km/h,9,80%,55%,21%
+1563,Fatima Nakamura,France,Paris FC U16,Championnat National U19,Paris,16,Goalkeeper,0,0,35,61%,0,0.0,2,0.0,0%,18 km/h,8,77%,51%,36%
+1564,Sophia Martínez,USA,Los Angeles FC U17,US Youth Soccer,Los Angeles,17,Forward,10,6,32,80%,22,1.0,2,1.1,45%,32 km/h,6,0%,0%,69%
+1565,Maria Martínez,Netherlands,Amsterdam FC U17,Eredivisie Youth,Amsterdam,17,Midfielder,6,6,16,83%,14,2.0,7,3.0,33%,31 km/h,7,0%,0%,61%
+1566,Wei Rossi,USA,Los Angeles FC U18,US Youth Soccer,Los Angeles,18,Goalkeeper,0,0,16,62%,0,0.0,3,0.0,0%,19 km/h,4,70%,63%,25%
+1567,Aisha Silva,Japan,Tokyo FC U18,J-League Youth,Tokyo,17,Goalkeeper,0,0,16,71%,0,0.0,1,0.0,0%,20 km/h,10,65%,65%,25%
+1568,Elena Schmidt,Nigeria,Lagos FC U17,Nigerian Youth League,Lagos,17,Midfielder,6,6,35,81%,22,1.5,10,2.0,41%,31 km/h,6,0%,0%,63%
+1569,Lucas Johnson,Spain,Barcelona FC U20,La Liga Juvenil,Barcelona,19,Goalkeeper,0,0,23,73%,0,0.0,3,0.0,0%,18 km/h,4,75%,69%,29%
+1570,Maria Rossi,France,Paris FC U18,Championnat National U19,Paris,17,Forward,7,2,16,68%,43,0.9,2,0.6,40%,30 km/h,5,0%,0%,60%
+1571,Elena Martínez,Spain,Barcelona FC U16,La Liga Juvenil,Barcelona,15,Defender,0,2,33,83%,9,0.5,5,2.7,78%,22 km/h,4,0%,0%,41%
+1572,Liam Bello,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,16,Forward,9,5,20,80%,22,1.1,2,1.1,42%,31 km/h,4,0%,0%,73%
+1573,Maria Oliveira,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,18,Goalkeeper,0,0,22,61%,0,0.0,2,0.0,0%,18 km/h,7,66%,50%,28%
+1574,Mohammed Dubois,Spain,Barcelona FC U16,La Liga Juvenil,Barcelona,15,Forward,12,5,16,71%,39,1.0,3,0.7,53%,32 km/h,7,0%,0%,71%
+1575,Maria Rossi,Italy,Milan FC U14,Campionato Primavera,Milan,14,Midfielder,6,9,30,77%,14,1.7,8,1.8,49%,26 km/h,4,0%,0%,55%
+1576,Yuki Patel,England,Manchester FC U18,Premier League U18,Manchester,18,Midfielder,3,10,31,78%,10,1.1,9,1.0,35%,25 km/h,5,0%,0%,59%
+1577,Giulia Nakamura,France,Paris FC U16,Championnat National U19,Paris,16,Forward,15,3,17,73%,21,0.8,2,0.6,31%,32 km/h,10,0%,0%,71%
+1578,Sofia Nakamura,South Korea,Seoul FC U17,K League Youth,Seoul,17,Forward,7,7,26,68%,38,1.5,4,0.3,37%,33 km/h,3,0%,0%,69%
+1579,Rajesh Schmidt,Japan,Tokyo FC U19,J-League Youth,Tokyo,19,Forward,15,8,22,66%,47,2.0,3,0.6,30%,31 km/h,3,0%,0%,68%
+1580,Wei Kumar,Mexico,Mexico City FC U17,Liga MX Juvenil,Mexico City,17,Midfielder,8,6,16,87%,20,1.7,8,2.5,45%,30 km/h,7,0%,0%,66%
+1581,Ana Leroy,Germany,Munich FC U18,Bundesliga U19,Munich,18,Defender,3,2,24,78%,8,0.5,6,2.2,68%,22 km/h,9,0%,0%,48%
+1582,Ana Silva,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,16,Midfielder,4,5,15,87%,10,1.4,7,2.1,33%,26 km/h,4,0%,0%,60%
+1583,Aisha Smith,Mexico,Mexico City FC U15,Liga MX Juvenil,Mexico City,14,Forward,13,6,22,73%,49,1.4,4,0.7,35%,34 km/h,7,0%,0%,60%
+1584,Ana Smith,India,Mumbai FC U18,Indian Youth League,Mumbai,18,Goalkeeper,0,0,17,68%,0,0.0,1,0.0,0%,20 km/h,4,74%,66%,33%
+1585,Ana Silva,France,Paris FC U17,Championnat National U19,Paris,16,Goalkeeper,0,0,15,61%,0,0.0,3,0.0,0%,20 km/h,9,85%,57%,31%
+1586,Pierre Khan,South Korea,Seoul FC U20,K League Youth,Seoul,19,Forward,5,2,22,65%,33,1.1,2,1.4,49%,33 km/h,3,0%,0%,74%
+1587,Sophia Martínez,Brazil,São Paulo FC U16,Brazilian Youth League,São Paulo,16,Goalkeeper,0,0,23,61%,0,0.0,2,0.0,0%,21 km/h,10,83%,63%,25%
+1588,João Dubois,Mexico,Mexico City FC U17,Liga MX Juvenil,Mexico City,16,Defender,3,1,19,84%,12,0.5,7,2.0,61%,24 km/h,3,0%,0%,50%
+1589,Rajesh Dubois,Argentina,Buenos Aires FC U18,Argentine Youth League,Buenos Aires,18,Defender,3,0,23,80%,13,0.4,8,2.8,62%,25 km/h,4,0%,0%,40%
+1590,Ana Kumar,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,18,Forward,9,7,32,70%,35,1.2,6,0.9,45%,32 km/h,6,0%,0%,76%
+1591,Giulia Rossi,Nigeria,Lagos FC U18,Nigerian Youth League,Lagos,17,Defender,2,2,30,84%,8,0.5,8,4.5,73%,26 km/h,4,0%,0%,30%
+1592,Liam Khan,India,Mumbai FC U16,Indian Youth League,Mumbai,15,Goalkeeper,0,0,35,69%,0,0.0,1,0.0,0%,22 km/h,7,78%,55%,26%
+1593,Maria Kumar,Portugal,Lisbon FC U16,Portuguese Youth League,Lisbon,16,Midfielder,5,6,35,79%,16,2.1,9,2.6,41%,26 km/h,8,0%,0%,55%
+1594,Harry Bianchi,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,15,Goalkeeper,0,0,24,66%,0,0.0,2,0.0,0%,22 km/h,4,84%,55%,21%
+1595,Sophia Rodríguez,Japan,Tokyo FC U19,J-League Youth,Tokyo,19,Midfielder,3,9,31,79%,11,2.0,6,2.4,33%,27 km/h,4,0%,0%,68%
+1596,Sophia Oliveira,USA,Los Angeles FC U19,US Youth Soccer,Los Angeles,19,Forward,12,4,16,72%,39,1.1,2,0.5,26%,34 km/h,6,0%,0%,72%
+1597,Wei Patel,Brazil,São Paulo FC U19,Brazilian Youth League,São Paulo,19,Forward,8,3,19,67%,23,1.7,5,1.3,29%,34 km/h,6,0%,0%,63%
+1598,Liam Nakamura,Portugal,Lisbon FC U19,Portuguese Youth League,Lisbon,18,Midfielder,8,5,15,75%,21,1.9,10,3.0,36%,26 km/h,10,0%,0%,59%
+1599,Pierre Bianchi,Nigeria,Lagos FC U20,Nigerian Youth League,Lagos,19,Defender,3,2,29,80%,13,0.5,4,3.3,71%,24 km/h,3,0%,0%,31%
+1600,Elena Rossi,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,15,Forward,7,4,24,71%,24,1.8,2,0.6,42%,31 km/h,5,0%,0%,63%
+1601,Maria Martínez,Mexico,Mexico City FC U18,Liga MX Juvenil,Mexico City,18,Goalkeeper,0,0,32,72%,0,0.0,2,0.0,0%,22 km/h,3,72%,68%,35%
+1602,Carlos Smith,Argentina,Buenos Aires FC U18,Argentine Youth League,Buenos Aires,17,Midfielder,2,4,19,88%,15,1.5,7,1.1,47%,28 km/h,7,0%,0%,50%
+1603,Ana Tanaka,Nigeria,Lagos FC U19,Nigerian Youth League,Lagos,19,Goalkeeper,0,0,30,75%,0,0.0,2,0.0,0%,22 km/h,10,79%,70%,40%
+1604,Yuki Bello,Italy,Milan FC U16,Campionato Primavera,Milan,16,Goalkeeper,0,0,27,70%,0,0.0,1,0.0,0%,19 km/h,10,83%,55%,31%
+1605,Giulia Rodríguez,Japan,Tokyo FC U15,J-League Youth,Tokyo,15,Goalkeeper,0,0,33,66%,0,0.0,2,0.0,0%,21 km/h,9,80%,67%,25%
+1606,Wei Khan,Netherlands,Amsterdam FC U16,Eredivisie Youth,Amsterdam,16,Defender,2,1,32,76%,6,0.5,5,3.2,62%,25 km/h,10,0%,0%,48%
+1607,Rajesh Müller,Italy,Milan FC U15,Campionato Primavera,Milan,14,Goalkeeper,0,0,27,61%,0,0.0,2,0.0,0%,20 km/h,9,85%,51%,32%
+1608,Mohammed Kumar,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,14,Forward,15,4,26,77%,44,1.2,4,0.9,54%,34 km/h,6,0%,0%,65%
+1609,Lucas Johnson,Argentina,Buenos Aires FC U14,Argentine Youth League,Buenos Aires,14,Defender,3,2,23,84%,14,0.5,4,3.0,78%,23 km/h,10,0%,0%,30%
+1610,Carlos Dubois,India,Mumbai FC U18,Indian Youth League,Mumbai,17,Goalkeeper,0,0,31,68%,0,0.0,3,0.0,0%,20 km/h,10,74%,70%,35%
+1611,Sophia Müller,Argentina,Buenos Aires FC U18,Argentine Youth League,Buenos Aires,17,Forward,8,7,31,74%,25,1.3,2,0.9,29%,30 km/h,9,0%,0%,68%
+1612,Wei Dubois,Italy,Milan FC U19,Campionato Primavera,Milan,19,Defender,2,1,22,78%,12,0.5,6,3.7,71%,26 km/h,4,0%,0%,49%
+1613,Wei Müller,Brazil,São Paulo FC U14,Brazilian Youth League,São Paulo,14,Goalkeeper,0,0,15,66%,0,0.0,3,0.0,0%,22 km/h,8,76%,70%,28%
+1614,João Rodríguez,South Korea,Seoul FC U17,K League Youth,Seoul,16,Goalkeeper,0,0,24,72%,0,0.0,3,0.0,0%,18 km/h,4,80%,56%,40%
+1615,Fatima Kumar,Japan,Tokyo FC U18,J-League Youth,Tokyo,17,Forward,12,3,24,79%,34,1.9,6,0.6,32%,35 km/h,9,0%,0%,61%
+1616,Harry Martínez,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,15,Goalkeeper,0,0,23,62%,0,0.0,2,0.0,0%,22 km/h,4,70%,51%,39%
+1617,Liam Müller,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,14,Midfielder,8,5,18,79%,16,2.4,6,1.4,50%,31 km/h,3,0%,0%,55%
+1618,Rajesh García,Nigeria,Lagos FC U16,Nigerian Youth League,Lagos,15,Midfielder,5,8,28,86%,30,2.3,7,2.3,41%,26 km/h,9,0%,0%,59%
+1619,Ana García,USA,Los Angeles FC U20,US Youth Soccer,Los Angeles,19,Goalkeeper,0,0,15,72%,0,0.0,1,0.0,0%,22 km/h,9,77%,63%,36%
+1620,Maria Patel,Portugal,Lisbon FC U19,Portuguese Youth League,Lisbon,18,Forward,10,3,27,76%,35,1.8,6,0.5,30%,32 km/h,10,0%,0%,71%
+1621,Mohammed Kumar,Japan,Tokyo FC U16,J-League Youth,Tokyo,15,Defender,3,0,15,81%,9,0.8,8,2.2,67%,28 km/h,8,0%,0%,38%
+1622,Ana Rossi,Italy,Milan FC U14,Campionato Primavera,Milan,14,Goalkeeper,0,0,21,67%,0,0.0,3,0.0,0%,22 km/h,8,72%,62%,30%
+1623,Yuki Rodríguez,Netherlands,Amsterdam FC U16,Eredivisie Youth,Amsterdam,16,Defender,3,3,24,77%,14,0.8,7,3.1,75%,26 km/h,3,0%,0%,38%
+1624,Giulia Nakamura,Netherlands,Amsterdam FC U15,Eredivisie Youth,Amsterdam,14,Goalkeeper,0,0,22,64%,0,0.0,1,0.0,0%,18 km/h,9,66%,67%,29%
+1625,Giulia Tanaka,Netherlands,Amsterdam FC U16,Eredivisie Youth,Amsterdam,15,Midfielder,7,9,22,79%,14,2.0,7,2.9,33%,31 km/h,7,0%,0%,65%
+1626,Lukas Leroy,Netherlands,Amsterdam FC U19,Eredivisie Youth,Amsterdam,18,Defender,3,0,29,79%,5,0.7,8,3.1,80%,22 km/h,10,0%,0%,43%
+1627,Sofia Bianchi,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,16,Defender,1,2,25,81%,14,0.6,5,2.7,63%,27 km/h,6,0%,0%,33%
+1628,Rajesh Kumar,Brazil,São Paulo FC U19,Brazilian Youth League,São Paulo,19,Defender,1,0,16,84%,11,0.2,8,4.4,69%,28 km/h,8,0%,0%,50%
+1629,Carlos Tanaka,Netherlands,Amsterdam FC U18,Eredivisie Youth,Amsterdam,17,Forward,7,6,25,77%,26,0.8,6,0.9,52%,33 km/h,6,0%,0%,69%
+1630,Carlos Johnson,India,Mumbai FC U15,Indian Youth League,Mumbai,15,Goalkeeper,0,0,35,62%,0,0.0,1,0.0,0%,19 km/h,4,84%,57%,22%
+1631,Sofia Bianchi,Italy,Milan FC U19,Campionato Primavera,Milan,18,Goalkeeper,0,0,33,73%,0,0.0,3,0.0,0%,20 km/h,3,85%,63%,30%
+1632,Sofia Oliveira,England,Manchester FC U18,Premier League U18,Manchester,18,Midfielder,5,8,28,76%,18,1.0,7,2.0,33%,29 km/h,10,0%,0%,54%
+1633,Mohammed Leroy,India,Mumbai FC U15,Indian Youth League,Mumbai,15,Forward,5,7,15,79%,48,0.9,4,1.5,30%,32 km/h,9,0%,0%,61%
+1634,João Bianchi,Brazil,São Paulo FC U19,Brazilian Youth League,São Paulo,19,Midfielder,8,6,33,78%,18,1.2,6,1.5,50%,27 km/h,4,0%,0%,50%
+1635,Maria Silva,France,Paris FC U17,Championnat National U19,Paris,16,Forward,14,3,27,77%,20,2.0,3,0.6,40%,32 km/h,4,0%,0%,73%
+1636,Giulia García,Brazil,São Paulo FC U19,Brazilian Youth League,São Paulo,18,Goalkeeper,0,0,35,71%,0,0.0,1,0.0,0%,22 km/h,6,78%,66%,29%
+1637,Aisha Santos,India,Mumbai FC U18,Indian Youth League,Mumbai,18,Forward,12,4,19,73%,43,1.1,4,1.3,36%,31 km/h,9,0%,0%,60%
+1638,Carlos Nakamura,Mexico,Mexico City FC U19,Liga MX Juvenil,Mexico City,18,Forward,10,8,32,80%,34,0.9,5,0.7,53%,30 km/h,9,0%,0%,73%
+1639,Lucas Silva,Brazil,São Paulo FC U16,Brazilian Youth League,São Paulo,15,Defender,0,2,24,80%,14,0.4,6,3.3,71%,23 km/h,4,0%,0%,48%
+1640,Liam Müller,England,Manchester FC U17,Premier League U18,Manchester,16,Goalkeeper,0,0,26,63%,0,0.0,2,0.0,0%,19 km/h,4,73%,62%,32%
+1641,Wei Kumar,Germany,Munich FC U18,Bundesliga U19,Munich,17,Forward,6,5,25,70%,24,2.0,2,1.3,46%,33 km/h,5,0%,0%,76%
+1642,Lucas Schmidt,England,Manchester FC U18,Premier League U18,Manchester,17,Midfielder,2,9,16,79%,17,1.7,9,2.1,32%,31 km/h,5,0%,0%,66%
+1643,Rajesh Müller,USA,Los Angeles FC U16,US Youth Soccer,Los Angeles,16,Midfielder,7,9,32,76%,10,1.9,7,1.1,35%,31 km/h,4,0%,0%,56%
+1644,Aisha Silva,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,15,Defender,0,0,19,79%,15,0.3,8,3.4,61%,26 km/h,6,0%,0%,41%
+1645,Pierre Schmidt,Italy,Milan FC U19,Campionato Primavera,Milan,18,Forward,7,2,18,67%,21,1.1,6,0.6,55%,32 km/h,5,0%,0%,71%
+1646,João Santos,USA,Los Angeles FC U18,US Youth Soccer,Los Angeles,17,Goalkeeper,0,0,22,69%,0,0.0,2,0.0,0%,21 km/h,4,75%,63%,36%
+1647,Lukas Nakamura,South Korea,Seoul FC U19,K League Youth,Seoul,18,Forward,9,5,16,65%,36,1.8,3,1.3,26%,34 km/h,4,0%,0%,62%
+1648,Elena Santos,Mexico,Mexico City FC U15,Liga MX Juvenil,Mexico City,15,Forward,12,2,19,78%,34,1.4,5,0.5,45%,33 km/h,10,0%,0%,67%
+1649,Wei Rodríguez,England,Manchester FC U16,Premier League U18,Manchester,15,Midfielder,3,3,18,83%,28,1.3,8,2.3,41%,27 km/h,4,0%,0%,64%
+1650,Elena Johnson,Nigeria,Lagos FC U19,Nigerian Youth League,Lagos,18,Midfielder,8,10,16,81%,28,1.3,6,1.7,35%,26 km/h,10,0%,0%,61%
+1651,João Dubois,Germany,Munich FC U14,Bundesliga U19,Munich,14,Goalkeeper,0,0,30,67%,0,0.0,2,0.0,0%,18 km/h,8,75%,55%,26%
+1652,Lucas Johnson,Argentina,Buenos Aires FC U15,Argentine Youth League,Buenos Aires,14,Midfielder,6,10,35,77%,15,1.1,10,2.5,47%,28 km/h,3,0%,0%,56%
+1653,Giulia Kumar,Argentina,Buenos Aires FC U18,Argentine Youth League,Buenos Aires,17,Defender,0,2,25,85%,5,0.7,4,3.7,60%,28 km/h,5,0%,0%,49%
+1654,Pierre Müller,France,Paris FC U16,Championnat National U19,Paris,16,Goalkeeper,0,0,23,70%,0,0.0,2,0.0,0%,18 km/h,8,77%,67%,22%
+1655,Maria Kumar,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,15,Midfielder,6,5,26,78%,11,1.9,6,1.0,34%,31 km/h,4,0%,0%,70%
+1656,Elena Dubois,Germany,Munich FC U16,Bundesliga U19,Munich,16,Midfielder,7,8,15,87%,15,1.5,8,1.2,40%,29 km/h,6,0%,0%,68%
+1657,Mohammed Rossi,England,Manchester FC U18,Premier League U18,Manchester,18,Goalkeeper,0,0,16,68%,0,0.0,2,0.0,0%,21 km/h,6,72%,65%,21%
+1658,Mohammed Oliveira,India,Mumbai FC U18,Indian Youth League,Mumbai,18,Forward,6,6,30,71%,33,1.5,4,1.3,44%,34 km/h,4,0%,0%,71%
+1659,Yuki Khan,Argentina,Buenos Aires FC U19,Argentine Youth League,Buenos Aires,19,Defender,2,0,20,82%,10,0.3,5,4.5,64%,24 km/h,7,0%,0%,44%
+1660,Mohammed Rodríguez,South Korea,Seoul FC U15,K League Youth,Seoul,15,Midfielder,6,5,16,83%,27,1.4,7,2.9,40%,30 km/h,6,0%,0%,67%
+1661,Mei Müller,India,Mumbai FC U16,Indian Youth League,Mumbai,15,Midfielder,7,4,20,77%,27,1.5,9,2.1,48%,27 km/h,5,0%,0%,67%
+1662,João Smith,Netherlands,Amsterdam FC U20,Eredivisie Youth,Amsterdam,19,Defender,0,2,17,76%,12,0.8,5,2.5,70%,25 km/h,9,0%,0%,43%
+1663,Maria Rodríguez,England,Manchester FC U18,Premier League U18,Manchester,17,Defender,1,2,26,81%,8,0.2,8,4.4,75%,22 km/h,7,0%,0%,37%
+1664,Wei Khan,England,Manchester FC U14,Premier League U18,Manchester,14,Forward,9,8,33,72%,34,1.9,3,0.6,49%,33 km/h,10,0%,0%,74%
+1665,Pierre Tanaka,India,Mumbai FC U18,Indian Youth League,Mumbai,18,Midfielder,2,7,19,84%,11,1.5,8,1.5,38%,27 km/h,4,0%,0%,69%
+1666,Elena Nakamura,USA,Los Angeles FC U19,US Youth Soccer,Los Angeles,18,Forward,15,7,27,66%,39,1.2,5,1.1,38%,30 km/h,4,0%,0%,76%
+1667,Lukas Schmidt,India,Mumbai FC U17,Indian Youth League,Mumbai,17,Forward,11,8,22,68%,22,1.2,5,0.9,55%,34 km/h,7,0%,0%,62%
+1668,Lukas García,England,Manchester FC U14,Premier League U18,Manchester,14,Defender,1,0,33,83%,10,0.6,6,3.4,66%,24 km/h,6,0%,0%,45%
+1669,Sofia Schmidt,France,Paris FC U18,Championnat National U19,Paris,17,Defender,3,2,35,77%,6,0.6,6,3.5,63%,27 km/h,3,0%,0%,36%
+1670,Mohammed Schmidt,Spain,Barcelona FC U20,La Liga Juvenil,Barcelona,19,Midfielder,2,6,29,90%,17,2.3,10,2.1,46%,31 km/h,5,0%,0%,56%
+1671,Giulia Martínez,Germany,Munich FC U15,Bundesliga U19,Munich,14,Forward,10,2,30,80%,45,1.6,2,1.2,36%,31 km/h,7,0%,0%,77%
+1672,Fatima Tanaka,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,15,Goalkeeper,0,0,34,62%,0,0.0,3,0.0,0%,22 km/h,9,75%,57%,26%
+1673,Liam Smith,Netherlands,Amsterdam FC U18,Eredivisie Youth,Amsterdam,17,Forward,13,6,31,73%,24,1.3,2,1.1,55%,30 km/h,4,0%,0%,67%
+1674,Aisha Nakamura,Germany,Munich FC U14,Bundesliga U19,Munich,14,Forward,14,2,35,73%,23,0.9,2,0.9,40%,33 km/h,7,0%,0%,79%
+1675,Giulia Smith,South Korea,Seoul FC U17,K League Youth,Seoul,16,Forward,6,8,34,67%,28,1.6,2,1.5,50%,34 km/h,7,0%,0%,67%
+1676,Lukas Rossi,Mexico,Mexico City FC U19,Liga MX Juvenil,Mexico City,19,Defender,3,4,30,82%,12,0.3,4,4.1,65%,27 km/h,6,0%,0%,49%
+1677,Yuki Dubois,Nigeria,Lagos FC U16,Nigerian Youth League,Lagos,16,Defender,1,1,31,79%,11,0.8,7,2.6,72%,22 km/h,10,0%,0%,37%
+1678,Carlos Silva,USA,Los Angeles FC U16,US Youth Soccer,Los Angeles,16,Midfielder,6,9,32,86%,16,1.5,6,2.2,38%,30 km/h,4,0%,0%,69%
+1679,Ana Oliveira,Italy,Milan FC U14,Campionato Primavera,Milan,14,Forward,10,6,32,68%,33,0.8,6,1.2,27%,35 km/h,10,0%,0%,70%
+1680,Rajesh Rossi,South Korea,Seoul FC U18,K League Youth,Seoul,17,Midfielder,8,7,16,89%,13,1.2,9,2.4,30%,27 km/h,8,0%,0%,55%
+1681,Elena Silva,Brazil,São Paulo FC U15,Brazilian Youth League,São Paulo,14,Midfielder,8,6,33,81%,16,1.9,10,2.5,31%,29 km/h,8,0%,0%,60%
+1682,Mohammed Kumar,England,Manchester FC U18,Premier League U18,Manchester,17,Midfielder,3,9,19,78%,24,1.6,9,1.2,50%,25 km/h,10,0%,0%,54%
+1683,Ana Santos,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,14,Goalkeeper,0,0,20,71%,0,0.0,2,0.0,0%,20 km/h,10,71%,57%,36%
+1684,Carlos Khan,France,Paris FC U17,Championnat National U19,Paris,16,Forward,13,2,19,71%,42,1.5,5,1.0,54%,32 km/h,10,0%,0%,69%
+1685,Lucas Patel,Brazil,São Paulo FC U19,Brazilian Youth League,São Paulo,19,Goalkeeper,0,0,34,63%,0,0.0,3,0.0,0%,20 km/h,9,81%,70%,28%
+1686,Fatima García,Nigeria,Lagos FC U15,Nigerian Youth League,Lagos,15,Midfielder,3,3,27,80%,28,2.4,6,1.9,36%,31 km/h,5,0%,0%,58%
+1687,Giulia Silva,Italy,Milan FC U19,Campionato Primavera,Milan,18,Forward,8,5,33,65%,49,0.9,2,0.7,37%,32 km/h,9,0%,0%,68%
+1688,Sophia Santos,Spain,Barcelona FC U15,La Liga Juvenil,Barcelona,14,Forward,12,6,30,77%,31,1.0,2,0.6,26%,33 km/h,8,0%,0%,67%
+1689,Harry Müller,USA,Los Angeles FC U14,US Youth Soccer,Los Angeles,14,Defender,1,0,28,83%,8,0.5,5,4.3,80%,28 km/h,4,0%,0%,45%
+1690,Maria Khan,Portugal,Lisbon FC U14,Portuguese Youth League,Lisbon,14,Defender,0,1,22,78%,15,0.7,8,2.3,80%,24 km/h,7,0%,0%,34%
+1691,Lukas Nakamura,Argentina,Buenos Aires FC U19,Argentine Youth League,Buenos Aires,18,Goalkeeper,0,0,17,74%,0,0.0,3,0.0,0%,21 km/h,8,80%,56%,30%
+1692,Maria Bello,France,Paris FC U18,Championnat National U19,Paris,18,Midfielder,2,4,33,78%,10,2.0,7,1.9,48%,27 km/h,4,0%,0%,65%
+1693,Elena Nakamura,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,15,Midfielder,5,8,16,85%,12,1.0,7,1.6,30%,27 km/h,7,0%,0%,55%
+1694,Maria Khan,England,Manchester FC U16,Premier League U18,Manchester,15,Goalkeeper,0,0,29,73%,0,0.0,3,0.0,0%,21 km/h,9,74%,57%,20%
+1695,Lukas Kumar,South Korea,Seoul FC U20,K League Youth,Seoul,19,Midfielder,4,10,24,84%,15,2.1,9,2.0,35%,26 km/h,9,0%,0%,69%
+1696,Harry Kumar,South Korea,Seoul FC U17,K League Youth,Seoul,17,Forward,6,5,34,76%,22,1.8,5,1.3,28%,35 km/h,7,0%,0%,60%
+1697,Mei Rossi,Brazil,São Paulo FC U19,Brazilian Youth League,São Paulo,18,Midfielder,8,6,20,75%,27,2.3,6,1.4,46%,28 km/h,6,0%,0%,70%
+1698,Sophia Khan,Portugal,Lisbon FC U19,Portuguese Youth League,Lisbon,19,Midfielder,2,7,29,75%,12,2.0,6,1.9,45%,27 km/h,5,0%,0%,58%
+1699,Ana Rodríguez,Argentina,Buenos Aires FC U18,Argentine Youth League,Buenos Aires,18,Forward,13,3,16,75%,22,2.0,6,0.3,53%,34 km/h,7,0%,0%,79%
+1700,Elena Patel,Italy,Milan FC U17,Campionato Primavera,Milan,17,Defender,0,2,16,83%,14,0.4,8,2.7,63%,25 km/h,8,0%,0%,49%
+1701,Giulia Smith,France,Paris FC U19,Championnat National U19,Paris,19,Forward,7,8,19,67%,28,1.6,4,0.5,31%,35 km/h,4,0%,0%,73%
+1702,Lukas Dubois,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,17,Forward,6,5,20,71%,23,1.8,5,0.9,49%,35 km/h,6,0%,0%,70%
+1703,Mei Patel,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,19,Defender,1,2,22,83%,5,0.5,4,2.6,72%,27 km/h,3,0%,0%,37%
+1704,Yuki Oliveira,Italy,Milan FC U15,Campionato Primavera,Milan,14,Midfielder,3,8,21,81%,26,2.0,10,2.9,35%,31 km/h,7,0%,0%,62%
+1705,Liam Rodríguez,Nigeria,Lagos FC U19,Nigerian Youth League,Lagos,18,Forward,12,8,32,71%,49,1.9,2,1.2,28%,35 km/h,8,0%,0%,63%
+1706,Lukas Bello,Brazil,São Paulo FC U18,Brazilian Youth League,São Paulo,18,Forward,7,8,22,76%,49,0.8,2,0.5,38%,31 km/h,9,0%,0%,77%
+1707,Liam Leroy,Italy,Milan FC U19,Campionato Primavera,Milan,19,Forward,12,4,32,70%,21,1.0,5,1.2,50%,32 km/h,4,0%,0%,73%
+1708,Pierre Tanaka,Italy,Milan FC U14,Campionato Primavera,Milan,14,Forward,6,7,28,80%,28,1.8,5,0.4,25%,34 km/h,10,0%,0%,74%
+1709,Carlos Khan,Mexico,Mexico City FC U18,Liga MX Juvenil,Mexico City,17,Defender,3,4,32,78%,5,0.8,8,2.4,66%,23 km/h,7,0%,0%,46%
+1710,Elena Nakamura,Portugal,Lisbon FC U20,Portuguese Youth League,Lisbon,19,Goalkeeper,0,0,33,63%,0,0.0,2,0.0,0%,21 km/h,8,72%,53%,26%
+1711,Mei Martínez,Portugal,Lisbon FC U19,Portuguese Youth League,Lisbon,18,Midfielder,7,5,30,86%,15,1.0,9,2.8,35%,27 km/h,9,0%,0%,62%
+1712,Lukas Rossi,Spain,Barcelona FC U15,La Liga Juvenil,Barcelona,15,Goalkeeper,0,0,15,69%,0,0.0,1,0.0,0%,20 km/h,4,71%,54%,28%
+1713,Rajesh Schmidt,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,18,Forward,6,8,23,72%,35,2.0,6,0.7,44%,30 km/h,6,0%,0%,65%
+1714,Mei Dubois,Mexico,Mexico City FC U15,Liga MX Juvenil,Mexico City,14,Defender,0,3,16,76%,11,0.6,8,2.1,62%,28 km/h,9,0%,0%,46%
+1715,Lukas Johnson,Japan,Tokyo FC U20,J-League Youth,Tokyo,19,Goalkeeper,0,0,18,74%,0,0.0,2,0.0,0%,21 km/h,4,66%,68%,26%
+1716,Fatima Müller,India,Mumbai FC U17,Indian Youth League,Mumbai,16,Forward,9,4,25,69%,24,1.4,6,1.1,31%,32 km/h,5,0%,0%,78%
+1717,Sophia Patel,South Korea,Seoul FC U20,K League Youth,Seoul,19,Midfielder,6,7,29,85%,27,2.3,6,2.0,46%,25 km/h,8,0%,0%,52%
+1718,Lukas Müller,England,Manchester FC U16,Premier League U18,Manchester,15,Midfielder,7,10,23,86%,24,2.2,8,2.8,50%,30 km/h,8,0%,0%,60%
+1719,Giulia Schmidt,Portugal,Lisbon FC U16,Portuguese Youth League,Lisbon,15,Defender,3,1,29,75%,8,0.5,5,3.3,65%,27 km/h,4,0%,0%,42%
+1720,Elena Bello,Japan,Tokyo FC U15,J-League Youth,Tokyo,14,Midfielder,5,5,30,88%,18,2.1,7,1.2,46%,27 km/h,9,0%,0%,56%
+1721,Yuki Johnson,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,15,Goalkeeper,0,0,20,69%,0,0.0,1,0.0,0%,20 km/h,3,72%,51%,36%
+1722,Mei Khan,USA,Los Angeles FC U16,US Youth Soccer,Los Angeles,15,Goalkeeper,0,0,16,61%,0,0.0,1,0.0,0%,19 km/h,3,75%,56%,21%
+1723,Pierre Müller,Italy,Milan FC U14,Campionato Primavera,Milan,14,Forward,14,6,35,79%,42,1.4,6,0.8,42%,35 km/h,5,0%,0%,79%
+1724,Lucas Nakamura,Nigeria,Lagos FC U16,Nigerian Youth League,Lagos,16,Defender,3,1,27,85%,12,0.7,8,2.8,75%,25 km/h,5,0%,0%,45%
+1725,Fatima Santos,Brazil,São Paulo FC U15,Brazilian Youth League,São Paulo,15,Defender,0,0,31,80%,15,0.6,8,4.0,71%,26 km/h,9,0%,0%,35%
+1726,Giulia Nakamura,Japan,Tokyo FC U16,J-League Youth,Tokyo,16,Forward,14,8,23,74%,44,2.0,2,1.1,55%,32 km/h,6,0%,0%,77%
+1727,Mohammed Bello,Netherlands,Amsterdam FC U16,Eredivisie Youth,Amsterdam,16,Goalkeeper,0,0,21,67%,0,0.0,2,0.0,0%,20 km/h,3,68%,53%,37%
+1728,Carlos Santos,Italy,Milan FC U18,Campionato Primavera,Milan,17,Goalkeeper,0,0,25,65%,0,0.0,2,0.0,0%,19 km/h,5,66%,69%,35%
+1729,Liam Santos,Japan,Tokyo FC U18,J-League Youth,Tokyo,17,Goalkeeper,0,0,30,69%,0,0.0,1,0.0,0%,22 km/h,10,79%,57%,37%
+1730,Carlos Oliveira,Netherlands,Amsterdam FC U15,Eredivisie Youth,Amsterdam,15,Goalkeeper,0,0,34,75%,0,0.0,3,0.0,0%,22 km/h,4,72%,58%,25%
+1731,Rajesh Rodríguez,Japan,Tokyo FC U19,J-League Youth,Tokyo,18,Forward,9,2,15,70%,27,1.8,4,1.1,39%,31 km/h,3,0%,0%,64%
+1732,Liam Johnson,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,15,Midfielder,2,9,19,81%,27,2.0,6,1.1,42%,26 km/h,6,0%,0%,53%
+1733,Lukas Rodríguez,Netherlands,Amsterdam FC U16,Eredivisie Youth,Amsterdam,15,Forward,5,3,30,67%,27,1.0,6,1.3,45%,34 km/h,10,0%,0%,74%
+1734,Aisha Smith,Japan,Tokyo FC U15,J-League Youth,Tokyo,14,Goalkeeper,0,0,18,74%,0,0.0,3,0.0,0%,18 km/h,5,80%,58%,40%
+1735,Sofia Johnson,South Korea,Seoul FC U16,K League Youth,Seoul,16,Defender,2,4,21,76%,13,0.6,7,3.8,62%,26 km/h,7,0%,0%,33%
+1736,Giulia Oliveira,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,16,Midfielder,2,4,18,75%,11,2.2,9,2.9,37%,27 km/h,8,0%,0%,59%
+1737,Rajesh Johnson,Portugal,Lisbon FC U15,Portuguese Youth League,Lisbon,14,Goalkeeper,0,0,16,67%,0,0.0,2,0.0,0%,21 km/h,4,70%,63%,28%
+1738,Pierre Patel,Germany,Munich FC U20,Bundesliga U19,Munich,19,Defender,2,2,17,82%,5,0.7,6,3.9,76%,24 km/h,5,0%,0%,50%
+1739,Pierre Dubois,Brazil,São Paulo FC U15,Brazilian Youth League,São Paulo,14,Defender,1,3,15,76%,11,0.3,6,4.2,70%,24 km/h,9,0%,0%,36%
+1740,Ana Schmidt,Netherlands,Amsterdam FC U20,Eredivisie Youth,Amsterdam,19,Defender,1,2,31,84%,9,0.2,7,2.2,77%,26 km/h,10,0%,0%,44%
+1741,Mohammed Nakamura,USA,Los Angeles FC U17,US Youth Soccer,Los Angeles,16,Midfielder,6,3,28,87%,13,1.5,9,2.3,41%,29 km/h,4,0%,0%,63%
+1742,João García,Brazil,São Paulo FC U18,Brazilian Youth League,São Paulo,17,Defender,3,0,26,82%,10,0.4,6,4.1,78%,27 km/h,3,0%,0%,40%
+1743,Fatima Patel,Netherlands,Amsterdam FC U17,Eredivisie Youth,Amsterdam,16,Midfielder,7,6,31,77%,24,1.3,9,2.3,36%,30 km/h,4,0%,0%,61%
+1744,Fatima Kumar,Netherlands,Amsterdam FC U15,Eredivisie Youth,Amsterdam,14,Goalkeeper,0,0,27,69%,0,0.0,2,0.0,0%,20 km/h,10,69%,60%,38%
+1745,Lukas Santos,France,Paris FC U18,Championnat National U19,Paris,17,Defender,2,0,15,85%,13,0.6,5,3.9,67%,26 km/h,9,0%,0%,42%
+1746,Pierre Tanaka,Spain,Barcelona FC U17,La Liga Juvenil,Barcelona,16,Midfielder,2,5,23,90%,28,1.8,9,2.2,35%,30 km/h,4,0%,0%,60%
+1747,Sofia Johnson,Italy,Milan FC U19,Campionato Primavera,Milan,18,Defender,1,0,16,84%,15,0.4,8,3.9,77%,27 km/h,3,0%,0%,50%
+1748,Yuki Khan,South Korea,Seoul FC U18,K League Youth,Seoul,17,Forward,6,3,29,76%,32,1.4,5,1.3,36%,34 km/h,7,0%,0%,75%
+1749,Maria Dubois,South Korea,Seoul FC U19,K League Youth,Seoul,19,Defender,3,3,26,80%,12,0.6,7,3.6,70%,25 km/h,6,0%,0%,33%
+1750,Sophia Rodríguez,Japan,Tokyo FC U15,J-League Youth,Tokyo,14,Defender,2,1,22,79%,7,0.2,5,3.8,67%,27 km/h,3,0%,0%,39%
+1751,Mohammed Silva,India,Mumbai FC U18,Indian Youth League,Mumbai,17,Defender,2,4,16,81%,9,0.6,4,2.2,67%,26 km/h,8,0%,0%,38%
+1752,Ana Johnson,Japan,Tokyo FC U18,J-League Youth,Tokyo,18,Forward,11,6,30,75%,35,1.0,3,1.4,53%,34 km/h,9,0%,0%,75%
+1753,Sofia Smith,South Korea,Seoul FC U17,K League Youth,Seoul,17,Defender,0,2,34,76%,12,0.3,7,2.4,61%,27 km/h,7,0%,0%,34%
+1754,Ana García,Japan,Tokyo FC U16,J-League Youth,Tokyo,16,Midfielder,5,8,34,87%,28,1.8,6,2.1,37%,29 km/h,3,0%,0%,54%
+1755,Wei Leroy,Italy,Milan FC U18,Campionato Primavera,Milan,18,Defender,3,3,15,80%,11,0.6,8,3.4,72%,24 km/h,10,0%,0%,43%
+1756,Ana Bianchi,Brazil,São Paulo FC U16,Brazilian Youth League,São Paulo,15,Midfielder,3,9,20,79%,27,1.5,8,2.7,34%,31 km/h,7,0%,0%,63%
+1757,Lucas Martínez,Argentina,Buenos Aires FC U18,Argentine Youth League,Buenos Aires,17,Forward,15,8,18,77%,38,1.4,2,0.7,52%,32 km/h,6,0%,0%,78%
+1758,Pierre Bello,Argentina,Buenos Aires FC U19,Argentine Youth League,Buenos Aires,18,Midfielder,7,7,33,89%,30,1.7,9,2.4,30%,25 km/h,10,0%,0%,67%
+1759,Mohammed Oliveira,Brazil,São Paulo FC U15,Brazilian Youth League,São Paulo,15,Midfielder,7,6,35,78%,12,1.0,7,2.9,34%,27 km/h,4,0%,0%,61%
+1760,João Patel,England,Manchester FC U19,Premier League U18,Manchester,19,Midfielder,3,3,31,80%,17,2.1,10,2.5,47%,30 km/h,9,0%,0%,54%
+1761,Mei Dubois,Nigeria,Lagos FC U19,Nigerian Youth League,Lagos,18,Defender,3,3,19,82%,10,0.5,5,4.3,79%,22 km/h,4,0%,0%,43%
+1762,Maria Rodríguez,Portugal,Lisbon FC U17,Portuguese Youth League,Lisbon,17,Goalkeeper,0,0,30,61%,0,0.0,1,0.0,0%,22 km/h,10,80%,64%,30%
+1763,Mohammed Oliveira,India,Mumbai FC U16,Indian Youth League,Mumbai,16,Defender,1,0,26,85%,5,0.3,5,2.2,77%,27 km/h,5,0%,0%,44%
+1764,Elena Martínez,Brazil,São Paulo FC U14,Brazilian Youth League,São Paulo,14,Midfielder,2,9,30,75%,23,1.6,10,2.6,39%,26 km/h,6,0%,0%,58%
+1765,Ana Bello,Germany,Munich FC U19,Bundesliga U19,Munich,18,Midfielder,5,5,21,88%,10,1.3,8,2.5,45%,31 km/h,5,0%,0%,65%
+1766,Yuki Bello,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,18,Midfielder,2,10,24,83%,23,1.2,9,2.6,39%,25 km/h,6,0%,0%,61%
+1767,Mohammed Patel,England,Manchester FC U15,Premier League U18,Manchester,15,Goalkeeper,0,0,25,75%,0,0.0,2,0.0,0%,19 km/h,6,76%,63%,37%
+1768,Lucas Dubois,Japan,Tokyo FC U20,J-League Youth,Tokyo,19,Defender,2,4,28,83%,13,0.5,7,4.1,61%,28 km/h,3,0%,0%,38%
+1769,João Johnson,South Korea,Seoul FC U19,K League Youth,Seoul,18,Midfielder,5,6,25,88%,10,1.4,6,2.1,49%,28 km/h,7,0%,0%,57%
+1770,Harry Müller,France,Paris FC U19,Championnat National U19,Paris,19,Forward,7,6,17,77%,48,1.3,5,1.4,53%,31 km/h,8,0%,0%,65%
+1771,Lukas Johnson,Nigeria,Lagos FC U15,Nigerian Youth League,Lagos,15,Forward,11,6,27,67%,22,1.6,2,0.3,44%,33 km/h,10,0%,0%,69%
+1772,Mohammed Nakamura,Netherlands,Amsterdam FC U20,Eredivisie Youth,Amsterdam,19,Forward,6,2,27,78%,39,1.0,3,0.5,49%,32 km/h,3,0%,0%,75%
+1773,Maria Kumar,Spain,Barcelona FC U16,La Liga Juvenil,Barcelona,15,Midfielder,3,4,27,85%,20,1.2,10,2.0,47%,25 km/h,10,0%,0%,68%
+1774,Yuki García,Japan,Tokyo FC U17,J-League Youth,Tokyo,17,Forward,10,4,18,69%,37,0.8,2,1.3,27%,34 km/h,6,0%,0%,80%
+1775,Liam Patel,Italy,Milan FC U19,Campionato Primavera,Milan,19,Defender,3,3,18,75%,15,0.5,7,4.3,65%,24 km/h,10,0%,0%,32%
+1776,Mei Silva,Germany,Munich FC U14,Bundesliga U19,Munich,14,Goalkeeper,0,0,18,66%,0,0.0,2,0.0,0%,20 km/h,10,82%,66%,32%
+1777,Maria Patel,India,Mumbai FC U18,Indian Youth League,Mumbai,17,Midfielder,7,5,22,79%,26,2.4,9,1.2,37%,27 km/h,6,0%,0%,53%
+1778,Yuki Müller,England,Manchester FC U15,Premier League U18,Manchester,15,Goalkeeper,0,0,27,74%,0,0.0,1,0.0,0%,19 km/h,10,79%,62%,27%
+1779,Yuki Nakamura,Nigeria,Lagos FC U15,Nigerian Youth League,Lagos,15,Goalkeeper,0,0,16,71%,0,0.0,1,0.0,0%,22 km/h,8,70%,51%,30%
+1780,Mohammed Bianchi,Brazil,São Paulo FC U16,Brazilian Youth League,São Paulo,16,Goalkeeper,0,0,22,69%,0,0.0,1,0.0,0%,22 km/h,10,78%,53%,26%
+1781,Ana Khan,South Korea,Seoul FC U19,K League Youth,Seoul,19,Defender,2,3,26,79%,13,0.6,4,2.9,60%,27 km/h,3,0%,0%,39%
+1782,Lucas Santos,Argentina,Buenos Aires FC U18,Argentine Youth League,Buenos Aires,18,Forward,14,8,27,80%,43,1.3,3,0.4,39%,34 km/h,3,0%,0%,77%
+1783,Rajesh Silva,Italy,Milan FC U14,Campionato Primavera,Milan,14,Midfielder,3,9,31,90%,25,2.4,7,1.6,49%,26 km/h,7,0%,0%,68%
+1784,Yuki Tanaka,Japan,Tokyo FC U18,J-League Youth,Tokyo,17,Forward,13,2,33,76%,35,1.8,5,1.4,45%,35 km/h,3,0%,0%,75%
+1785,Lucas Tanaka,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,14,Defender,3,1,22,79%,5,0.3,7,2.6,80%,24 km/h,4,0%,0%,34%
+1786,Carlos Rodríguez,South Korea,Seoul FC U15,K League Youth,Seoul,15,Forward,9,7,25,76%,29,0.8,4,1.2,49%,32 km/h,3,0%,0%,68%
+1787,Yuki Dubois,Germany,Munich FC U15,Bundesliga U19,Munich,14,Midfielder,6,7,19,85%,20,1.9,6,2.1,49%,26 km/h,10,0%,0%,51%
+1788,Maria Leroy,England,Manchester FC U15,Premier League U18,Manchester,15,Defender,2,0,28,85%,7,0.5,8,4.4,79%,22 km/h,3,0%,0%,38%
+1789,Aisha Smith,Brazil,São Paulo FC U20,Brazilian Youth League,São Paulo,19,Goalkeeper,0,0,21,61%,0,0.0,1,0.0,0%,21 km/h,4,65%,59%,38%
+1790,Fatima Leroy,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,16,Goalkeeper,0,0,17,74%,0,0.0,3,0.0,0%,20 km/h,5,85%,68%,25%
+1791,Aisha Smith,Italy,Milan FC U20,Campionato Primavera,Milan,19,Midfielder,8,3,29,80%,15,1.0,8,1.3,40%,25 km/h,5,0%,0%,56%
+1792,João Martínez,Mexico,Mexico City FC U19,Liga MX Juvenil,Mexico City,19,Forward,11,4,15,67%,47,1.7,6,1.1,34%,34 km/h,6,0%,0%,70%
+1793,Liam Martínez,USA,Los Angeles FC U19,US Youth Soccer,Los Angeles,19,Forward,5,7,19,76%,28,1.3,5,1.1,27%,30 km/h,6,0%,0%,62%
+1794,Rajesh Johnson,Japan,Tokyo FC U16,J-League Youth,Tokyo,16,Midfielder,4,7,22,75%,12,2.4,10,2.4,30%,28 km/h,10,0%,0%,64%
+1795,Sophia Khan,Spain,Barcelona FC U15,La Liga Juvenil,Barcelona,14,Forward,5,5,26,69%,28,1.0,3,0.4,40%,35 km/h,9,0%,0%,71%
+1796,João Kumar,Italy,Milan FC U17,Campionato Primavera,Milan,17,Defender,2,2,34,75%,9,0.7,4,3.9,76%,26 km/h,3,0%,0%,34%
+1797,Sophia Oliveira,Netherlands,Amsterdam FC U19,Eredivisie Youth,Amsterdam,19,Defender,3,3,22,77%,9,0.8,7,2.5,75%,22 km/h,4,0%,0%,35%
+1798,Sophia Dubois,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,18,Midfielder,5,4,24,90%,15,2.5,8,2.4,39%,25 km/h,4,0%,0%,62%
+1799,Yuki Martínez,Japan,Tokyo FC U20,J-League Youth,Tokyo,19,Forward,8,7,35,78%,24,0.8,2,0.7,28%,30 km/h,9,0%,0%,68%
+1800,Mei Bianchi,Spain,Barcelona FC U18,La Liga Juvenil,Barcelona,17,Defender,3,3,31,85%,10,0.7,7,2.7,61%,28 km/h,10,0%,0%,48%
+1801,João Nakamura,Brazil,São Paulo FC U19,Brazilian Youth League,São Paulo,18,Forward,6,2,15,79%,28,1.1,5,0.6,41%,33 km/h,8,0%,0%,80%
+1802,Fatima Smith,South Korea,Seoul FC U15,K League Youth,Seoul,14,Forward,14,5,29,80%,20,1.8,4,1.3,44%,33 km/h,8,0%,0%,69%
+1803,Maria Rodríguez,Brazil,São Paulo FC U16,Brazilian Youth League,São Paulo,15,Midfielder,4,7,30,77%,29,2.0,6,1.6,47%,29 km/h,6,0%,0%,65%
+1804,Rajesh Khan,Argentina,Buenos Aires FC U20,Argentine Youth League,Buenos Aires,19,Defender,1,0,26,81%,6,0.4,8,3.9,74%,25 km/h,3,0%,0%,38%
+1805,Sofia García,Netherlands,Amsterdam FC U18,Eredivisie Youth,Amsterdam,17,Forward,11,3,22,65%,43,1.9,4,0.7,46%,34 km/h,5,0%,0%,68%
+1806,Sophia Tanaka,USA,Los Angeles FC U16,US Youth Soccer,Los Angeles,16,Goalkeeper,0,0,24,67%,0,0.0,3,0.0,0%,19 km/h,8,69%,58%,26%
+1807,Mei Schmidt,Netherlands,Amsterdam FC U17,Eredivisie Youth,Amsterdam,16,Midfielder,6,7,21,80%,16,1.2,7,3.0,30%,25 km/h,3,0%,0%,67%
+1808,Harry Rossi,France,Paris FC U16,Championnat National U19,Paris,16,Midfielder,3,4,33,76%,22,1.7,7,2.1,38%,29 km/h,5,0%,0%,69%
+1809,Liam Khan,Portugal,Lisbon FC U16,Portuguese Youth League,Lisbon,15,Midfielder,8,5,23,78%,11,2.1,10,2.9,44%,28 km/h,9,0%,0%,63%
+1810,Fatima Müller,India,Mumbai FC U19,Indian Youth League,Mumbai,18,Goalkeeper,0,0,21,72%,0,0.0,2,0.0,0%,22 km/h,3,79%,60%,35%
+1811,Mohammed Müller,Portugal,Lisbon FC U16,Portuguese Youth League,Lisbon,16,Forward,6,2,33,73%,38,1.1,5,0.7,36%,34 km/h,10,0%,0%,69%
+1812,Lucas Smith,Germany,Munich FC U16,Bundesliga U19,Munich,16,Goalkeeper,0,0,15,73%,0,0.0,2,0.0,0%,20 km/h,10,69%,65%,31%
+1813,Giulia Tanaka,Japan,Tokyo FC U16,J-League Youth,Tokyo,15,Midfielder,4,10,26,78%,26,2.2,10,1.3,32%,31 km/h,6,0%,0%,68%
+1814,Fatima Martínez,Germany,Munich FC U16,Bundesliga U19,Munich,16,Midfielder,7,6,32,79%,19,1.9,9,1.4,47%,27 km/h,10,0%,0%,66%
+1815,Elena Patel,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,18,Defender,3,3,17,80%,8,0.7,8,4.1,65%,22 km/h,7,0%,0%,41%
+1816,Lukas Silva,Brazil,São Paulo FC U18,Brazilian Youth League,São Paulo,18,Defender,1,2,15,77%,9,0.5,4,2.4,77%,26 km/h,7,0%,0%,49%
+1817,Lucas Oliveira,Italy,Milan FC U19,Campionato Primavera,Milan,19,Defender,0,0,19,77%,6,0.7,5,4.0,79%,27 km/h,6,0%,0%,31%
+1818,Rajesh Leroy,Japan,Tokyo FC U16,J-League Youth,Tokyo,15,Midfielder,7,7,25,75%,17,1.3,7,2.0,34%,29 km/h,3,0%,0%,69%
+1819,Giulia Rodríguez,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,16,Defender,1,1,32,77%,6,0.7,4,3.7,78%,28 km/h,9,0%,0%,47%
+1820,Sofia Rossi,Mexico,Mexico City FC U19,Liga MX Juvenil,Mexico City,19,Midfielder,7,8,33,76%,18,1.1,9,1.4,47%,30 km/h,6,0%,0%,65%
+1821,Wei Martínez,Portugal,Lisbon FC U19,Portuguese Youth League,Lisbon,19,Goalkeeper,0,0,25,65%,0,0.0,2,0.0,0%,19 km/h,5,67%,50%,30%
+1822,Wei Silva,Argentina,Buenos Aires FC U19,Argentine Youth League,Buenos Aires,19,Goalkeeper,0,0,15,61%,0,0.0,2,0.0,0%,20 km/h,4,80%,58%,35%
+1823,João Smith,Portugal,Lisbon FC U20,Portuguese Youth League,Lisbon,19,Forward,9,3,32,73%,31,1.2,4,0.9,47%,33 km/h,10,0%,0%,68%
+1824,Lucas Rossi,USA,Los Angeles FC U16,US Youth Soccer,Los Angeles,15,Forward,12,4,26,74%,32,1.1,4,1.3,41%,30 km/h,9,0%,0%,72%
+1825,Sofia Martínez,England,Manchester FC U18,Premier League U18,Manchester,17,Goalkeeper,0,0,26,63%,0,0.0,1,0.0,0%,20 km/h,5,73%,60%,20%
+1826,Maria Leroy,USA,Los Angeles FC U17,US Youth Soccer,Los Angeles,17,Defender,3,4,22,79%,9,0.6,6,4.2,80%,23 km/h,6,0%,0%,38%
+1827,Rajesh Bello,USA,Los Angeles FC U20,US Youth Soccer,Los Angeles,19,Defender,2,2,20,78%,15,0.4,5,4.0,73%,27 km/h,3,0%,0%,47%
+1828,Maria Tanaka,Brazil,São Paulo FC U17,Brazilian Youth League,São Paulo,17,Forward,6,5,22,69%,30,1.1,5,1.1,33%,33 km/h,6,0%,0%,68%
+1829,Pierre Patel,Mexico,Mexico City FC U18,Liga MX Juvenil,Mexico City,17,Midfielder,2,10,16,87%,10,2.4,7,1.7,48%,27 km/h,10,0%,0%,60%
+1830,Harry Dubois,France,Paris FC U18,Championnat National U19,Paris,17,Goalkeeper,0,0,30,60%,0,0.0,2,0.0,0%,21 km/h,3,65%,67%,31%
+1831,Harry Martínez,South Korea,Seoul FC U18,K League Youth,Seoul,17,Midfielder,3,8,27,75%,14,1.7,10,2.6,46%,25 km/h,3,0%,0%,55%
+1832,Yuki Nakamura,Argentina,Buenos Aires FC U18,Argentine Youth League,Buenos Aires,17,Forward,14,2,34,70%,27,1.6,2,0.9,34%,35 km/h,3,0%,0%,80%
+1833,João Rodríguez,Netherlands,Amsterdam FC U19,Eredivisie Youth,Amsterdam,18,Forward,14,8,20,74%,37,0.9,4,1.3,25%,30 km/h,7,0%,0%,64%
+1834,Liam Silva,Italy,Milan FC U17,Campionato Primavera,Milan,16,Midfielder,2,8,30,90%,25,2.2,8,2.8,45%,29 km/h,4,0%,0%,52%
+1835,Sofia Silva,Argentina,Buenos Aires FC U17,Argentine Youth League,Buenos Aires,17,Midfielder,2,10,32,83%,24,1.8,7,2.6,44%,29 km/h,8,0%,0%,56%
+1836,Wei Dubois,France,Paris FC U14,Championnat National U19,Paris,14,Forward,8,5,15,65%,38,1.0,6,0.6,39%,32 km/h,5,0%,0%,65%
+1837,Wei Dubois,South Korea,Seoul FC U17,K League Youth,Seoul,16,Forward,8,2,18,75%,20,1.5,5,0.6,30%,31 km/h,3,0%,0%,78%
+1838,Giulia García,Spain,Barcelona FC U18,La Liga Juvenil,Barcelona,18,Forward,13,7,21,76%,20,1.7,6,0.5,48%,31 km/h,4,0%,0%,69%
+1839,Pierre Müller,Spain,Barcelona FC U18,La Liga Juvenil,Barcelona,18,Goalkeeper,0,0,22,72%,0,0.0,3,0.0,0%,18 km/h,6,77%,61%,28%
+1840,Mohammed Tanaka,India,Mumbai FC U19,Indian Youth League,Mumbai,19,Goalkeeper,0,0,21,60%,0,0.0,3,0.0,0%,22 km/h,6,66%,68%,29%
+1841,Harry Khan,South Korea,Seoul FC U19,K League Youth,Seoul,19,Goalkeeper,0,0,22,64%,0,0.0,1,0.0,0%,22 km/h,8,84%,65%,25%
+1842,Wei Rossi,Portugal,Lisbon FC U17,Portuguese Youth League,Lisbon,16,Goalkeeper,0,0,19,72%,0,0.0,3,0.0,0%,21 km/h,9,71%,66%,20%
+1843,Fatima Martínez,USA,Los Angeles FC U14,US Youth Soccer,Los Angeles,14,Defender,2,3,25,75%,5,0.3,8,2.6,64%,22 km/h,5,0%,0%,37%
+1844,Carlos Patel,South Korea,Seoul FC U19,K League Youth,Seoul,18,Midfielder,7,9,25,80%,16,1.4,9,3.0,37%,26 km/h,7,0%,0%,69%
+1845,Aisha Dubois,Nigeria,Lagos FC U15,Nigerian Youth League,Lagos,15,Forward,12,8,20,73%,41,1.2,3,1.5,38%,33 km/h,4,0%,0%,73%
+1846,Fatima Silva,France,Paris FC U16,Championnat National U19,Paris,15,Midfielder,4,6,15,78%,23,1.1,6,2.1,44%,27 km/h,8,0%,0%,66%
+1847,Yuki Martínez,Argentina,Buenos Aires FC U14,Argentine Youth League,Buenos Aires,14,Midfielder,3,4,15,80%,19,2.2,10,2.0,36%,31 km/h,4,0%,0%,60%
+1848,Harry Khan,Italy,Milan FC U15,Campionato Primavera,Milan,15,Goalkeeper,0,0,28,62%,0,0.0,2,0.0,0%,20 km/h,3,76%,67%,26%
+1849,Aisha Tanaka,Argentina,Buenos Aires FC U20,Argentine Youth League,Buenos Aires,19,Forward,10,7,35,74%,21,1.2,2,1.3,34%,30 km/h,6,0%,0%,78%
+1850,Lucas Santos,Netherlands,Amsterdam FC U14,Eredivisie Youth,Amsterdam,14,Forward,9,6,16,72%,34,1.2,4,0.5,48%,30 km/h,5,0%,0%,66%
+1851,Lukas Dubois,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,19,Defender,3,2,33,78%,13,0.2,5,2.9,67%,22 km/h,10,0%,0%,37%
+1852,Aisha Martínez,Italy,Milan FC U14,Campionato Primavera,Milan,14,Forward,9,2,28,66%,40,1.8,4,0.8,46%,34 km/h,9,0%,0%,70%
+1853,Mohammed Leroy,Spain,Barcelona FC U16,La Liga Juvenil,Barcelona,16,Forward,5,3,23,78%,44,1.2,3,0.4,30%,33 km/h,8,0%,0%,63%
+1854,Maria Müller,Mexico,Mexico City FC U17,Liga MX Juvenil,Mexico City,16,Goalkeeper,0,0,19,75%,0,0.0,3,0.0,0%,20 km/h,9,75%,54%,22%
+1855,Carlos Müller,Brazil,São Paulo FC U16,Brazilian Youth League,São Paulo,15,Forward,14,7,28,70%,26,0.9,6,0.8,46%,31 km/h,6,0%,0%,79%
+1856,Ana Martínez,Netherlands,Amsterdam FC U18,Eredivisie Youth,Amsterdam,18,Goalkeeper,0,0,18,68%,0,0.0,1,0.0,0%,18 km/h,9,76%,61%,22%
+1857,João Nakamura,India,Mumbai FC U15,Indian Youth League,Mumbai,15,Goalkeeper,0,0,29,63%,0,0.0,2,0.0,0%,19 km/h,6,65%,70%,26%
+1858,Wei Bello,Italy,Milan FC U15,Campionato Primavera,Milan,15,Forward,11,6,35,66%,20,0.8,4,0.7,39%,34 km/h,7,0%,0%,75%
+1859,Liam Dubois,Brazil,São Paulo FC U15,Brazilian Youth League,São Paulo,14,Defender,0,4,32,79%,14,0.6,6,2.1,72%,23 km/h,3,0%,0%,48%
+1860,Sofia Schmidt,USA,Los Angeles FC U20,US Youth Soccer,Los Angeles,19,Defender,0,0,33,85%,10,0.3,6,4.0,61%,23 km/h,10,0%,0%,47%
+1861,Carlos Bianchi,Portugal,Lisbon FC U19,Portuguese Youth League,Lisbon,18,Defender,0,4,32,78%,5,0.3,6,2.8,60%,24 km/h,4,0%,0%,40%
+1862,Fatima Schmidt,Argentina,Buenos Aires FC U19,Argentine Youth League,Buenos Aires,19,Defender,0,0,26,81%,5,0.6,6,2.0,68%,28 km/h,3,0%,0%,47%
+1863,Pierre Dubois,Nigeria,Lagos FC U18,Nigerian Youth League,Lagos,18,Forward,6,2,26,65%,37,1.8,3,1.3,33%,31 km/h,5,0%,0%,61%
+1864,Lucas Johnson,Argentina,Buenos Aires FC U19,Argentine Youth League,Buenos Aires,18,Forward,15,8,21,67%,23,1.1,3,0.7,49%,32 km/h,7,0%,0%,72%
+1865,Sofia Müller,Germany,Munich FC U19,Bundesliga U19,Munich,19,Forward,12,3,16,65%,21,1.4,3,1.1,34%,35 km/h,8,0%,0%,79%
+1866,Carlos Tanaka,Argentina,Buenos Aires FC U19,Argentine Youth League,Buenos Aires,18,Defender,1,4,29,78%,10,0.6,6,2.2,74%,28 km/h,5,0%,0%,31%
+1867,Ana Khan,Italy,Milan FC U17,Campionato Primavera,Milan,16,Forward,13,6,24,67%,44,1.8,6,0.9,25%,35 km/h,8,0%,0%,72%
+1868,Mohammed Tanaka,Germany,Munich FC U16,Bundesliga U19,Munich,15,Defender,1,1,24,79%,13,0.4,8,4.2,65%,26 km/h,5,0%,0%,33%
+1869,Elena Rossi,Germany,Munich FC U17,Bundesliga U19,Munich,17,Goalkeeper,0,0,31,65%,0,0.0,3,0.0,0%,19 km/h,7,76%,67%,32%
+1870,Pierre Oliveira,Nigeria,Lagos FC U16,Nigerian Youth League,Lagos,16,Goalkeeper,0,0,28,67%,0,0.0,3,0.0,0%,22 km/h,3,73%,62%,29%
+1871,Lukas Leroy,Brazil,São Paulo FC U17,Brazilian Youth League,São Paulo,16,Goalkeeper,0,0,34,72%,0,0.0,1,0.0,0%,18 km/h,5,66%,62%,27%
+1872,Elena Müller,Japan,Tokyo FC U17,J-League Youth,Tokyo,17,Forward,10,5,27,75%,43,1.5,3,0.8,38%,35 km/h,5,0%,0%,78%
+1873,Wei García,USA,Los Angeles FC U17,US Youth Soccer,Los Angeles,16,Goalkeeper,0,0,17,71%,0,0.0,1,0.0,0%,20 km/h,9,72%,69%,23%
+1874,Yuki Khan,Portugal,Lisbon FC U20,Portuguese Youth League,Lisbon,19,Defender,1,4,22,76%,11,0.7,5,4.1,73%,28 km/h,8,0%,0%,36%
+1875,Lucas Khan,Netherlands,Amsterdam FC U15,Eredivisie Youth,Amsterdam,15,Goalkeeper,0,0,28,61%,0,0.0,3,0.0,0%,19 km/h,6,83%,69%,35%
+1876,Pierre Bianchi,Argentina,Buenos Aires FC U18,Argentine Youth League,Buenos Aires,18,Forward,9,4,31,80%,35,1.8,2,1.0,28%,33 km/h,5,0%,0%,74%
+1877,Aisha Patel,Brazil,São Paulo FC U18,Brazilian Youth League,São Paulo,17,Defender,2,0,19,77%,12,0.7,8,3.2,72%,28 km/h,4,0%,0%,39%
+1878,Mohammed Rodríguez,Netherlands,Amsterdam FC U19,Eredivisie Youth,Amsterdam,19,Forward,13,5,34,78%,47,2.0,3,1.0,51%,31 km/h,5,0%,0%,74%
+1879,Sophia Martínez,Nigeria,Lagos FC U18,Nigerian Youth League,Lagos,17,Defender,3,1,32,81%,11,0.4,6,2.4,64%,24 km/h,8,0%,0%,38%
+1880,Aisha Martínez,USA,Los Angeles FC U16,US Youth Soccer,Los Angeles,15,Midfielder,5,8,21,86%,10,1.1,9,2.4,46%,29 km/h,6,0%,0%,69%
+1881,Yuki Silva,Netherlands,Amsterdam FC U17,Eredivisie Youth,Amsterdam,17,Forward,12,3,29,69%,35,1.4,3,1.2,27%,34 km/h,8,0%,0%,60%
+1882,Harry Patel,Nigeria,Lagos FC U14,Nigerian Youth League,Lagos,14,Midfielder,6,3,22,80%,19,1.9,10,2.1,47%,28 km/h,5,0%,0%,55%
+1883,Carlos Khan,Italy,Milan FC U15,Campionato Primavera,Milan,14,Forward,15,8,15,78%,41,1.7,6,0.8,37%,33 km/h,10,0%,0%,80%
+1884,Sophia Martínez,Netherlands,Amsterdam FC U15,Eredivisie Youth,Amsterdam,15,Goalkeeper,0,0,29,70%,0,0.0,1,0.0,0%,18 km/h,3,80%,61%,29%
+1885,Fatima Patel,Netherlands,Amsterdam FC U18,Eredivisie Youth,Amsterdam,17,Defender,2,4,19,82%,6,0.6,8,3.0,70%,26 km/h,8,0%,0%,41%
+1886,Liam Khan,India,Mumbai FC U15,Indian Youth League,Mumbai,15,Goalkeeper,0,0,26,75%,0,0.0,2,0.0,0%,20 km/h,7,65%,52%,21%
+1887,Elena Rossi,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,16,Goalkeeper,0,0,24,69%,0,0.0,1,0.0,0%,19 km/h,7,79%,55%,26%
+1888,Fatima Tanaka,Japan,Tokyo FC U14,J-League Youth,Tokyo,14,Forward,6,7,33,76%,34,1.3,3,1.1,39%,30 km/h,8,0%,0%,60%
+1889,Liam Khan,Japan,Tokyo FC U17,J-League Youth,Tokyo,17,Forward,10,7,15,72%,49,2.0,5,0.9,36%,34 km/h,6,0%,0%,66%
+1890,Carlos Johnson,Japan,Tokyo FC U18,J-League Youth,Tokyo,17,Defender,0,3,30,79%,9,0.3,7,3.0,69%,26 km/h,9,0%,0%,44%
+1891,Maria Tanaka,Netherlands,Amsterdam FC U20,Eredivisie Youth,Amsterdam,19,Midfielder,4,9,16,83%,21,1.2,10,2.7,48%,25 km/h,7,0%,0%,67%
+1892,Pierre Rodríguez,India,Mumbai FC U15,Indian Youth League,Mumbai,15,Forward,13,2,26,67%,27,2.0,3,0.7,28%,34 km/h,9,0%,0%,62%
+1893,Fatima Silva,Japan,Tokyo FC U14,J-League Youth,Tokyo,14,Forward,12,2,16,72%,31,0.9,5,1.1,42%,32 km/h,3,0%,0%,68%
+1894,Rajesh Rossi,Spain,Barcelona FC U15,La Liga Juvenil,Barcelona,14,Goalkeeper,0,0,27,60%,0,0.0,2,0.0,0%,22 km/h,7,85%,68%,23%
+1895,Mei Smith,Italy,Milan FC U15,Campionato Primavera,Milan,15,Goalkeeper,0,0,16,73%,0,0.0,2,0.0,0%,21 km/h,3,67%,65%,28%
+1896,Wei Rossi,USA,Los Angeles FC U18,US Youth Soccer,Los Angeles,18,Defender,1,2,33,75%,15,0.3,8,3.2,68%,28 km/h,10,0%,0%,41%
+1897,Lukas Dubois,Japan,Tokyo FC U14,J-League Youth,Tokyo,14,Goalkeeper,0,0,33,74%,0,0.0,1,0.0,0%,22 km/h,9,84%,60%,36%
+1898,Aisha Oliveira,USA,Los Angeles FC U14,US Youth Soccer,Los Angeles,14,Defender,1,2,19,85%,13,0.7,5,2.8,80%,26 km/h,4,0%,0%,49%
+1899,João Bianchi,Nigeria,Lagos FC U17,Nigerian Youth League,Lagos,16,Defender,1,3,34,80%,9,0.5,8,4.0,64%,22 km/h,6,0%,0%,43%
+1900,Sophia Tanaka,Germany,Munich FC U14,Bundesliga U19,Munich,14,Forward,13,7,21,75%,38,0.9,4,1.1,29%,32 km/h,10,0%,0%,77%
+1901,Aisha García,USA,Los Angeles FC U17,US Youth Soccer,Los Angeles,17,Midfielder,4,3,22,84%,29,1.7,8,1.1,31%,29 km/h,3,0%,0%,64%
+1902,Maria Tanaka,Spain,Barcelona FC U16,La Liga Juvenil,Barcelona,15,Midfielder,3,9,19,88%,12,1.6,9,2.2,39%,30 km/h,4,0%,0%,58%
+1903,Rajesh Rossi,Netherlands,Amsterdam FC U16,Eredivisie Youth,Amsterdam,16,Midfielder,7,7,35,77%,14,2.4,9,1.4,40%,27 km/h,7,0%,0%,60%
+1904,Elena Johnson,India,Mumbai FC U16,Indian Youth League,Mumbai,15,Forward,9,5,28,72%,44,2.0,3,0.7,31%,30 km/h,6,0%,0%,63%
+1905,Wei Schmidt,England,Manchester FC U16,Premier League U18,Manchester,16,Goalkeeper,0,0,32,66%,0,0.0,3,0.0,0%,18 km/h,3,74%,51%,21%
+1906,Carlos Rodríguez,India,Mumbai FC U15,Indian Youth League,Mumbai,15,Midfielder,6,4,16,88%,29,2.2,8,2.5,31%,27 km/h,10,0%,0%,60%
+1907,Sofia Johnson,Italy,Milan FC U18,Campionato Primavera,Milan,18,Defender,3,2,21,85%,5,0.7,6,2.3,68%,24 km/h,6,0%,0%,35%
+1908,Elena Rossi,Brazil,São Paulo FC U15,Brazilian Youth League,São Paulo,15,Goalkeeper,0,0,34,66%,0,0.0,2,0.0,0%,21 km/h,4,69%,62%,23%
+1909,Pierre Silva,England,Manchester FC U18,Premier League U18,Manchester,17,Midfielder,2,7,28,82%,18,1.4,10,2.9,47%,31 km/h,5,0%,0%,58%
+1910,Mohammed Nakamura,Germany,Munich FC U15,Bundesliga U19,Munich,15,Midfielder,5,8,19,86%,22,2.1,10,2.2,42%,27 km/h,4,0%,0%,58%
+1911,Mei Patel,Italy,Milan FC U18,Campionato Primavera,Milan,17,Goalkeeper,0,0,15,69%,0,0.0,2,0.0,0%,22 km/h,9,70%,54%,22%
+1912,Harry Martínez,Portugal,Lisbon FC U18,Portuguese Youth League,Lisbon,18,Goalkeeper,0,0,26,67%,0,0.0,3,0.0,0%,20 km/h,8,74%,50%,20%
+1913,Carlos Patel,Mexico,Mexico City FC U14,Liga MX Juvenil,Mexico City,14,Forward,10,5,26,67%,49,1.2,4,0.4,34%,30 km/h,3,0%,0%,80%
+1914,Rajesh Khan,South Korea,Seoul FC U15,K League Youth,Seoul,15,Goalkeeper,0,0,19,65%,0,0.0,2,0.0,0%,20 km/h,9,70%,59%,31%
+1915,Pierre Schmidt,Portugal,Lisbon FC U17,Portuguese Youth League,Lisbon,16,Goalkeeper,0,0,29,70%,0,0.0,1,0.0,0%,22 km/h,10,65%,61%,21%
+1916,Yuki Rodríguez,Italy,Milan FC U18,Campionato Primavera,Milan,17,Defender,2,3,29,77%,14,0.7,5,3.0,75%,26 km/h,8,0%,0%,39%
+1917,Harry Rodríguez,Spain,Barcelona FC U17,La Liga Juvenil,Barcelona,16,Forward,14,4,18,71%,26,1.0,6,0.6,48%,30 km/h,7,0%,0%,63%
+1918,Pierre García,Mexico,Mexico City FC U17,Liga MX Juvenil,Mexico City,16,Midfielder,2,5,32,80%,16,2.1,9,2.0,47%,27 km/h,8,0%,0%,67%
+1919,Sophia Leroy,Germany,Munich FC U14,Bundesliga U19,Munich,14,Midfielder,3,9,28,82%,26,2.5,8,2.4,31%,31 km/h,4,0%,0%,55%
+1920,Elena Nakamura,Italy,Milan FC U15,Campionato Primavera,Milan,15,Midfielder,3,10,32,79%,13,1.1,9,1.7,33%,29 km/h,5,0%,0%,54%
+1921,Pierre Schmidt,England,Manchester FC U19,Premier League U18,Manchester,18,Defender,1,4,26,84%,6,0.8,6,2.9,68%,22 km/h,6,0%,0%,31%
+1922,Pierre Santos,Argentina,Buenos Aires FC U18,Argentine Youth League,Buenos Aires,18,Forward,14,8,15,67%,28,1.3,3,0.7,33%,34 km/h,10,0%,0%,67%
+1923,Elena Tanaka,Netherlands,Amsterdam FC U15,Eredivisie Youth,Amsterdam,14,Defender,0,2,18,83%,13,0.3,6,2.4,70%,27 km/h,9,0%,0%,38%
+1924,Elena Smith,Brazil,São Paulo FC U17,Brazilian Youth League,São Paulo,16,Goalkeeper,0,0,26,65%,0,0.0,1,0.0,0%,20 km/h,10,66%,55%,39%
+1925,João Leroy,Netherlands,Amsterdam FC U16,Eredivisie Youth,Amsterdam,16,Defender,0,0,34,77%,11,0.5,8,4.2,67%,26 km/h,4,0%,0%,31%
+1926,Carlos Bianchi,South Korea,Seoul FC U18,K League Youth,Seoul,18,Defender,3,4,35,79%,11,0.5,5,2.3,63%,28 km/h,8,0%,0%,44%
+1927,Fatima Martínez,Netherlands,Amsterdam FC U16,Eredivisie Youth,Amsterdam,15,Goalkeeper,0,0,16,66%,0,0.0,3,0.0,0%,22 km/h,5,81%,56%,23%
+1928,Sophia Tanaka,Japan,Tokyo FC U17,J-League Youth,Tokyo,16,Forward,12,8,34,69%,47,1.9,5,0.8,32%,34 km/h,5,0%,0%,72%
+1929,Rajesh Nakamura,Spain,Barcelona FC U20,La Liga Juvenil,Barcelona,19,Defender,3,2,29,82%,13,0.4,4,3.3,75%,28 km/h,3,0%,0%,34%
+1930,Wei Silva,USA,Los Angeles FC U14,US Youth Soccer,Los Angeles,14,Defender,1,0,25,77%,13,0.7,5,2.5,74%,26 km/h,7,0%,0%,48%
+1931,Liam Kumar,Brazil,São Paulo FC U17,Brazilian Youth League,São Paulo,16,Goalkeeper,0,0,25,75%,0,0.0,2,0.0,0%,20 km/h,10,83%,59%,29%
+1932,Ana Bianchi,Spain,Barcelona FC U17,La Liga Juvenil,Barcelona,16,Goalkeeper,0,0,32,73%,0,0.0,3,0.0,0%,21 km/h,10,77%,50%,39%
+1933,Giulia Leroy,Nigeria,Lagos FC U19,Nigerian Youth League,Lagos,19,Forward,15,7,17,70%,21,1.8,3,0.8,26%,32 km/h,5,0%,0%,78%
+1934,Harry Nakamura,Netherlands,Amsterdam FC U17,Eredivisie Youth,Amsterdam,16,Defender,0,3,26,83%,7,0.3,8,2.5,62%,22 km/h,3,0%,0%,43%
+1935,Pierre Smith,Germany,Munich FC U17,Bundesliga U19,Munich,16,Forward,8,5,15,80%,20,1.8,3,1.3,38%,32 km/h,5,0%,0%,79%
+1936,Mohammed Patel,USA,Los Angeles FC U16,US Youth Soccer,Los Angeles,15,Forward,13,3,22,80%,41,0.9,5,0.6,38%,31 km/h,9,0%,0%,70%
+1937,Sophia García,Germany,Munich FC U17,Bundesliga U19,Munich,16,Forward,12,4,25,71%,39,1.6,3,1.0,47%,32 km/h,3,0%,0%,76%
+1938,Lukas Bello,Italy,Milan FC U14,Campionato Primavera,Milan,14,Goalkeeper,0,0,24,70%,0,0.0,3,0.0,0%,18 km/h,6,73%,66%,37%
+1939,Fatima Smith,Argentina,Buenos Aires FC U19,Argentine Youth League,Buenos Aires,18,Goalkeeper,0,0,24,62%,0,0.0,1,0.0,0%,19 km/h,7,76%,59%,22%
+1940,Yuki Bello,India,Mumbai FC U18,Indian Youth League,Mumbai,17,Midfielder,7,9,17,86%,27,1.7,8,2.4,44%,25 km/h,4,0%,0%,63%
+1941,Ana Bianchi,England,Manchester FC U14,Premier League U18,Manchester,14,Midfielder,6,7,34,87%,29,2.3,10,1.6,38%,28 km/h,10,0%,0%,70%
+1942,Sofia Tanaka,Nigeria,Lagos FC U15,Nigerian Youth League,Lagos,15,Forward,5,3,32,79%,24,0.8,5,0.3,38%,35 km/h,9,0%,0%,71%
+1943,Elena Santos,South Korea,Seoul FC U18,K League Youth,Seoul,18,Goalkeeper,0,0,27,67%,0,0.0,3,0.0,0%,19 km/h,3,72%,59%,35%
+1944,Lukas García,Spain,Barcelona FC U17,La Liga Juvenil,Barcelona,17,Forward,9,3,28,66%,46,0.9,5,0.9,28%,31 km/h,7,0%,0%,80%
+1945,João Dubois,Nigeria,Lagos FC U18,Nigerian Youth League,Lagos,18,Defender,1,1,20,81%,5,0.3,6,4.0,70%,27 km/h,9,0%,0%,34%
+1946,Elena Khan,Germany,Munich FC U17,Bundesliga U19,Munich,17,Forward,11,7,24,69%,20,1.8,5,0.7,54%,35 km/h,4,0%,0%,62%
+1947,João Khan,Argentina,Buenos Aires FC U20,Argentine Youth League,Buenos Aires,19,Midfielder,7,6,15,75%,16,1.5,9,1.5,43%,26 km/h,6,0%,0%,64%
+1948,Fatima Silva,India,Mumbai FC U14,Indian Youth League,Mumbai,14,Midfielder,7,6,15,86%,17,1.1,9,1.6,31%,28 km/h,9,0%,0%,60%
+1949,Giulia Oliveira,England,Manchester FC U16,Premier League U18,Manchester,16,Midfielder,3,10,15,81%,19,1.5,9,1.4,47%,26 km/h,3,0%,0%,63%
+1950,Ana Martínez,Brazil,São Paulo FC U17,Brazilian Youth League,São Paulo,16,Forward,13,6,33,75%,37,1.2,6,0.9,35%,30 km/h,4,0%,0%,67%
+1951,Ana Bello,Nigeria,Lagos FC U15,Nigerian Youth League,Lagos,15,Midfielder,8,3,18,83%,16,2.2,9,2.1,49%,28 km/h,3,0%,0%,68%
+1952,Sophia Leroy,England,Manchester FC U19,Premier League U18,Manchester,18,Forward,12,4,31,72%,50,1.3,4,0.9,45%,32 km/h,7,0%,0%,70%
+1953,Sophia Bello,Netherlands,Amsterdam FC U19,Eredivisie Youth,Amsterdam,18,Goalkeeper,0,0,15,60%,0,0.0,3,0.0,0%,20 km/h,8,79%,65%,40%
+1954,Wei Rossi,Nigeria,Lagos FC U16,Nigerian Youth League,Lagos,16,Midfielder,2,4,17,87%,21,1.5,6,2.1,34%,30 km/h,10,0%,0%,58%
+1955,Yuki Johnson,India,Mumbai FC U19,Indian Youth League,Mumbai,18,Forward,15,5,28,67%,26,1.3,4,1.3,48%,33 km/h,9,0%,0%,61%
+1956,Aisha García,USA,Los Angeles FC U15,US Youth Soccer,Los Angeles,14,Midfielder,6,5,19,86%,29,1.7,6,1.8,31%,26 km/h,7,0%,0%,62%
+1957,Mei Dubois,Germany,Munich FC U17,Bundesliga U19,Munich,17,Defender,1,2,17,85%,13,0.3,4,4.1,74%,25 km/h,7,0%,0%,32%
+1958,Harry Bianchi,South Korea,Seoul FC U15,K League Youth,Seoul,14,Goalkeeper,0,0,22,67%,0,0.0,2,0.0,0%,18 km/h,4,66%,65%,23%
+1959,Elena Leroy,England,Manchester FC U19,Premier League U18,Manchester,19,Goalkeeper,0,0,34,63%,0,0.0,2,0.0,0%,22 km/h,6,67%,61%,23%
+1960,Sofia Dubois,Argentina,Buenos Aires FC U20,Argentine Youth League,Buenos Aires,19,Forward,13,5,21,70%,36,1.8,5,1.1,44%,32 km/h,4,0%,0%,75%
+1961,Carlos Leroy,Nigeria,Lagos FC U20,Nigerian Youth League,Lagos,19,Midfielder,6,4,27,79%,16,2.3,9,1.2,30%,25 km/h,4,0%,0%,51%
+1962,Fatima Müller,France,Paris FC U17,Championnat National U19,Paris,16,Defender,2,1,24,84%,14,0.6,6,3.6,64%,28 km/h,9,0%,0%,50%
+1963,Maria Schmidt,Japan,Tokyo FC U19,J-League Youth,Tokyo,18,Goalkeeper,0,0,16,72%,0,0.0,1,0.0,0%,22 km/h,5,69%,70%,22%
+1964,Elena Martínez,India,Mumbai FC U15,Indian Youth League,Mumbai,14,Goalkeeper,0,0,33,64%,0,0.0,3,0.0,0%,19 km/h,6,77%,52%,27%
+1965,Pierre Oliveira,Argentina,Buenos Aires FC U17,Argentine Youth League,Buenos Aires,16,Midfielder,4,6,23,89%,27,1.3,6,1.2,43%,29 km/h,8,0%,0%,56%
+1966,Mohammed Leroy,Brazil,São Paulo FC U17,Brazilian Youth League,São Paulo,16,Defender,0,4,15,85%,7,0.7,8,3.2,69%,25 km/h,6,0%,0%,41%
+1967,Giulia Silva,Japan,Tokyo FC U18,J-League Youth,Tokyo,18,Forward,11,5,29,73%,38,1.5,4,0.7,53%,31 km/h,10,0%,0%,73%
+1968,Giulia Khan,Germany,Munich FC U17,Bundesliga U19,Munich,16,Goalkeeper,0,0,20,63%,0,0.0,3,0.0,0%,20 km/h,9,75%,62%,37%
+1969,Elena Johnson,Japan,Tokyo FC U19,J-League Youth,Tokyo,18,Goalkeeper,0,0,28,68%,0,0.0,2,0.0,0%,20 km/h,5,78%,50%,27%
+1970,Sofia Tanaka,India,Mumbai FC U18,Indian Youth League,Mumbai,17,Midfielder,2,4,22,78%,21,1.1,9,2.4,48%,28 km/h,8,0%,0%,65%
+1971,Carlos Müller,Nigeria,Lagos FC U19,Nigerian Youth League,Lagos,19,Goalkeeper,0,0,28,66%,0,0.0,3,0.0,0%,19 km/h,3,73%,57%,33%
+1972,Yuki Schmidt,Nigeria,Lagos FC U15,Nigerian Youth League,Lagos,14,Midfielder,6,8,28,89%,27,1.6,7,1.4,44%,28 km/h,7,0%,0%,69%
+1973,Lukas Müller,Netherlands,Amsterdam FC U16,Eredivisie Youth,Amsterdam,16,Midfielder,6,3,30,80%,17,1.7,6,2.1,33%,25 km/h,9,0%,0%,56%
+1974,Rajesh Leroy,Argentina,Buenos Aires FC U18,Argentine Youth League,Buenos Aires,17,Goalkeeper,0,0,15,64%,0,0.0,1,0.0,0%,22 km/h,6,81%,53%,39%
+1975,Aisha Kumar,Argentina,Buenos Aires FC U19,Argentine Youth League,Buenos Aires,18,Defender,0,4,30,80%,14,0.3,5,3.8,62%,27 km/h,5,0%,0%,32%
+1976,Aisha Schmidt,Netherlands,Amsterdam FC U18,Eredivisie Youth,Amsterdam,18,Forward,13,3,32,80%,32,1.7,3,1.5,41%,33 km/h,7,0%,0%,71%
+1977,Giulia Schmidt,Mexico,Mexico City FC U15,Liga MX Juvenil,Mexico City,15,Midfielder,3,6,21,86%,30,1.5,10,1.7,33%,26 km/h,7,0%,0%,58%
+1978,Mohammed Bello,Brazil,São Paulo FC U16,Brazilian Youth League,São Paulo,16,Defender,3,2,30,83%,11,0.4,5,3.7,66%,22 km/h,10,0%,0%,32%
+1979,Sofia Dubois,USA,Los Angeles FC U20,US Youth Soccer,Los Angeles,19,Defender,0,0,30,83%,8,0.6,5,2.4,79%,23 km/h,5,0%,0%,35%
+1980,Lucas Nakamura,Germany,Munich FC U17,Bundesliga U19,Munich,16,Goalkeeper,0,0,33,67%,0,0.0,3,0.0,0%,20 km/h,7,82%,63%,31%
+1981,Mohammed Patel,Netherlands,Amsterdam FC U18,Eredivisie Youth,Amsterdam,18,Forward,10,8,23,73%,39,1.2,3,0.9,31%,33 km/h,3,0%,0%,66%
+1982,Rajesh Rossi,Japan,Tokyo FC U20,J-League Youth,Tokyo,19,Goalkeeper,0,0,32,63%,0,0.0,1,0.0,0%,18 km/h,3,71%,68%,38%
+1983,Lukas Müller,Mexico,Mexico City FC U16,Liga MX Juvenil,Mexico City,16,Midfielder,3,7,33,75%,26,1.2,7,2.3,34%,28 km/h,5,0%,0%,70%
+1984,Pierre Santos,Spain,Barcelona FC U19,La Liga Juvenil,Barcelona,18,Forward,13,7,26,70%,30,1.2,5,1.5,30%,31 km/h,8,0%,0%,66%
+1985,Maria Bello,Argentina,Buenos Aires FC U16,Argentine Youth League,Buenos Aires,15,Midfielder,4,3,35,77%,18,2.2,10,2.0,48%,26 km/h,7,0%,0%,68%
+1986,Pierre Nakamura,Germany,Munich FC U16,Bundesliga U19,Munich,16,Midfielder,8,4,25,76%,28,2.0,9,2.7,34%,26 km/h,5,0%,0%,52%
+1987,Rajesh Khan,Japan,Tokyo FC U15,J-League Youth,Tokyo,15,Defender,1,4,21,84%,7,0.3,8,2.5,75%,27 km/h,10,0%,0%,33%
+1988,Giulia Dubois,Netherlands,Amsterdam FC U16,Eredivisie Youth,Amsterdam,15,Goalkeeper,0,0,17,67%,0,0.0,3,0.0,0%,19 km/h,5,84%,62%,31%
+1989,Maria Bello,Japan,Tokyo FC U19,J-League Youth,Tokyo,18,Goalkeeper,0,0,20,74%,0,0.0,1,0.0,0%,18 km/h,5,72%,56%,28%
+1990,Pierre Martínez,Argentina,Buenos Aires FC U20,Argentine Youth League,Buenos Aires,19,Forward,6,7,27,71%,28,1.3,6,0.6,47%,33 km/h,6,0%,0%,70%
+1991,Liam Johnson,Germany,Munich FC U19,Bundesliga U19,Munich,18,Forward,6,8,16,68%,28,1.7,5,0.8,29%,31 km/h,3,0%,0%,70%
+1992,Sofia Müller,Germany,Munich FC U20,Bundesliga U19,Munich,19,Midfielder,6,5,15,80%,11,1.7,9,1.2,49%,29 km/h,5,0%,0%,52%
+1993,Carlos Bello,Japan,Tokyo FC U16,J-League Youth,Tokyo,15,Midfielder,4,4,27,88%,28,2.3,9,2.1,46%,26 km/h,9,0%,0%,59%
+1994,Sofia Santos,England,Manchester FC U19,Premier League U18,Manchester,19,Forward,9,3,19,66%,48,1.9,3,0.6,46%,35 km/h,10,0%,0%,77%
+1995,Liam Johnson,Netherlands,Amsterdam FC U18,Eredivisie Youth,Amsterdam,17,Forward,8,6,18,68%,28,1.4,4,1.3,52%,30 km/h,8,0%,0%,72%
+1996,Lukas Bianchi,India,Mumbai FC U20,Indian Youth League,Mumbai,19,Forward,12,6,32,76%,33,1.6,4,1.5,29%,33 km/h,3,0%,0%,70%
+1997,Sophia Bello,Italy,Milan FC U17,Campionato Primavera,Milan,17,Forward,5,8,30,79%,38,1.1,4,0.5,44%,35 km/h,8,0%,0%,69%
+1998,Wei Smith,Japan,Tokyo FC U18,J-League Youth,Tokyo,18,Midfielder,6,9,27,87%,30,1.5,9,1.2,42%,28 km/h,7,0%,0%,54%
+1999,Elena Smith,South Korea,Seoul FC U14,K League Youth,Seoul,14,Midfielder,6,4,31,82%,10,1.3,6,1.5,43%,27 km/h,5,0%,0%,55%
+2000,Sophia Bello,Netherlands,Amsterdam FC U17,Eredivisie Youth,Amsterdam,17,Defender,3,4,25,80%,14,0.6,7,2.3,69%,22 km/h,8,0%,0%,36%

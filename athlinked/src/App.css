@@ -1,8 +1,40 @@
+/* Base styles for Tonsser-inspired design */
+:root {
+  --primary-blue: #1a3b8f;
+  --secondary-blue: #1e54b7;
+  --accent-pink: #e94b8a;
+  --accent-purple: #8c52ff;
+  --tonsser-dark: #1a3b8f;
+  --tonsser-green: #e94b8a;
+  --tonsser-text: #ffffff;
+  --tonsser-light-gray: #d0d5e9;
+  --tonsser-dark-gray: #183075;
+  
+  /* Elevo colors */
+  --elevo-blue: #1a3b8f;
+  --elevo-pink: #e94b8a;
+  --elevo-light-blue: #25469c;
+  --elevo-text: #ffffff;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--tonsser-dark);
+  color: var(--tonsser-text);
+}
+
 .App {
   text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: var(--tonsser-dark);
+  color: var(--tonsser-text);
 }
 
 .App-logo {
@@ -16,1025 +48,1935 @@
   }
 }
 
-.App-header {
-  background-color: #2c3e50;
-  padding: 1rem;
-  color: white;
+/* Elevo Navbar Styles */
+.elevo-navbar {
+  background-color: var(--elevo-blue);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.elevo-navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.App-header h1 {
-  margin: 0;
-  font-size: 2rem;
-}
-
-.logo-link {
-  color: white;
-  text-decoration: none;
-}
-
-nav ul {
-  list-style: none;
+.elevo-navbar-brand {
   display: flex;
-  gap: 2rem;
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  gap: 0.75rem;
 }
 
-nav a {
-  color: white;
+.elevo-brand-text {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.elevo-brand-badge {
+  background-color: var(--elevo-pink);
+  color: #ffffff;
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.elevo-navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.elevo-nav-link {
+  color: #ffffff;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.3s ease;
+  font-size: 1rem;
+  transition: all 0.3s ease;
 }
 
-nav a:hover {
-  color: #3498db;
+.elevo-nav-link:hover {
+  color: var(--elevo-pink);
 }
 
-main {
-  flex: 1;
+.elevo-navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.elevo-join-button {
+  background-color: var(--elevo-pink);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.elevo-join-button:hover {
+  background-color: #d13d72;
+  transform: translateY(-2px);
+}
+
+/* Elevo Page Header Styles */
+.elevo-page-header {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.elevo-header-overlay {
+  background: linear-gradient(to bottom, rgba(26, 59, 143, 0.3), rgba(26, 59, 143, 0.9));
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elevo-header-content {
+  text-align: center;
+  max-width: 800px;
+  padding: 0 2rem;
+}
+
+.elevo-header-content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.elevo-header-content p {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.5;
+}
+
+/* Original Navbar styles - uncommented */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1a3b8f;
+  color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-brand-title a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar-brand-badge {
+  background-color: #e94b8a;
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand-badge:hover {
+  transform: rotate(10deg);
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navbar-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #e94b8a;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-form {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  width: 200px;
+  transition: all 0.3s ease;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-input:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 250px;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.profile-button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.profile-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.profile-button span {
+  margin-left: 0.5rem;
+}
+
+/* Home page styles */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 2rem;
 }
 
-/* Home Page Styles */
-.hero {
-  padding: 4rem 2rem;
-  background-color: #f8f9fa;
-  border-radius: 8px;
+.page-hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+  border-radius: 12px;
   margin-bottom: 3rem;
 }
 
-.hero h2 {
-  font-size: 2.5rem;
-  color: #2c3e50;
-  margin-bottom: 1rem;
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.hero p {
-  font-size: 1.2rem;
-  color: #666;
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  letter-spacing: -1px;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.5;
+}
+
+.hero-cta {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  background-color: var(--accent-pink);
+  color: white;
+}
+
+.cta-button.secondary {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.about-section {
+  padding: 4rem 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  margin-bottom: 3rem;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.5px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
-  padding: 2rem 0;
 }
 
 .feature {
-  padding: 2rem;
-  background-color: white;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .feature:hover {
   transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .feature h3 {
-  color: #2c3e50;
+  font-size: 1.3rem;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
 .feature p {
-  color: #666;
-}
-
-/* Common Page Styles */
-.search-section {
-  margin-bottom: 2rem;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-}
-
-.search-input {
-  padding: 0.5rem 1rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  width: 300px;
   font-size: 1rem;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-.filter-select {
-  padding: 0.5rem 1rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 1rem;
-}
-
-/* Athletes Page Styles */
-.athletes-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 2rem;
-  padding: 1rem;
-}
-
-.athlete-card {
-  background: white;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+.cta-section {
   text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+  border-radius: 12px;
 }
 
-.athlete-card:hover {
-  transform: translateY(-5px);
-}
-
-.athlete-image {
-  height: 150px;
-  background-color: #e9ecef;
-  border-radius: 4px;
-  margin-bottom: 1rem;
-  background-image: linear-gradient(45deg, #3498db22, #2c3e5022);
-  border: 2px solid #3498db22;
-}
-
-/* Teams Page Styles */
-.teams-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 2rem;
-  padding: 1rem;
-}
-
-.team-card {
-  background: white;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.team-card:hover {
-  transform: translateY(-5px);
-}
-
-.team-logo {
-  height: 120px;
-  background-color: #e9ecef;
-  border-radius: 4px;
-  margin-bottom: 1rem;
-}
-
-/* Events Page Styles */
-.events-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 2rem;
-  padding: 1rem;
-}
-
-.event-card {
-  background: white;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.event-card:hover {
-  transform: translateY(-5px);
-}
-
-.event-image {
-  height: 180px;
-  background-color: #e9ecef;
-  border-radius: 4px;
-  margin-bottom: 1rem;
-}
-
-/* Button Styles */
-.connect-button,
-.join-button,
-.register-button {
-  background-color: #3498db;
-  color: white;
-  border: none;
-  padding: 0.5rem 1.5rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s ease;
-}
-
-.connect-button:hover,
-.join-button:hover,
-.register-button:hover {
-  background-color: #2980b9;
-}
-
-footer {
-  background-color: #2c3e50;
-  color: white;
-  padding: 1rem;
-  margin-top: auto;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* Profile Page Styles */
-.profile-page {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-.profile-header {
-  display: flex;
-  gap: 2rem;
-  margin-bottom: 3rem;
-  padding: 2rem;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.profile-image-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-
-.profile-image {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: #e9ecef;
-  border: 3px solid #3498db;
-}
-
-.edit-profile-button {
-  background-color: #3498db;
-  color: white;
-  border: none;
-  padding: 0.5rem 1.5rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s ease;
-}
-
-.edit-profile-button:hover {
-  background-color: #2980b9;
-}
-
-.profile-info {
-  flex: 1;
-  text-align: left;
-}
-
-.profile-info h2 {
-  margin: 0 0 1rem 0;
-  color: #2c3e50;
+.cta-section h2 {
   font-size: 2rem;
-}
-
-.profile-details {
-  color: #666;
-  margin-bottom: 1rem;
-}
-
-.profile-details span {
-  margin: 0 0.5rem;
-}
-
-.sports-tags {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.sport-tag {
-  background-color: #3498db;
-  color: white;
-  padding: 0.3rem 1rem;
-  border-radius: 20px;
-  font-size: 0.9rem;
-}
-
-.position-info,
-.experience-info {
-  color: #666;
-  margin: 0.5rem 0;
-}
-
-/* Stats Section Styles */
-.stats-section {
-  background-color: white;
-  border-radius: 8px;
-  padding: 2rem;
+  font-weight: 700;
   margin-bottom: 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  letter-spacing: -0.5px;
 }
 
-.stats-section h3 {
-  color: #2c3e50;
-  margin-bottom: 1.5rem;
-  text-align: left;
-}
-
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-}
-
-.sport-stats {
-  text-align: left;
-}
-
-.sport-stats h4 {
-  color: #2c3e50;
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-}
-
-.stats-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.stat-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem;
-  background-color: #f8f9fa;
-  border-radius: 4px;
-}
-
-.stat-label {
-  color: #666;
-}
-
-.stat-value {
-  color: #2c3e50;
-  font-weight: bold;
-}
-
-/* Achievements Section Styles */
-.achievements-section {
-  background-color: white;
-  border-radius: 8px;
-  padding: 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.achievements-section h3 {
-  color: #2c3e50;
-  margin-bottom: 1.5rem;
-  text-align: left;
-}
-
-.achievements-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-}
-
-.achievement-card {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem;
-  background-color: #f8f9fa;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
-
-.achievement-card:hover {
-  transform: translateY(-3px);
-}
-
-.achievement-icon {
-  font-size: 2rem;
-}
-
-.achievement-details {
-  text-align: left;
-}
-
-.achievement-details h4 {
-  color: #2c3e50;
-  margin: 0 0 0.5rem 0;
-}
-
-.achievement-details p {
-  color: #666;
-  margin: 0;
-  font-size: 0.9rem;
-}
-
-.player-position {
-  color: #3498db;
-  font-weight: 600;
-  margin: 0.5rem 0;
-}
-
-.player-club {
-  color: #666;
-  font-style: italic;
-  margin-bottom: 1rem;
-}
-
-.player-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.5rem;
-  margin: 1rem 0;
-  padding: 0.5rem;
-  background-color: #f8f9fa;
-  border-radius: 4px;
-}
-
-.stat {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.stat-label {
-  font-size: 0.8rem;
-  color: #666;
-  margin-bottom: 0.2rem;
-}
-
-.stat-value {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-.club-info {
-  color: #3498db;
-  font-weight: 500;
-  margin: 0.5rem 0;
-}
-
-/* Highlight Videos Section Styles */
-.highlights-section {
-  background-color: white;
-  border-radius: 8px;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.highlights-section h3 {
-  color: #2c3e50;
-  margin-bottom: 1.5rem;
-  text-align: left;
-}
-
-.add-video-form {
-  background-color: #f8f9fa;
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-}
-
-.add-video-form h4 {
-  color: #2c3e50;
-  margin: 0 0 1rem 0;
-  font-size: 1.1rem;
-}
-
-.form-group {
-  margin-bottom: 1rem;
-}
-
-.form-group input {
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 1rem;
-}
-
-.form-group input:focus {
-  outline: none;
-  border-color: #3498db;
-  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
-}
-
-.add-video-button {
-  background-color: #3498db;
-  color: white;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 4px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-.add-video-button:hover {
-  background-color: #2980b9;
-}
-
-.videos-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
-}
-
-.video-card {
-  background: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-}
-
-.video-card:hover {
-  transform: translateY(-5px);
-}
-
-.video-thumbnail {
-  position: relative;
-  width: 100%;
-  height: 158px;
-  background-color: #2c3e50;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-.play-icon {
-  font-size: 2.5rem;
-  color: white;
-  opacity: 0.8;
-  transition: opacity 0.2s ease;
-}
-
-.video-thumbnail:hover .play-icon {
-  opacity: 1;
-}
-
-.video-info {
-  padding: 1rem;
-}
-
-.video-info h4 {
-  color: #2c3e50;
-  margin: 0 0 0.5rem 0;
-  font-size: 1.1rem;
-  line-height: 1.3;
-}
-
-.video-stats {
-  display: flex;
-  gap: 0.5rem;
-  color: #666;
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-}
-
-.watch-button {
-  display: inline-block;
-  background-color: #e74c3c;
-  color: white;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  font-size: 0.9rem;
-  transition: background-color 0.2s ease;
-}
-
-.watch-button:hover {
-  background-color: #c0392b;
-}
-
-@media (max-width: 768px) {
-  .videos-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .add-video-form {
-    padding: 1rem;
-  }
-}
-
-/* Verification Badge Styles */
-.player-name,
-.profile-name {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  justify-content: center;
-}
-
-.profile-name {
-  justify-content: flex-start;
-}
-
-.verified-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 20px;
-  height: 20px;
-  background-color: #3498db;
-  color: white;
-  border-radius: 50%;
-  font-size: 0.8rem;
-  font-weight: bold;
-  cursor: help;
-  transition: transform 0.2s ease, background-color 0.2s ease;
-}
-
-.verified-badge:hover {
-  transform: scale(1.1);
-  background-color: #2980b9;
-}
-
-/* Login Page Styles */
+/* Login page styles */
 .login-page {
-  min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #3498db, #2c3e50);
+  align-items: center;
+  min-height: 100vh;
   padding: 2rem;
 }
 
 .login-container {
-  background: white;
-  border-radius: 12px;
-  padding: 3rem;
   width: 100%;
-  max-width: 900px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+  text-align: center;
 }
 
 .login-container h2 {
-  color: #2c3e50;
-  text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
+  font-weight: 700;
   margin-bottom: 0.5rem;
+  letter-spacing: -0.5px;
 }
 
 .login-subtitle {
-  text-align: center;
-  color: #666;
-  margin-bottom: 3rem;
   font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 3rem;
 }
 
 .role-selector {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+  gap: 1.5rem;
   margin-bottom: 3rem;
 }
 
 .role-option {
-  background: #f8f9fa;
-  border-radius: 8px;
-  padding: 2rem;
-  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 2rem 1.5rem;
   cursor: pointer;
   transition: all 0.3s ease;
-  border: 2px solid transparent;
 }
 
 .role-option:hover {
   transform: translateY(-5px);
-  background: #fff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .role-option.selected {
-  background: #fff;
-  border-color: #3498db;
-  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.2);
+  background-color: var(--accent-pink);
+  transform: translateY(-5px);
 }
 
 .role-icon {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
 .role-option h3 {
-  color: #2c3e50;
-  margin: 0 0 0.5rem 0;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .role-option p {
-  color: #666;
-  margin: 0;
-  font-size: 0.9rem;
-  line-height: 1.4;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .login-form {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
-  padding-top: 2rem;
-  border-top: 1px solid #eee;
 }
 
-.login-form .form-group {
+.form-group {
   margin-bottom: 1.5rem;
+  text-align: left;
 }
 
-.login-form label {
+.form-group label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #2c3e50;
+  font-size: 0.9rem;
   font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
 }
 
-.login-form input {
+.form-group input {
   width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  padding: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: white;
   font-size: 1rem;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.login-form input:focus {
+.form-group input:focus {
   outline: none;
-  border-color: #3498db;
-  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+  background-color: rgba(255, 255, 255, 0.12);
 }
 
 .login-button {
-  width: 100%;
-  padding: 1rem;
-  background: #3498db;
-  color: white;
+  background-color: var(--accent-pink);
   border: none;
-  border-radius: 4px;
-  font-size: 1.1rem;
+  padding: 1rem 2rem;
+  width: 100%;
+  border-radius: 6px;
+  color: white;
+  font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.2s ease;
+  transition: all 0.3s ease;
   margin-bottom: 1.5rem;
 }
 
 .login-button:hover {
-  background: #2980b9;
+  background-color: #d13d72;
 }
 
 .login-footer {
-  text-align: center;
-  color: #666;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.9rem;
 }
 
 .login-footer a {
-  color: #3498db;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color 0.3s ease;
 }
 
 .login-footer a:hover {
-  color: #2980b9;
+  color: white;
 }
 
-.login-footer .separator {
-  margin: 0 0.5rem;
-  color: #ddd;
+.separator {
+  color: rgba(255, 255, 255, 0.5);
 }
 
-@media (max-width: 768px) {
-  .login-container {
-    padding: 2rem;
-  }
-
-  .role-selector {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .role-option {
-    padding: 1.5rem;
-  }
+/* Elevo Page Styles */
+.elevo-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--elevo-blue);
+  min-height: calc(100vh - 6rem);
 }
 
-/* Team Profile Specific Styles */
-.prospects-section {
-  margin-top: 2rem;
-}
-
-.prospects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-}
-
-.prospect-card {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.prospect-card:hover {
-  transform: translateY(-5px);
-}
-
-.prospect-card h4 {
-  color: #2c3e50;
-  margin: 0 0 1rem 0;
-  font-size: 1.2rem;
-}
-
-.prospect-details {
+/* Elevo Search and Filter Styles */
+.elevo-search-container {
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-}
-
-.prospect-details p {
-  margin: 0;
-  color: #666;
-  font-size: 0.9rem;
-}
-
-.prospect-details p:last-child {
-  color: #3498db;
-  font-weight: 500;
-}
-
-/* Team Stats Specific Styles */
-.team-stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
-  margin: 1rem 0;
 }
 
-.team-stat {
-  background: #f8f9fa;
-  padding: 1rem;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.team-stat-label {
-  color: #666;
-  font-size: 0.9rem;
-  margin-bottom: 0.5rem;
-}
-
-.team-stat-value {
-  color: #2c3e50;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-/* Universities Page Styles */
-.universities-page {
-  padding: 2rem;
-}
-
-.universities-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 2rem;
-  padding: 1rem;
-}
-
-.university-card {
-  background: white;
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.university-card:hover {
-  transform: translateY(-5px);
-}
-
-.university-header h3 {
-  color: #2c3e50;
-  font-size: 1.8rem;
-  margin: 0;
-}
-
-.university-fullname {
-  color: #666;
+.elevo-search-input {
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 6px;
   font-size: 1rem;
-  margin: 0.5rem 0 0 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  width: 100%;
 }
 
-.university-info {
-  color: #666;
-  font-size: 0.9rem;
+.elevo-search-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
 }
 
-.university-info p {
-  margin: 0.3rem 0;
+.elevo-search-input:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
-.university-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  background: #f8f9fa;
-  padding: 1rem;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.university-programs {
-  background: #f8f9fa;
-  padding: 1.5rem;
-  border-radius: 8px;
-}
-
-.university-programs h4 {
-  color: #2c3e50;
-  margin: 0 0 1rem 0;
-}
-
-.programs-info {
+.elevo-filter-container {
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.elevo-filter-select {
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.elevo-filter-select:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.elevo-filter-select option {
+  background-color: var(--elevo-blue);
+  color: #ffffff;
+}
+
+.elevo-filter-button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.elevo-filter-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Elevo Player Card Styles */
+.elevo-players-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.elevo-player-card {
+  background-color: var(--elevo-light-blue);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.elevo-player-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.elevo-player-image-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.elevo-player-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.elevo-player-age {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: var(--elevo-pink);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.elevo-player-content {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.elevo-player-header {
   margin-bottom: 1rem;
 }
 
-.program-tag {
-  background: #3498db;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  font-size: 0.9rem;
+.elevo-player-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem 0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.scholarships {
-  color: #666;
+.elevo-verified-badge {
+  color: var(--elevo-pink);
+  font-size: 1rem;
+}
+
+.elevo-player-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.elevo-player-position {
+  font-size: 0.95rem;
+  color: var(--elevo-pink);
+  font-weight: 600;
+}
+
+.elevo-player-club {
   font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.elevo-player-story {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.elevo-player-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.elevo-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.elevo-stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.2rem;
+}
+
+.elevo-stat-label {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+}
+
+.elevo-view-profile-button {
+  display: block;
+  text-align: center;
+  padding: 0.8rem;
+  background-color: var(--elevo-pink);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.elevo-view-profile-button:hover {
+  background-color: #d13d72;
+}
+
+.elevo-no-results {
+  text-align: center;
+  padding: 3rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+/* University Card Specific Styles */
+.elevo-university-header {
+  margin-bottom: 1rem;
+}
+
+.elevo-university-header h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem 0;
+  color: #ffffff;
+}
+
+.elevo-university-fullname {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
   margin: 0;
 }
 
-.university-achievements {
-  text-align: left;
+.elevo-university-info {
+  margin-bottom: 1.2rem;
 }
 
-.university-achievements h4 {
-  color: #2c3e50;
-  margin: 0 0 1rem 0;
+.elevo-location, .elevo-division {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0.2rem 0;
 }
 
-.university-achievements ul {
+.elevo-division {
+  color: var(--elevo-pink);
+  font-weight: 500;
+}
+
+.elevo-university-programs, .elevo-university-achievements {
+  margin-bottom: 1.5rem;
+}
+
+.elevo-university-programs h4, .elevo-university-achievements h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: var(--elevo-pink);
+}
+
+.elevo-programs-info {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.8rem;
+}
+
+.elevo-program-tag {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+
+.elevo-scholarships {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0.5rem 0;
+}
+
+.elevo-university-achievements ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.university-achievements li {
-  color: #666;
+.elevo-university-achievements li {
   font-size: 0.9rem;
-  margin-bottom: 0.5rem;
-  padding-left: 1.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.elevo-university-achievements li:last-child {
+  border-bottom: none;
+}
+
+/* Event Card Specific Styles */
+.elevo-featured-card {
+  border: 2px solid var(--elevo-pink);
+}
+
+.elevo-featured-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: var(--elevo-pink);
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.elevo-event-content {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.elevo-event-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem 0;
+  color: #ffffff;
+}
+
+.elevo-event-subtitle {
+  font-size: 0.9rem;
+  color: var(--elevo-pink);
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+}
+
+.elevo-event-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.elevo-event-detail {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.elevo-detail-icon {
+  font-size: 1rem;
+  min-width: 24px;
+}
+
+.elevo-event-description {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.elevo-event-registration {
+  margin-bottom: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.8rem;
+  border-radius: 6px;
+}
+
+.elevo-registration-info p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0.3rem 0;
+}
+
+.elevo-card-footer {
+  display: flex;
+  gap: 1rem;
+}
+
+.elevo-register-button {
+  flex: 1;
+  padding: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.elevo-register-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Elevo Hero Styles */
+.elevo-hero {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(to bottom, rgba(26, 59, 143, 0.9), rgba(26, 59, 143, 0.85)), 
+              url('https://images.unsplash.com/photo-1553778263-73a83bab9b0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
   position: relative;
 }
 
-.university-achievements li:before {
-  content: "🏆";
-  position: absolute;
-  left: 0;
+.elevo-hero-content {
+  max-width: 800px;
+  z-index: 2;
+}
+
+.elevo-hero h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  letter-spacing: -1px;
+}
+
+.elevo-hero-subtitle {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2.5rem;
+  line-height: 1.5;
+}
+
+.elevo-hero-cta {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.elevo-cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
   font-size: 1rem;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.elevo-cta-button.primary {
+  background-color: var(--elevo-pink);
+  color: white;
+  border: none;
+}
+
+.elevo-cta-button.secondary {
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.elevo-cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.elevo-cta-button.primary:hover {
+  background-color: #d13d72;
+}
+
+.elevo-cta-button.secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.8);
 }
 
 @media (max-width: 768px) {
-  .universities-grid {
+  .elevo-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .elevo-hero-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .elevo-hero-cta {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .elevo-cta-button {
+    width: 100%;
+  }
+}
+
+/* Home page styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Elevo About Section Styles */
+.elevo-about-section {
+  background-color: var(--elevo-blue);
+  padding: 4rem 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.elevo-about-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.elevo-about-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 auto 3rem auto;
+  max-width: 800px;
+}
+
+.elevo-features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.elevo-feature-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 2rem;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.elevo-feature-box:hover {
+  transform: translateY(-5px);
+}
+
+.elevo-feature-box h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.elevo-feature-box p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Responsive styles for the features */
+@media (max-width: 768px) {
+  .elevo-features {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .elevo-feature-box {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Elevo Profile Page Styles */
+.elevo-profile-page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--elevo-blue);
+}
+
+.elevo-profile-header {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #1a3b8f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.elevo-profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  border: 4px solid #ffffff;
+}
+
+.elevo-profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.elevo-profile-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: #ffffff;
+}
+
+.elevo-profile-position {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 1.5rem 0;
+}
+
+.elevo-profile-details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 0.5rem;
+}
+
+.elevo-profile-detail {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Profile Sections */
+.elevo-profile-sections {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.elevo-profile-section {
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.elevo-profile-section h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.elevo-profile-bio {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+
+/* Stats Grid */
+.elevo-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+
+.elevo-stat-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.elevo-stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--elevo-blue);
+}
+
+.elevo-stat-label {
+  font-size: 0.9rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Achievements List */
+.elevo-achievements-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.elevo-achievement-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.elevo-achievement-item:hover {
+  transform: translateX(5px);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.elevo-achievement-title {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.elevo-achievement-year {
+  color: var(--elevo-pink);
+  font-weight: 500;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .elevo-profile-name {
+    font-size: 2rem;
+  }
+  
+  .elevo-profile-details {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .elevo-stats-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+  }
+}
+
+/* Highlight Videos Section */
+.elevo-highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.elevo-video-card {
+  background-color: var(--elevo-card-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.elevo-video-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.elevo-video-thumbnail {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+}
+
+.elevo-video-thumbnail img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.elevo-video-card:hover .elevo-video-thumbnail img {
+  transform: scale(1.05);
+}
+
+.elevo-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  opacity: 0.9;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.elevo-video-card:hover .elevo-play-button {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.elevo-video-duration {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.elevo-video-info {
+  padding: 1rem;
+}
+
+.elevo-video-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: var(--elevo-text-color);
+}
+
+.elevo-video-views {
+  font-size: 0.8rem;
+  color: var(--elevo-text-secondary);
+  margin: 0;
+}
+
+/* Navbar Profile and Logout Buttons */
+.elevo-profile-button, .elevo-logout-button {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+}
+
+.elevo-profile-button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.elevo-profile-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.elevo-logout-button {
+  background-color: var(--elevo-blue-light);
+  color: white;
+  border: none;
+  min-width: 100px;
+  text-align: center;
+}
+
+.elevo-logout-button:hover {
+  background-color: var(--elevo-blue);
+  transform: translateY(-2px);
+}
+
+/* Elevo Video Section Styles */
+.elevo-video-section {
+  background-color: var(--elevo-dark-blue);
+  padding: 5rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+.elevo-video-section .elevo-section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-weight: 600;
+}
+
+.elevo-video-container {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2); /* Add background color while video loads */
+}
+
+.elevo-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: none;
+  display: block;
+  pointer-events: none; /* Prevents clicking on the video */
+}
+
+/* Hide all controls */
+.elevo-video::-webkit-media-controls {
+  display: none !important;
+}
+
+.elevo-video::-webkit-media-controls-panel {
+  display: none !important;
+}
+
+.elevo-video::-webkit-media-controls-play-button {
+  display: none !important;
+}
+
+.elevo-video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
+
+.elevo-video-description {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Video Controls Styling */
+.elevo-video::-webkit-media-controls {
+  background-color: rgba(19, 38, 77, 0.7);
+}
+
+.elevo-video::-webkit-media-controls-play-button {
+  background-color: var(--elevo-pink);
+  border-radius: 50%;
+}
+
+/* Custom styling for video controls */
+.elevo-mp4-video::-webkit-media-controls {
+  background-color: rgba(26, 59, 143, 0.7);
+}
+
+.elevo-mp4-video::-webkit-media-controls-panel {
+  background-color: rgba(26, 59, 143, 0.7);
+}
+
+.elevo-mp4-video::-webkit-media-controls-play-button {
+  background-color: var(--elevo-pink);
+  border-radius: 50%;
+}
+
+.elevo-video-features {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.elevo-video-feature {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 1.5rem;
+  flex: 1;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.elevo-video-feature:hover {
+  transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.elevo-video-feature h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--elevo-pink);
+  margin-bottom: 0.8rem;
+}
+
+.elevo-video-feature p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Responsive styles for the video section */
+@media (max-width: 768px) {
+  .elevo-video-features {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .elevo-video-container {
+    margin-bottom: 2rem;
+  }
+  
+  .elevo-video-section {
+    padding: 3rem 1.5rem;
+  }
+  
+  .elevo-video-section h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Similarity Score Badge */
+.elevo-similarity-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  letter-spacing: 0.5px;
+  font-family: 'Inter', sans-serif;
+  transition: transform 0.2s ease;
+}
+
+.elevo-similarity-badge:hover {
+  transform: translateY(-2px);
+}
+
+.elevo-player-card:hover .elevo-similarity-badge {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Rank Badge Styles */
+.elevo-rank-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: var(--elevo-blue);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  letter-spacing: 0.5px;
+  border: 2px solid var(--elevo-pink);
+  transition: transform 0.2s ease;
+}
+
+.elevo-rank-badge:hover {
+  transform: scale(1.1);
+}
+
+.elevo-player-card:hover .elevo-rank-badge {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Recruitment Needs Styles */
+.elevo-section-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.elevo-recruitment-needs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.elevo-recruitment-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 4px solid var(--elevo-pink);
+}
+
+.elevo-recruitment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.elevo-recruitment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.8rem;
+}
+
+.elevo-position-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+.elevo-priority-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.elevo-priority-high {
+  background-color: var(--elevo-pink);
+  color: #ffffff;
+}
+
+.elevo-priority-medium {
+  background-color: #f39c12;
+  color: #ffffff;
+}
+
+.elevo-priority-low {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+.elevo-position-description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+}
+
+.elevo-requirements-container {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.elevo-requirements-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--elevo-pink);
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.elevo-requirements-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.elevo-requirement-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.elevo-requirement-item:last-child {
+  border-bottom: none;
+}
+
+.elevo-requirement-name {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.elevo-requirement-value {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .elevo-recruitment-needs {
     grid-template-columns: 1fr;
   }
   
-  .university-card {
-    padding: 1.5rem;
+  .elevo-recruitment-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .elevo-priority-badge {
+    align-self: flex-start;
+  }
+}
+
+/* Top Prospects Section Styles */
+.elevo-prospects-section {
+  padding: 60px 20px;
+  background-color: #132e70;
+}
+
+.elevo-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.elevo-section-title {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: var(--elevo-text);
+}
+
+.elevo-section-description {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.elevo-prospects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.elevo-prospect-card {
+  background-color: var(--elevo-light-blue);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.elevo-prospect-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.elevo-prospect-image {
+  height: 180px;
+  overflow: hidden;
+}
+
+.elevo-prospect-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.elevo-prospect-card:hover .elevo-prospect-image img {
+  transform: scale(1.05);
+}
+
+.elevo-prospect-info {
+  padding: 20px;
+}
+
+.elevo-prospect-name {
+  font-size: 1.3rem;
+  margin: 0 0 15px;
+  color: white;
+}
+
+.elevo-prospect-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.elevo-prospect-detail {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+}
+
+.elevo-detail-label {
+  font-weight: 600;
+  color: var(--tonsser-light-gray);
+}
+
+.elevo-detail-value {
+  color: white;
+}
+
+.elevo-view-profile-btn {
+  display: block;
+  text-align: center;
+  background-color: var(--elevo-pink);
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.elevo-view-profile-btn:hover {
+  background-color: #d1427b;
+}
+
+.elevo-view-all-container {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.elevo-view-all-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: transparent;
+  border: 2px solid var(--elevo-pink);
+  color: var(--elevo-pink);
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.elevo-view-all-btn:hover {
+  background-color: var(--elevo-pink);
+  color: white;
+}
+
+/* Season Stats Styles for Prospect Cards */
+.elevo-season-stats {
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.elevo-stats-header {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--elevo-pink);
+  margin: 0 0 12px 0;
+  text-align: center;
+}
+
+.elevo-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+
+.elevo-stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.elevo-stat-number {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.elevo-stat-label {
+  font-size: 0.8rem;
+  color: var(--tonsser-light-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 360px) {
+  .elevo-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 10px;
   }
 }

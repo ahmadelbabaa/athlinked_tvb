@@ -1,0 +1,103 @@
+/* Global color overrides */
+:root {
+  --primary-blue: #1a3b8f !important;
+  --secondary-blue: #1e54b7 !important;
+  --accent-pink: #e94b8a !important;
+  --accent-purple: #8c52ff !important;
+  --tonsser-dark: #1a3b8f !important;
+  --tonsser-green: #e94b8a !important;
+  --tonsser-text: #ffffff !important;
+  --tonsser-light-gray: #d0d5e9 !important;
+  --tonsser-dark-gray: #183075 !important;
+}
+
+/* Force colors on common elements */
+body, html, #root, .App {
+  background-color: #1a3b8f !important;
+  color: #ffffff !important;
+}
+
+.navbar {
+  background-color: #1a3b8f !important;
+  color: #ffffff !important;
+}
+
+.navbar-links a {
+  color: #ffffff !important;
+}
+
+.navbar-brand-badge, .tonsser-united-badge {
+  background-color: #e94b8a !important;
+  color: #1a3b8f !important;
+}
+
+.login-button, .tonsser-cta-button, .card-button, .register-button {
+  background-color: #e94b8a !important;
+  color: #1a3b8f !important;
+}
+
+.login-button:hover, .tonsser-cta-button:hover, .card-button:hover, .register-button:hover {
+  background-color: #8c52ff !important;
+}
+
+.logout-button {
+  background-color: transparent !important;
+  color: #d0d5e9 !important;
+  border: 1px solid #d0d5e9 !important;
+}
+
+.footer {
+  background-color: #183075 !important;
+  color: #d0d5e9 !important;
+}
+
+.card, .event-card {
+  background-color: #1e54b7 !important;
+  color: #ffffff !important;
+}
+
+/* Force styles on hero section */
+.tonsser-hero, .page-hero {
+  background-color: #1a3b8f !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.tonsser-hero-overlay, .page-hero::before {
+  background: linear-gradient(rgba(26, 59, 143, 0.9), rgba(30, 84, 183, 0.9)) !important;
+}
+
+/* Force text colors */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
+
+p {
+  color: #d0d5e9 !important;
+}
+
+/* Feature sections */
+.tonsser-features-section, .event-details, .requirements-section {
+  background-color: #183075 !important;
+}
+
+.tonsser-feature {
+  background-color: #1a3b8f !important;
+}
+
+/* Form controls */
+input, select, textarea {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Stats styling */
+.stat-number {
+  color: #ffffff !important;
+  font-weight: 800 !important;
+}
+
+.stat-description {
+  color: #d0d5e9 !important;
+} 

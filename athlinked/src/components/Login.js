@@ -9,8 +9,20 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    // Make sure a role is selected
+    if (!selectedRole) {
+      alert('Please select a role');
+      return;
+    }
+    
+    console.log(`Logging in as ${selectedRole} with email: ${email}`);
+    
     // Store the role in localStorage for persistence
     localStorage.setItem('userRole', selectedRole);
+    
+    // Trigger a custom event to notify App component of role change
+    window.dispatchEvent(new Event('userRoleChanged'));
     
     // Navigate to the appropriate profile page based on role
     if (selectedRole === 'team') {
@@ -18,77 +30,86 @@ function Login() {
     } else {
       navigate('/profile');
     }
+    
+    // Force a page reload to ensure the user role is properly updated
+    // This is a fallback in case the event listener doesn't work
+    window.location.reload();
   };
 
   return (
     <div className="login-page">
-      <div className="login-container">
-        <h2>Welcome to AthLinked</h2>
-        <p className="login-subtitle">Select your role to continue</p>
+      <div className="login-container" data-aos="zoom-in">
+        <h2 data-aos="fade-down" data-aos-delay="200">Welcome to Elevo</h2>
+        <p className="login-subtitle" data-aos="fade-up" data-aos-delay="300">Select your role to continue</p>
         
         <div className="role-selector">
           <div 
             className={`role-option ${selectedRole === 'player' ? 'selected' : ''}`}
             onClick={() => setSelectedRole('player')}
+            data-aos="fade-right" 
+            data-aos-delay="400"
           >
             <div className="role-icon">⚽</div>
             <h3>Player</h3>
-            <p>Create your profile and connect with teams</p>
+            <p>Create your player profile, showcase your skills, and connect with teams and scouts.</p>
           </div>
-
+          
           <div 
             className={`role-option ${selectedRole === 'team' ? 'selected' : ''}`}
             onClick={() => setSelectedRole('team')}
+            data-aos="fade-up" 
+            data-aos-delay="500"
           >
             <div className="role-icon">🏆</div>
             <h3>Team</h3>
-            <p>Scout talent and manage your club</p>
+            <p>Represent your club, discover talent, and connect with players looking for opportunities.</p>
           </div>
-
+          
           <div 
             className={`role-option ${selectedRole === 'agent' ? 'selected' : ''}`}
             onClick={() => setSelectedRole('agent')}
+            data-aos="fade-left" 
+            data-aos-delay="600"
           >
             <div className="role-icon">👔</div>
             <h3>Agent</h3>
-            <p>Represent players and manage opportunities</p>
+            <p>Find promising talent, manage your clients, and connect them with the right opportunities.</p>
           </div>
         </div>
-
-        {selectedRole && (
-          <form onSubmit={handleSubmit} className="login-form">
-            <div className="form-group">
-              <label htmlFor="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Enter your email"
-                required
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="password">Password</label>
-              <input
-                type="password"
-                id="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                placeholder="Enter your password"
-                required
-              />
-            </div>
-            <button type="submit" className="login-button">
-              Login as {selectedRole.charAt(0).toUpperCase() + selectedRole.slice(1)}
-            </button>
-            <div className="login-footer">
-              <a href="#forgot-password">Forgot Password?</a>
-              <span className="separator">•</span>
-              <a href="#register">Create Account</a>
-            </div>
-          </form>
-        )}
+        
+        <form className="login-form" onSubmit={handleSubmit} data-aos="fade-up" data-aos-delay="700">
+          <div className="form-group">
+            <label htmlFor="email">Email</label>
+            <input 
+              type="email" 
+              id="email" 
+              value={email} 
+              onChange={(e) => setEmail(e.target.value)} 
+              required 
+            />
+          </div>
+          
+          <div className="form-group">
+            <label htmlFor="password">Password</label>
+            <input 
+              type="password" 
+              id="password" 
+              value={password} 
+              onChange={(e) => setPassword(e.target.value)} 
+              required 
+            />
+          </div>
+          
+          <button type="submit" className="login-button">
+            {selectedRole ? `Login as ${selectedRole}` : 'Login'}
+          </button>
+          
+          <div className="login-footer" data-aos="fade-up" data-aos-delay="800">
+            <a href="#">Create an account</a>
+            <span className="separator">|</span>
+            <a href="#">Forgot password?</a>
+          </div>
+        </form>
       </div>
     </div>
   );
