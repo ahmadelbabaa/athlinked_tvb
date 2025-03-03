@@ -110,7 +110,7 @@ function Home() {
         <div className="elevo-hero-content">
           <h1>Talent exists everywhere</h1>
           <p className="elevo-hero-subtitle">
-            Through Elevo, we connect aspiring footballers with clubs and universities
+            Through AthleX, we connect aspiring footballers with clubs and universities
           </p>
           <div className="elevo-hero-cta">
             <Link to="/athletes" className="elevo-cta-button primary">DISCOVER PLAYERS</Link>
@@ -120,9 +120,9 @@ function Home() {
       </section>
 
       <section className="elevo-about-section">
-        <h2>About Elevo</h2>
+        <h2>About AthleX</h2>
         <p className="elevo-about-description">
-          Elevo is revolutionizing the way athletes are discovered and developed. Our platform connects<br />
+          AthleX is revolutionizing the way athletes are discovered and developed. Our platform connects<br />
           talented players with opportunities they deserve, based purely on their performance and potential.
         </p>
         
@@ -226,7 +226,7 @@ function Home() {
 
       <section className="elevo-video-section">
         <div className="elevo-container">
-          <h2 className="elevo-section-title">Watch Elevo in Action</h2>
+          <h2 className="elevo-section-title">Watch AthleX in Action</h2>
           <div className="elevo-video-container">
             <video 
               ref={videoRef}
@@ -241,14 +241,14 @@ function Home() {
             </video>
           </div>
           <p className="elevo-video-description">
-            See how Elevo is transforming the scouting experience for players and clubs worldwide.
+            See how AthleX is transforming the scouting experience for players and clubs worldwide.
           </p>
         </div>
       </section>
 
       <section className="cta-section">
         <h2>Ready to discover your next opportunity?</h2>
-        <Link to="/login" className="cta-button">JOIN ELEVO</Link>
+        <Link to="/login" className="cta-button">JOIN ATHLEX</Link>
       </section>
     </div>
   );
