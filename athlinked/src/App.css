@@ -1,20 +1,29 @@
-/* Base styles for Tonsser-inspired design */
+/* Base styles for updated design */
 :root {
-  --primary-blue: #1a3b8f;
-  --secondary-blue: #1e54b7;
-  --accent-pink: #e94b8a;
-  --accent-purple: #8c52ff;
-  --tonsser-dark: #1a3b8f;
-  --tonsser-green: #e94b8a;
-  --tonsser-text: #ffffff;
-  --tonsser-light-gray: #d0d5e9;
-  --tonsser-dark-gray: #183075;
+  --primary-color: #121212; /* Dark background */
+  --secondary-color: #1e1e1e; /* Slightly lighter dark for contrast */
+  --accent-color: #7b2e8e; /* Purple accent color */
+  --accent-gradient: linear-gradient(135deg, #7b2e8e, #4a1f60); /* Purple gradient */
+  --text-color: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.8);
+  --text-muted: rgba(255, 255, 255, 0.6);
   
-  /* Elevo colors */
-  --elevo-blue: #1a3b8f;
-  --elevo-pink: #e94b8a;
-  --elevo-light-blue: #25469c;
-  --elevo-text: #ffffff;
+  /* Legacy variables - updated with new color scheme */
+  --primary-blue: #121212;
+  --secondary-blue: #1e1e1e;
+  --accent-pink: #7b2e8e;
+  --accent-purple: #7b2e8e;
+  --tonsser-dark: #121212;
+  --tonsser-green: #7b2e8e;
+  --tonsser-text: #ffffff;
+  --tonsser-light-gray: rgba(255, 255, 255, 0.6);
+  --tonsser-dark-gray: #2a2a2a;
+  
+  /* AthleX colors */
+  --athlex-blue: #121212;
+  --athlex-pink: #7b2e8e;
+  --athlex-light-blue: #1e1e1e;
+  --athlex-text: #ffffff;
 }
 
 html, body {
@@ -24,8 +33,8 @@ html, body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--tonsser-dark);
-  color: var(--tonsser-text);
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .App {
@@ -33,8 +42,114 @@ html, body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: var(--tonsser-dark);
-  color: var(--tonsser-text);
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+/* Updated Navbar Styles */
+.navbar {
+  background-color: #121212 !important;
+  padding: 1.5rem 2rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 3px 15px rgba(123, 46, 142, 0.3);
+  border-bottom: 1px solid rgba(123, 46, 142, 0.3);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+.sign-in-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--primary-blue);
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.sign-in-button:hover {
+  background-color: var(--secondary-blue);
+}
+
+.sign-in-icon {
+  font-size: 1.1rem;
+}
+
+.profile-button, .logout-button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.profile-button:hover, .logout-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .navbar-center {
+    display: none;
+  }
+  
+  .navbar {
+    padding: 1rem;
+  }
 }
 
 .App-logo {
@@ -48,9 +163,9 @@ html, body {
   }
 }
 
-/* Elevo Navbar Styles */
-.elevo-navbar {
-  background-color: var(--elevo-blue);
+/* AthleX Navbar Styles */
+.athlex-navbar {
+  background-color: var(--athlex-blue);
   padding: 1rem 2rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: sticky;
@@ -58,7 +173,7 @@ html, body {
   z-index: 1000;
 }
 
-.elevo-navbar-container {
+.athlex-navbar-container {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -66,13 +181,13 @@ html, body {
   align-items: center;
 }
 
-.elevo-navbar-brand {
+.athlex-navbar-brand {
   display: flex;
   align-items: center;
   gap: 0.75rem;
 }
 
-.elevo-brand-text {
+.athlex-brand-text {
   color: #ffffff;
   text-decoration: none;
   font-size: 1.5rem;
@@ -80,8 +195,8 @@ html, body {
   letter-spacing: 1px;
 }
 
-.elevo-brand-badge {
-  background-color: var(--elevo-pink);
+.athlex-brand-badge {
+  background-color: var(--athlex-pink);
   color: #ffffff;
   width: 34px;
   height: 34px;
@@ -93,13 +208,13 @@ html, body {
   font-size: 1.1rem;
 }
 
-.elevo-navbar-links {
+.athlex-navbar-links {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
-.elevo-nav-link {
+.athlex-nav-link {
   color: #ffffff;
   text-decoration: none;
   font-weight: 500;
@@ -107,18 +222,18 @@ html, body {
   transition: all 0.3s ease;
 }
 
-.elevo-nav-link:hover {
-  color: var(--elevo-pink);
+.athlex-nav-link:hover {
+  color: var(--athlex-pink);
 }
 
-.elevo-navbar-actions {
+.athlex-navbar-actions {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-.elevo-join-button {
-  background-color: var(--elevo-pink);
+.athlex-join-button {
+  background-color: var(--athlex-pink);
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
@@ -129,19 +244,19 @@ html, body {
   transition: all 0.3s ease;
 }
 
-.elevo-join-button:hover {
+.athlex-join-button:hover {
   background-color: #d13d72;
   transform: translateY(-2px);
 }
 
-/* Elevo Page Header Styles */
-.elevo-page-header {
+/* AthleX Page Header Styles */
+.athlex-page-header {
   height: 300px;
   width: 100%;
   margin-bottom: 2rem;
 }
 
-.elevo-header-overlay {
+.athlex-header-overlay {
   background: linear-gradient(to bottom, rgba(26, 59, 143, 0.3), rgba(26, 59, 143, 0.9));
   height: 100%;
   width: 100%;
@@ -150,20 +265,20 @@ html, body {
   justify-content: center;
 }
 
-.elevo-header-content {
+.athlex-header-content {
   text-align: center;
   max-width: 800px;
   padding: 0 2rem;
 }
 
-.elevo-header-content h1 {
+.athlex-header-content h1 {
   font-size: 3rem;
   font-weight: 800;
   margin-bottom: 1rem;
   color: #ffffff;
 }
 
-.elevo-header-content p {
+.athlex-header-content p {
   font-size: 1.3rem;
   color: rgba(255, 255, 255, 0.9);
   line-height: 1.5;
@@ -175,9 +290,9 @@ html, body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #1a3b8f;
+  background-color: #121212 !important;
   color: #ffffff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(123, 46, 142, 0.3);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -207,7 +322,7 @@ html, body {
 }
 
 .navbar-brand-badge {
-  background-color: #e94b8a;
+  background-color: #7b2e8e;
   color: #ffffff;
   width: 35px;
   height: 35px;
@@ -239,7 +354,7 @@ html, body {
 }
 
 .navbar-links a:hover {
-  color: #e94b8a;
+  color: #7b2e8e;
 }
 
 .navbar-actions {
@@ -570,39 +685,57 @@ html, body {
 }
 
 .login-footer a {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--accent-color);
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 
 .login-footer a:hover {
-  color: white;
+  text-decoration: underline;
+}
+
+.text-button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--accent-color);
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.text-button:hover {
+  text-decoration: underline;
 }
 
 .separator {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* Elevo Page Styles */
-.elevo-page {
+/* AthleX Page Styles */
+.athlex-page {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: var(--elevo-blue);
+  background-color: var(--athlex-blue);
   min-height: calc(100vh - 6rem);
 }
 
-/* Elevo Search and Filter Styles */
-.elevo-search-container {
+/* AthleX Search and Filter Styles */
+.search-container {
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  background-color: var(--secondary-color);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(123, 46, 142, 0.3);
 }
 
-.elevo-search-input {
+.search-input {
   padding: 0.8rem 1rem;
-  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 6px;
   font-size: 1rem;
   background-color: rgba(255, 255, 255, 0.1);
@@ -610,101 +743,120 @@ html, body {
   width: 100%;
 }
 
-.elevo-search-input::placeholder {
+.search-input::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.elevo-search-input:focus {
+.search-input:focus {
   outline: none;
+  border-color: var(--accent-color);
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-.elevo-filter-container {
+.filter-container {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
 }
 
-.elevo-filter-select {
+.filter-select {
   padding: 0.8rem 1rem;
-  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 6px;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   background-color: rgba(255, 255, 255, 0.1);
   color: #ffffff;
   flex-grow: 1;
   cursor: pointer;
 }
 
-.elevo-filter-select:focus {
+.filter-select:focus {
   outline: none;
+  border-color: var(--accent-color);
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-.elevo-filter-select option {
-  background-color: var(--elevo-blue);
+.filter-select option {
+  background-color: var(--secondary-color);
   color: #ffffff;
+  padding: 0.5rem;
 }
 
-.elevo-filter-button {
+.filter-button {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
   padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: none;
-  border-radius: 6px;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-size: 0.95rem;
   cursor: pointer;
-  transition: all 0.3s ease;
+  min-width: 120px;
 }
 
-.elevo-filter-button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+.filter-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Elevo Player Card Styles */
-.elevo-players-grid {
+.filter-button.active {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+/* Player Card Styles */
+.players-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 
-.elevo-player-card {
-  background-color: var(--elevo-light-blue);
+.player-card {
+  background-color: var(--secondary-color);
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   height: 100%;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
   position: relative;
+  border: 1px solid rgba(123, 46, 142, 0.3);
 }
 
-.elevo-player-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+.player-card:hover {
+  transform: translateY(-10px);
 }
 
-.elevo-player-image-container {
+.featured-card {
+  border: 2px solid var(--accent-color);
+  box-shadow: 0 5px 20px rgba(123, 46, 142, 0.4);
+}
+
+.player-image-container {
   position: relative;
   width: 100%;
   height: 200px;
   overflow: hidden;
 }
 
-.elevo-player-image {
+.player-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-.elevo-player-age {
+.player-age {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  background-color: var(--elevo-pink);
+  background-color: var(--accent-color);
   color: #ffffff;
   font-weight: 700;
   font-size: 1rem;
@@ -716,18 +868,48 @@ html, body {
   border-radius: 4px;
 }
 
-.elevo-player-content {
+.similarity-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  z-index: 3;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.rank-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  z-index: 3;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--accent-color);
+}
+
+.player-content {
   padding: 1.5rem;
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
-.elevo-player-header {
+.player-header {
   margin-bottom: 1rem;
 }
 
-.elevo-player-name {
+.player-name {
   font-size: 1.3rem;
   font-weight: 700;
   margin: 0 0 0.3rem 0;
@@ -737,142 +919,169 @@ html, body {
   gap: 0.5rem;
 }
 
-.elevo-verified-badge {
-  color: var(--elevo-pink);
+.verified-badge {
+  color: var(--accent-color);
   font-size: 1rem;
 }
 
-.elevo-player-info {
+.player-info {
   display: flex;
   flex-direction: column;
 }
 
-.elevo-player-position {
+.player-position {
   font-size: 0.95rem;
-  color: var(--elevo-pink);
+  color: var(--accent-color);
   font-weight: 600;
 }
 
-.elevo-player-club {
+.player-club {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.8);
 }
 
-.elevo-player-story {
-  font-size: 0.9rem;
+.player-story {
+  font-size: 0.95rem;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 1.5rem;
   flex-grow: 1;
 }
 
-.elevo-player-stats {
+.player-card.event-card .player-story {
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+  max-height: 4.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  flex-grow: 0;
+}
+
+.player-card.event-card .event-details {
+  margin-bottom: 0.8rem;
+}
+
+.player-card.event-card .event-registration {
+  margin-bottom: 1rem;
+}
+
+.player-stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin-bottom: 1.5rem;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
 }
 
-.elevo-stat {
+.player-stat {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.elevo-stat-value {
+.stat-value {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #ffffff;
   margin-bottom: 0.2rem;
+  color: var(--accent-color);
 }
 
-.elevo-stat-label {
+.stat-label {
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
 }
 
-.elevo-view-profile-button {
-  display: block;
-  text-align: center;
-  padding: 0.8rem;
-  background-color: var(--elevo-pink);
-  color: #ffffff;
-  border: none;
-  border-radius: 6px;
-  font-size: 0.9rem;
+.view-player-button {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
   font-weight: 600;
   text-decoration: none;
-  letter-spacing: 1px;
-  transition: background-color 0.3s ease;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.elevo-view-profile-button:hover {
-  background-color: #d13d72;
-}
-
-.elevo-no-results {
   text-align: center;
-  padding: 3rem;
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-width: 150px;
+  margin-top: auto;
+  align-self: center;
+}
+
+.view-player-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .filter-container {
+    flex-direction: column;
+  }
+  
+  .players-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
 }
 
 /* University Card Specific Styles */
-.elevo-university-header {
+.athlex-university-header {
   margin-bottom: 1rem;
 }
 
-.elevo-university-header h3 {
+.athlex-university-header h3 {
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0 0 0.3rem 0;
   color: #ffffff;
 }
 
-.elevo-university-fullname {
+.athlex-university-fullname {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.8);
   margin: 0;
 }
 
-.elevo-university-info {
+.athlex-university-info {
   margin-bottom: 1.2rem;
 }
 
-.elevo-location, .elevo-division {
+.athlex-location, .athlex-division {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.8);
   margin: 0.2rem 0;
 }
 
-.elevo-division {
-  color: var(--elevo-pink);
+.athlex-division {
+  color: var(--athlex-pink);
   font-weight: 500;
 }
 
-.elevo-university-programs, .elevo-university-achievements {
+.athlex-university-programs, .athlex-university-achievements {
   margin-bottom: 1.5rem;
 }
 
-.elevo-university-programs h4, .elevo-university-achievements h4 {
+.athlex-university-programs h4, .athlex-university-achievements h4 {
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
-  color: var(--elevo-pink);
+  color: var(--athlex-pink);
 }
 
-.elevo-programs-info {
+.athlex-programs-info {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
   margin-bottom: 0.8rem;
 }
 
-.elevo-program-tag {
+.athlex-program-tag {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 0.3rem 0.7rem;
   border-radius: 4px;
@@ -880,39 +1089,39 @@ html, body {
   color: #ffffff;
 }
 
-.elevo-scholarships {
+.athlex-scholarships {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.9);
   margin: 0.5rem 0;
 }
 
-.elevo-university-achievements ul {
+.athlex-university-achievements ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.elevo-university-achievements li {
+.athlex-university-achievements li {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.9);
   padding: 0.5rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.elevo-university-achievements li:last-child {
+.athlex-university-achievements li:last-child {
   border-bottom: none;
 }
 
 /* Event Card Specific Styles */
-.elevo-featured-card {
-  border: 2px solid var(--elevo-pink);
+.athlex-featured-card {
+  border: 2px solid var(--athlex-pink);
 }
 
-.elevo-featured-badge {
+.athlex-featured-badge {
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: var(--elevo-pink);
+  background-color: var(--athlex-pink);
   color: #ffffff;
   font-size: 0.8rem;
   font-weight: 600;
@@ -921,35 +1130,32 @@ html, body {
   z-index: 1;
 }
 
-.elevo-event-content {
+.athlex-event-content {
   padding: 1.5rem;
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
-.elevo-event-title {
+.athlex-event-title {
   font-size: 1.3rem;
   font-weight: 700;
   margin: 0 0 0.3rem 0;
   color: #ffffff;
 }
 
-.elevo-event-subtitle {
+.athlex-event-subtitle {
   font-size: 0.9rem;
-  color: var(--elevo-pink);
+  color: var(--athlex-pink);
   font-weight: 600;
   margin: 0 0 1rem 0;
 }
 
-.elevo-event-details {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  margin-bottom: 1.2rem;
+.athlex-event-details {
+  margin-bottom: 0.8rem;
 }
 
-.elevo-event-detail {
+.athlex-event-detail {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -957,12 +1163,12 @@ html, body {
   color: rgba(255, 255, 255, 0.9);
 }
 
-.elevo-detail-icon {
+.athlex-detail-icon {
   font-size: 1rem;
   min-width: 24px;
 }
 
-.elevo-event-description {
+.athlex-event-description {
   font-size: 0.9rem;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.9);
@@ -970,25 +1176,16 @@ html, body {
   flex-grow: 1;
 }
 
-.elevo-event-registration {
-  margin-bottom: 1.5rem;
-  background-color: rgba(255, 255, 255, 0.05);
-  padding: 0.8rem;
-  border-radius: 6px;
+.athlex-event-registration {
+  margin-bottom: 1rem;
 }
 
-.elevo-registration-info p {
-  font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.9);
-  margin: 0.3rem 0;
-}
-
-.elevo-card-footer {
+.athlex-card-footer {
   display: flex;
   gap: 1rem;
 }
 
-.elevo-register-button {
+.athlex-register-button {
   flex: 1;
   padding: 0.8rem;
   background-color: rgba(255, 255, 255, 0.1);
@@ -1003,12 +1200,12 @@ html, body {
   text-transform: uppercase;
 }
 
-.elevo-register-button:hover {
+.athlex-register-button:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Elevo Hero Styles */
-.elevo-hero {
+/* AthleX Hero Styles */
+.athlex-hero {
   width: 100%;
   height: 500px;
   background: linear-gradient(to bottom, rgba(26, 59, 143, 0.9), rgba(26, 59, 143, 0.85)), 
@@ -1023,12 +1220,12 @@ html, body {
   position: relative;
 }
 
-.elevo-hero-content {
+.athlex-hero-content {
   max-width: 800px;
   z-index: 2;
 }
 
-.elevo-hero h1 {
+.athlex-hero h1 {
   font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 1.5rem;
@@ -1036,21 +1233,21 @@ html, body {
   letter-spacing: -1px;
 }
 
-.elevo-hero-subtitle {
+.athlex-hero-subtitle {
   font-size: 1.4rem;
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 2.5rem;
   line-height: 1.5;
 }
 
-.elevo-hero-cta {
+.athlex-hero-cta {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
   margin-top: 2rem;
 }
 
-.elevo-cta-button {
+.athlex-cta-button {
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 6px;
@@ -1062,75 +1259,67 @@ html, body {
   text-transform: uppercase;
 }
 
-.elevo-cta-button.primary {
-  background-color: var(--elevo-pink);
+.athlex-cta-button.primary {
+  background-color: var(--athlex-pink);
   color: white;
   border: none;
 }
 
-.elevo-cta-button.secondary {
+.athlex-cta-button.secondary {
   background-color: transparent;
   color: white;
   border: 2px solid rgba(255, 255, 255, 0.6);
 }
 
-.elevo-cta-button:hover {
+.athlex-cta-button:hover {
   transform: translateY(-3px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.elevo-cta-button.primary:hover {
+.athlex-cta-button.primary:hover {
   background-color: #d13d72;
 }
 
-.elevo-cta-button.secondary:hover {
+.athlex-cta-button.secondary:hover {
   background-color: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.8);
 }
 
 @media (max-width: 768px) {
-  .elevo-hero h1 {
+  .athlex-hero h1 {
     font-size: 2.5rem;
   }
   
-  .elevo-hero-subtitle {
+  .athlex-hero-subtitle {
     font-size: 1.2rem;
   }
   
-  .elevo-hero-cta {
+  .athlex-hero-cta {
     flex-direction: column;
     gap: 1rem;
   }
   
-  .elevo-cta-button {
+  .athlex-cta-button {
     width: 100%;
   }
 }
 
-/* Home page styles */
-.home-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  width: 100%;
-}
-
-/* Elevo About Section Styles */
-.elevo-about-section {
-  background-color: var(--elevo-blue);
+/* AthleX About Section Styles */
+.athlex-about-section {
+  background-color: var(--athlex-blue);
   padding: 4rem 2rem;
   text-align: center;
   width: 100%;
 }
 
-.elevo-about-section h2 {
+.athlex-about-section h2 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   color: #ffffff;
 }
 
-.elevo-about-description {
+.athlex-about-description {
   font-size: 1.1rem;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.9);
@@ -1138,7 +1327,7 @@ html, body {
   max-width: 800px;
 }
 
-.elevo-features {
+.athlex-features {
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -1146,7 +1335,7 @@ html, body {
   max-width: 1200px;
 }
 
-.elevo-feature-box {
+.athlex-feature-box {
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 10px;
   padding: 2rem;
@@ -1156,18 +1345,18 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.elevo-feature-box:hover {
+.athlex-feature-box:hover {
   transform: translateY(-5px);
 }
 
-.elevo-feature-box h3 {
+.athlex-feature-box h3 {
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 1rem;
   color: #ffffff;
 }
 
-.elevo-feature-box p {
+.athlex-feature-box p {
   font-size: 1rem;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.8);
@@ -1175,25 +1364,25 @@ html, body {
 
 /* Responsive styles for the features */
 @media (max-width: 768px) {
-  .elevo-features {
+  .athlex-features {
     flex-direction: column;
     align-items: center;
   }
   
-  .elevo-feature-box {
+  .athlex-feature-box {
     width: 100%;
     max-width: 100%;
   }
 }
 
-/* Elevo Profile Page Styles */
-.elevo-profile-page {
+/* AthleX Profile Page Styles */
+.athlex-profile-page {
   width: 100%;
   min-height: 100vh;
-  background-color: var(--elevo-blue);
+  background-color: var(--athlex-blue);
 }
 
-.elevo-profile-header {
+.athlex-profile-header {
   padding: 3rem 0;
   text-align: center;
   background-color: #1a3b8f;
@@ -1202,7 +1391,7 @@ html, body {
   align-items: center;
 }
 
-.elevo-profile-picture {
+.athlex-profile-picture {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -1211,26 +1400,26 @@ html, body {
   border: 4px solid #ffffff;
 }
 
-.elevo-profile-picture img {
+.athlex-profile-picture img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.elevo-profile-name {
+.athlex-profile-name {
   font-size: 2.5rem;
   font-weight: 700;
   margin: 0 0 0.5rem 0;
   color: #ffffff;
 }
 
-.elevo-profile-position {
+.athlex-profile-position {
   font-size: 1.1rem;
   color: rgba(255, 255, 255, 0.9);
   margin: 0 0 1.5rem 0;
 }
 
-.elevo-profile-details {
+.athlex-profile-details {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -1238,26 +1427,26 @@ html, body {
   margin-top: 0.5rem;
 }
 
-.elevo-profile-detail {
+.athlex-profile-detail {
   font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.9);
 }
 
 /* Profile Sections */
-.elevo-profile-sections {
+.athlex-profile-sections {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
 }
 
-.elevo-profile-section {
+.athlex-profile-section {
   background-color: rgba(255, 255, 255, 0.03);
   border-radius: 10px;
   padding: 2rem;
   margin-bottom: 2rem;
 }
 
-.elevo-profile-section h2 {
+.athlex-profile-section h2 {
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
@@ -1265,7 +1454,7 @@ html, body {
   color: #ffffff;
 }
 
-.elevo-profile-bio {
+.athlex-profile-bio {
   font-size: 1.1rem;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.9);
@@ -1273,13 +1462,13 @@ html, body {
 }
 
 /* Stats Grid */
-.elevo-stats-grid {
+.athlex-stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1.5rem;
 }
 
-.elevo-stat-card {
+.athlex-stat-card {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 1.5rem 1rem;
@@ -1287,14 +1476,14 @@ html, body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.elevo-stat-value {
+.athlex-stat-value {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  color: var(--elevo-blue);
+  color: var(--athlex-blue);
 }
 
-.elevo-stat-label {
+.athlex-stat-label {
   font-size: 0.9rem;
   color: #666;
   text-transform: uppercase;
@@ -1302,13 +1491,13 @@ html, body {
 }
 
 /* Achievements List */
-.elevo-achievements-list {
+.athlex-achievements-list {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.elevo-achievement-item {
+.athlex-achievement-item {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
@@ -1317,67 +1506,67 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.elevo-achievement-item:hover {
+.athlex-achievement-item:hover {
   transform: translateX(5px);
   background-color: rgba(255, 255, 255, 0.08);
 }
 
-.elevo-achievement-title {
+.athlex-achievement-title {
   font-weight: 600;
   color: rgba(255, 255, 255, 0.95);
 }
 
-.elevo-achievement-year {
-  color: var(--elevo-pink);
+.athlex-achievement-year {
+  color: var(--athlex-pink);
   font-weight: 500;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  .elevo-profile-name {
+  .athlex-profile-name {
     font-size: 2rem;
   }
   
-  .elevo-profile-details {
+  .athlex-profile-details {
     flex-direction: column;
     gap: 0.5rem;
   }
   
-  .elevo-stats-grid {
+  .athlex-stats-grid {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1rem;
   }
 }
 
 /* Highlight Videos Section */
-.elevo-highlights-grid {
+.athlex-highlights-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.5rem;
   margin-top: 1.5rem;
 }
 
-.elevo-video-card {
-  background-color: var(--elevo-card-bg);
+.athlex-video-card {
+  background-color: var(--athlex-card-bg);
   border-radius: 12px;
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.elevo-video-card:hover {
+.athlex-video-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
 
-.elevo-video-thumbnail {
+.athlex-video-thumbnail {
   position: relative;
   width: 100%;
   padding-top: 56.25%; /* 16:9 aspect ratio */
   overflow: hidden;
 }
 
-.elevo-video-thumbnail img {
+.athlex-video-thumbnail img {
   position: absolute;
   top: 0;
   left: 0;
@@ -1387,11 +1576,11 @@ html, body {
   transition: transform 0.3s ease;
 }
 
-.elevo-video-card:hover .elevo-video-thumbnail img {
+.athlex-video-card:hover .athlex-video-thumbnail img {
   transform: scale(1.05);
 }
 
-.elevo-play-button {
+.athlex-play-button {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1401,12 +1590,12 @@ html, body {
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
-.elevo-video-card:hover .elevo-play-button {
+.athlex-video-card:hover .athlex-play-button {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1.1);
 }
 
-.elevo-video-duration {
+.athlex-video-duration {
   position: absolute;
   bottom: 10px;
   right: 10px;
@@ -1418,25 +1607,25 @@ html, body {
   font-weight: 500;
 }
 
-.elevo-video-info {
+.athlex-video-info {
   padding: 1rem;
 }
 
-.elevo-video-title {
+.athlex-video-title {
   font-size: 1rem;
   font-weight: 600;
   margin: 0 0 0.5rem 0;
-  color: var(--elevo-text-color);
+  color: var(--athlex-text-color);
 }
 
-.elevo-video-views {
+.athlex-video-views {
   font-size: 0.8rem;
-  color: var(--elevo-text-secondary);
+  color: var(--athlex-text-secondary);
   margin: 0;
 }
 
 /* Navbar Profile and Logout Buttons */
-.elevo-profile-button, .elevo-logout-button {
+.athlex-profile-button, .athlex-logout-button {
   display: inline-block;
   padding: 8px 16px;
   border-radius: 4px;
@@ -1448,535 +1637,1138 @@ html, body {
   transition: all 0.2s ease;
 }
 
-.elevo-profile-button {
+.athlex-profile-button {
   background-color: transparent;
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.elevo-profile-button:hover {
+.athlex-profile-button:hover {
   background-color: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.5);
 }
 
-.elevo-logout-button {
-  background-color: var(--elevo-blue-light);
+.athlex-logout-button {
+  background-color: var(--athlex-blue-light);
   color: white;
   border: none;
   min-width: 100px;
   text-align: center;
 }
 
-.elevo-logout-button:hover {
-  background-color: var(--elevo-blue);
+.athlex-logout-button:hover {
+  background-color: var(--athlex-blue);
   transform: translateY(-2px);
 }
 
-/* Elevo Video Section Styles */
-.elevo-video-section {
-  background-color: var(--elevo-dark-blue);
+/* AthleX Video Section Styles */
+.video-section {
   padding: 5rem 2rem;
+  background-color: var(--secondary-color);
   text-align: center;
-  color: white;
+  color: var(--text-color);
 }
 
-.elevo-video-section .elevo-section-title {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  color: white;
-  font-weight: 600;
-}
-
-.elevo-video-container {
+.video-container {
   max-width: 800px;
+  width: 100%;
   margin: 0 auto 2rem;
   position: relative;
   aspect-ratio: 16 / 9;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  background-color: rgba(0, 0, 0, 0.2); /* Add background color while video loads */
 }
 
-.elevo-video {
-  position: absolute;
-  top: 0;
-  left: 0;
+.promo-video {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border: none;
-  display: block;
-  pointer-events: none; /* Prevents clicking on the video */
-}
-
-/* Hide all controls */
-.elevo-video::-webkit-media-controls {
-  display: none !important;
-}
-
-.elevo-video::-webkit-media-controls-panel {
-  display: none !important;
-}
-
-.elevo-video::-webkit-media-controls-play-button {
-  display: none !important;
-}
-
-.elevo-video::-webkit-media-controls-start-playback-button {
-  display: none !important;
-}
-
-.elevo-video-description {
-  max-width: 600px;
-  margin: 0 auto;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: rgba(255, 255, 255, 0.9);
-}
-
-/* Video Controls Styling */
-.elevo-video::-webkit-media-controls {
-  background-color: rgba(19, 38, 77, 0.7);
-}
-
-.elevo-video::-webkit-media-controls-play-button {
-  background-color: var(--elevo-pink);
-  border-radius: 50%;
-}
-
-/* Custom styling for video controls */
-.elevo-mp4-video::-webkit-media-controls {
-  background-color: rgba(26, 59, 143, 0.7);
-}
-
-.elevo-mp4-video::-webkit-media-controls-panel {
-  background-color: rgba(26, 59, 143, 0.7);
-}
-
-.elevo-mp4-video::-webkit-media-controls-play-button {
-  background-color: var(--elevo-pink);
-  border-radius: 50%;
-}
-
-.elevo-video-features {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  margin: 0 auto;
   max-width: 800px;
-}
-
-.elevo-video-feature {
-  background-color: rgba(255, 255, 255, 0.05);
+  height: auto;
   border-radius: 8px;
-  padding: 1.5rem;
-  flex: 1;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.elevo-video-feature:hover {
-  transform: translateY(-5px);
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.elevo-video-feature h4 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--elevo-pink);
-  margin-bottom: 0.8rem;
-}
-
-.elevo-video-feature p {
-  font-size: 0.95rem;
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.9);
-}
-
-/* Responsive styles for the video section */
-@media (max-width: 768px) {
-  .elevo-video-features {
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-  
-  .elevo-video-container {
-    margin-bottom: 2rem;
-  }
-  
-  .elevo-video-section {
-    padding: 3rem 1.5rem;
-  }
-  
-  .elevo-video-section h2 {
-    font-size: 2rem;
-  }
-}
-
-/* Similarity Score Badge */
-.elevo-similarity-badge {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 4px 10px;
-  border-radius: 4px;
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 14px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  z-index: 10;
-  letter-spacing: 0.5px;
-  font-family: 'Inter', sans-serif;
-  transition: transform 0.2s ease;
-}
-
-.elevo-similarity-badge:hover {
-  transform: translateY(-2px);
-}
-
-.elevo-player-card:hover .elevo-similarity-badge {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
-}
-
-/* Rank Badge Styles */
-.elevo-rank-badge {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: var(--elevo-blue);
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 14px;
-  padding: 4px 10px;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  z-index: 10;
-  letter-spacing: 0.5px;
-  border: 2px solid var(--elevo-pink);
-  transition: transform 0.2s ease;
-}
-
-.elevo-rank-badge:hover {
-  transform: scale(1.1);
-}
-
-.elevo-player-card:hover .elevo-rank-badge {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
-}
-
-/* Recruitment Needs Styles */
-.elevo-section-description {
+.video-description {
+  max-width: 600px;
+  margin: 1.5rem auto 0;
   font-size: 1.1rem;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .promo-video {
+    width: 100%;
+  }
+  
+  .video-section {
+    padding: 3rem 1rem;
+  }
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 5rem 2rem;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.testimonial {
+  background-color: var(--secondary-color);
+  border: 1px solid rgba(123, 46, 142, 0.2);
+}
+
+.testimonial-avatar {
+  background-color: var(--accent-color);
+  opacity: 0.8;
+}
+
+/* Final CTA Section */
+.final-cta-section {
+  padding: 5rem 2rem;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  position: relative;
+  overflow: hidden;
   text-align: center;
 }
 
-.elevo-recruitment-needs {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.elevo-recruitment-card {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 10px;
-  padding: 1.5rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-left: 4px solid var(--elevo-pink);
-}
-
-.elevo-recruitment-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-  background-color: rgba(255, 255, 255, 0.08);
-}
-
-.elevo-recruitment-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding-bottom: 0.8rem;
-}
-
-.elevo-position-title {
-  font-size: 1.3rem;
+.final-cta-section h2 {
+  font-size: 2.5rem;
   font-weight: 700;
-  color: #ffffff;
-  margin: 0;
-}
-
-.elevo-priority-badge {
-  padding: 4px 10px;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.elevo-priority-high {
-  background-color: var(--elevo-pink);
-  color: #ffffff;
-}
-
-.elevo-priority-medium {
-  background-color: #f39c12;
-  color: #ffffff;
-}
-
-.elevo-priority-low {
-  background-color: #3498db;
-  color: #ffffff;
-}
-
-.elevo-position-description {
-  font-size: 0.95rem;
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.9);
   margin-bottom: 1.5rem;
 }
 
-.elevo-requirements-container {
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  padding: 1rem;
+.final-cta-section p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.5;
 }
 
-.elevo-requirements-title {
+.final-cta-section::before {
+  content: '';
+  position: absolute;
+  bottom: -100px;
+  right: -100px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(123, 46, 142, 0.4) 0%, rgba(123, 46, 142, 0.1) 50%, rgba(0, 0, 0, 0) 70%);
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.waitlist-form {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.email-input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--text-color);
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  min-width: 300px;
   font-size: 1rem;
-  font-weight: 600;
-  color: var(--elevo-pink);
-  margin-top: 0;
-  margin-bottom: 0.8rem;
 }
 
-.elevo-requirements-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+.email-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
 }
 
-.elevo-requirement-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 0;
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
-}
-
-.elevo-requirement-item:last-child {
-  border-bottom: none;
-}
-
-.elevo-requirement-name {
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.elevo-requirement-value {
-  color: #ffffff;
-  font-weight: 500;
-}
-
-/* Media queries for responsive design */
 @media (max-width: 768px) {
-  .elevo-recruitment-needs {
-    grid-template-columns: 1fr;
-  }
-  
-  .elevo-recruitment-header {
+  .waitlist-form {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
+    width: 100%;
   }
   
-  .elevo-priority-badge {
-    align-self: flex-start;
+  .email-input {
+    width: 100%;
+    min-width: unset;
   }
 }
 
-/* Top Prospects Section Styles */
-.elevo-prospects-section {
-  padding: 60px 20px;
-  background-color: #132e70;
+/* New Styles for redesigned Home Page */
+.hero-section {
+  background-color: #000;
+  color: #fff;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
 }
 
-.elevo-container {
+.hero-content {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.elevo-section-title {
-  font-size: 2.5rem;
-  margin-bottom: 15px;
-  text-align: center;
-  color: var(--elevo-text);
+.hero-content h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
 }
 
-.elevo-section-description {
-  text-align: center;
-  max-width: 700px;
-  margin: 0 auto 40px;
-  font-size: 1.1rem;
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
   opacity: 0.9;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.elevo-prospects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 25px;
-  margin-bottom: 40px;
-}
-
-.elevo-prospect-card {
-  background-color: var(--elevo-light-blue);
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.elevo-prospect-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-}
-
-.elevo-prospect-image {
-  height: 180px;
-  overflow: hidden;
-}
-
-.elevo-prospect-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
-}
-
-.elevo-prospect-card:hover .elevo-prospect-image img {
-  transform: scale(1.05);
-}
-
-.elevo-prospect-info {
-  padding: 20px;
-}
-
-.elevo-prospect-name {
-  font-size: 1.3rem;
-  margin: 0 0 15px;
-  color: white;
-}
-
-.elevo-prospect-details {
+.user-types {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-bottom: 20px;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 3rem;
 }
 
-.elevo-prospect-detail {
+.user-type-button {
   display: flex;
-  justify-content: space-between;
-  font-size: 0.95rem;
-}
-
-.elevo-detail-label {
-  font-weight: 600;
-  color: var(--tonsser-light-gray);
-}
-
-.elevo-detail-value {
-  color: white;
-}
-
-.elevo-view-profile-btn {
-  display: block;
-  text-align: center;
-  background-color: var(--elevo-pink);
-  color: white;
-  padding: 10px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background-color 0.2s ease;
-}
-
-.elevo-view-profile-btn:hover {
-  background-color: #d1427b;
-}
-
-.elevo-view-all-container {
-  text-align: center;
-  margin-top: 15px;
-}
-
-.elevo-view-all-btn {
-  display: inline-block;
-  padding: 12px 25px;
-  background-color: transparent;
-  border: 2px solid var(--elevo-pink);
-  color: var(--elevo-pink);
-  text-decoration: none;
-  font-weight: 600;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-}
-
-.elevo-view-all-btn:hover {
-  background-color: var(--elevo-pink);
-  color: white;
-}
-
-/* Season Stats Styles for Prospect Cards */
-.elevo-season-stats {
-  margin-bottom: 20px;
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 8px;
-  padding: 15px;
-}
-
-.elevo-stats-header {
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 30px;
+  padding: 0.8rem 2rem;
   font-size: 1rem;
   font-weight: 600;
-  color: var(--elevo-pink);
-  margin: 0 0 12px 0;
-  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-width: 120px;
 }
 
-.elevo-stats-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  text-align: center;
+.user-type-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-.elevo-stat-item {
+.user-type-icon {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Players & Clubs Section */
+.players-clubs-section {
+  padding: 5rem 2rem;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.players-clubs-section h2 {
+  text-align: center;
+  color: var(--text-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.two-column-layout {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.column {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.elevo-stat-number {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: white;
-  margin-bottom: 4px;
+.column h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
 }
 
-.elevo-stat-label {
-  font-size: 0.8rem;
-  color: var(--tonsser-light-gray);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+.content-box {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 2rem;
+  aspect-ratio: 1/1;
+  width: 85%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border: 1px solid rgba(123, 46, 142, 0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 360px) {
-  .elevo-stats-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px 10px;
+.content-box p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.get-started-button {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  align-self: center;
+  margin-top: auto;
+  min-width: 150px;
+}
+
+.get-started-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .two-column-layout {
+    flex-direction: column;
   }
+  
+  .content-box {
+    aspect-ratio: auto;
+    height: 280px;
+  }
+}
+
+/* Stats Section */
+.stats-section {
+  padding: 5rem 2rem;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+.stats-grid {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 2rem;
+  min-width: 150px;
+  border: 1px solid rgba(123, 46, 142, 0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--accent-color);
+}
+
+.stat-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.stats-description {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.cta-container {
+  margin-top: 2rem;
+}
+
+.waitlist-button {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  min-width: 180px;
+}
+
+.waitlist-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.view-profile-button {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-width: 150px;
+  margin-top: 1rem;
+}
+
+.view-profile-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Top Prospects Section */
+.prospects-section {
+  padding: 5rem 2rem;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.prospects-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.section-description {
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.prospects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.prospect-card {
+  background-color: var(--secondary-color);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(123, 46, 142, 0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.prospect-card:hover {
+  transform: translateY(-10px);
+}
+
+.prospect-image {
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.prospect-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Hide any potential-badge that's not inside a prospect-card */       
+.potential-badge:not(.prospect-card .potential-badge) {
+  display: none;
+}
+
+.prospect-info {
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.prospect-info h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.prospect-meta {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.prospect-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat-name {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.stat-value {
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .prospects-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+  }
+}
+
+/* Hide specific badges that appear outside prospect cards */
+div:not(.prospect-card) > .potential-badge,
+.EXCEL,
+.GOOD,
+.VERY {
+  display: none !important;
+}
+
+/* Event-specific styles */
+.event-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.event-detail {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.event-detail span:first-child {
+  font-size: 1.1rem;
+  color: var(--accent-color);
+}
+
+.event-registration {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.event-registration p {
+  margin: 0 0 0.5rem 0;
+}
+
+.event-registration p:last-child {
+  margin-bottom: 0;
+}
+
+.event-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+/* Event-specific button styles */
+.event-actions .view-player-button,
+.event-actions .register-button {
+  padding: 0.6rem 1rem;
+  font-size: 0.85rem;
+  min-width: 100px;
+}
+
+.register-button {
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  cursor: pointer;
+  min-width: 150px;
+  flex: 1;
+}
+
+.register-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(123, 46, 142, 0.4);
+}
+
+.contact-button {
+  display: block;
+  background-color: var(--accent-color);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  cursor: pointer;
+  max-width: 200px;
+  margin: 1rem auto;
+}
+
+.contact-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(123, 46, 142, 0.4);
+}
+
+.no-results {
+  text-align: center;
+  padding: 3rem;
+  background-color: var(--secondary-color);
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.no-results .filter-button {
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .event-details {
+    grid-template-columns: 1fr;
+  }
+  
+  .event-actions {
+    flex-direction: column;
+  }
+}
+
+/* Profile Pages Styling */
+.profile-page {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: var(--primary-color);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(123, 46, 142, 0.3);
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  border: 4px solid var(--accent-color);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ffffff;
+}
+
+.profile-position {
+  font-size: 1.3rem;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.profile-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.profile-detail {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: var(--secondary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.profile-section {
+  background-color: var(--secondary-color);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(123, 46, 142, 0.2);
+}
+
+.profile-section h2 {
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: var(--accent-color);
+  position: relative;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.profile-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--accent-color);
+  border-radius: 3px;
+}
+
+.profile-bio {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.stat-card {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(123, 46, 142, 0.15);
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--accent-color);
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.achievements-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.achievement-item {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  border-left: 4px solid var(--accent-color);
+}
+
+.achievement-item:hover {
+  transform: translateX(5px);
+}
+
+.achievement-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.achievement-year {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  font-weight: 600;
+  background-color: rgba(123, 46, 142, 0.2);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+}
+
+/* Team Profile specific styles */
+.section-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2rem;
+}
+
+.recruitment-needs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.recruitment-card {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(123, 46, 142, 0.15);
+}
+
+.recruitment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.position-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  margin: 0;
+}
+
+.priority-badge {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.priority-high {
+  background-color: rgba(231, 76, 60, 0.2);
+  color: #e74c3c;
+}
+
+.priority-medium {
+  background-color: rgba(243, 156, 18, 0.2);
+  color: #f39c12;
+}
+
+.priority-low {
+  background-color: rgba(46, 204, 113, 0.2);
+  color: #2ecc71;
+}
+
+.position-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.5rem;
+}
+
+.requirements-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.requirements-title {
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+  color: var(--accent-color);
+}
+
+.requirements-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+.requirement-item {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.requirement-name {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  margin-right: 0.5rem;
+}
+
+.requirement-value {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Prospect styling */
+.prospect-name {
+  color: var(--accent-color);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.prospect-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.potential-level {
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.potential-very-high {
+  color: var(--accent-color);
+}
+
+.potential-high {
+  color: #2ecc71;
+}
+
+.potential-medium {
+  color: #f39c12;
+}
+
+/* Video card styling */
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.video-card {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(123, 46, 142, 0.15);
+}
+
+.video-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.video-thumbnail {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.video-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.video-card:hover .video-thumbnail img {
+  transform: scale(1.05);
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.video-card:hover .play-button {
+  opacity: 1;
+}
+
+.video-duration {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.video-info {
+  padding: 1rem;
+}
+
+.video-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: #ffffff;
+}
+
+.video-views {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .profile-header {
+    margin-bottom: 2rem;
+  }
+  
+  .profile-name {
+    font-size: 2rem;
+  }
+  
+  .profile-details {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-section {
+    padding: 1.5rem;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+  
+  .requirements-list {
+    grid-template-columns: 1fr;
+  }
+  
+  .recruitment-needs {
+    grid-template-columns: 1fr;
+  }
+  
+  .highlights-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Skills section styles */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.skill-item {
+  width: 100%;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.skill-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.skill-value {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--accent-color);
+}
+
+.skill-bar-container {
+  height: 8px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skill-bar {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.8s ease;
+}
+
+.profile-link {
+  background-color: rgba(123, 46, 142, 0.2);
+  color: #ffffff;
+  border: 1px solid rgba(123, 46, 142, 0.5);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.profile-link:hover {
+  background-color: rgba(123, 46, 142, 0.4);
+  border-color: rgba(123, 46, 142, 0.8);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(123, 46, 142, 0.3);
 }

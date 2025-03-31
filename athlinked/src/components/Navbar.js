@@ -34,27 +34,37 @@ function Navbar() {
   };
 
   return (
-    <nav className="elevo-navbar">
-      <div className="elevo-navbar-container">
-        <div className="elevo-navbar-brand">
-          <div className="elevo-brand-badge">EL</div>
-          <Link to="/" className="elevo-brand-text">ELEVO</Link>
+    <nav className="navbar">
+      <div className="navbar-container">
+        {/* Logo/Brand */}
+        <div className="navbar-brand">
+          <Link to="/" className="brand-link">AthleX</Link>
         </div>
         
-        <div className="elevo-navbar-links">
-          <Link to="/athletes" className="elevo-nav-link">Athletes</Link>
-          <Link to="/universities" className="elevo-nav-link">Universities</Link>
-          <Link to="/teams" className="elevo-nav-link">Teams</Link>
-          <Link to="/events" className="elevo-nav-link">Events</Link>
+        {/* Center Navigation */}
+        <div className="navbar-center">
+          <Link to="/" className="nav-link">Home</Link>
+          <Link to="/about" className="nav-link">About</Link>
+          <Link to="/contact" className="nav-link">Contact</Link>
         </div>
         
-        <div className="elevo-navbar-actions">
-          <Link to="/profile" className="elevo-profile-button">
-            Your Profile
-          </Link>
-          <Link to="/logout" className="elevo-logout-button">
-            Log Out
-          </Link>
+        {/* Right Actions */}
+        <div className="navbar-actions">
+          {userRole ? (
+            <>
+              <Link to="/profile" className="profile-button">
+                Your Profile
+              </Link>
+              <button onClick={handleLogout} className="logout-button">
+                Log Out
+              </button>
+            </>
+          ) : (
+            <Link to="/login" className="sign-in-button">
+              <span className="sign-in-icon">→</span>
+              Sign In
+            </Link>
+          )}
         </div>
       </div>
     </nav>

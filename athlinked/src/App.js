@@ -9,15 +9,15 @@ import Teams from './components/Teams';
 import Events from './components/Events';
 import Profile from './components/Profile';
 import TeamProfile from './components/TeamProfile';
-import Universities from './components/Universities';
 import Login from './components/Login';
 
 function NavBar({ userRole, onLogout }) {
   // Inline styles for navbar elements
   const navbarStyles = {
-    backgroundColor: '#1a3b8f',
+    backgroundColor: '#121212',
     color: '#ffffff',
-    boxShadow: '0 2px 8px rgba(0, 0, 0, 0.15)'
+    boxShadow: '0 3px 10px rgba(123, 46, 142, 0.3)',
+    borderBottom: '1px solid rgba(123, 46, 142, 0.3)'
   };
 
   const navLinkStyles = {
@@ -25,47 +25,59 @@ function NavBar({ userRole, onLogout }) {
   };
 
   const badgeStyles = {
-    backgroundColor: '#e94b8a', 
-    color: '#1a3b8f'
+    backgroundColor: '#7b2e8e', 
+    color: '#ffffff'
   };
 
   const loginButtonStyles = {
-    backgroundColor: '#e94b8a',
-    color: '#1a3b8f'
+    backgroundColor: '#7b2e8e',
+    color: '#ffffff'
   };
 
   const logoutButtonStyles = {
     backgroundColor: 'transparent',
-    color: '#d0d5e9',
-    border: '1px solid #d0d5e9'
+    color: 'rgba(255, 255, 255, 0.8)',
+    border: '1px solid rgba(255, 255, 255, 0.3)'
+  };
+
+  // Add new profile link styles
+  const profileLinkStyles = {
+    backgroundColor: 'rgba(123, 46, 142, 0.2)',
+    color: '#ffffff',
+    border: '1px solid rgba(123, 46, 142, 0.5)',
+    borderRadius: '6px',
+    padding: '0.5rem 1rem',
+    marginRight: '1rem',
+    textDecoration: 'none',
+    display: 'inline-block',
+    transition: 'all 0.3s ease'
   };
 
   return (
     <nav className="navbar" style={navbarStyles}>
       <div className="navbar-logo">
-        <Link to="/" style={navLinkStyles}>ELEVO</Link>
+        <Link to="/" style={navLinkStyles}>AthleX</Link>
       </div>
       <div className="navbar-brand">
         <div className="navbar-brand-title">
-          <Link to="/" style={navLinkStyles}>ELEVO</Link>
+          <Link to="/" style={navLinkStyles}>AthleX</Link>
         </div>
         <div className="navbar-brand-badge" style={badgeStyles}>
-          <span>EL</span>
+          <span>AX</span>
         </div>
       </div>
       <div className="navbar-links">
         <Link to="/athletes" style={navLinkStyles}>Athletes</Link>
         <Link to="/teams" style={navLinkStyles}>Teams</Link>
-        <Link to="/universities" style={navLinkStyles}>Universities</Link>
         <Link to="/events" style={navLinkStyles}>Events</Link>
       </div>
       <div className="navbar-auth">
         {userRole ? (
           <>
             {userRole === 'team' ? (
-              <Link to="/team-profile" className="profile-link" style={navLinkStyles}>Team Profile</Link>
+              <Link to="/team-profile" className="profile-link" style={profileLinkStyles}>Team Profile</Link>
             ) : (
-              <Link to="/profile" className="profile-link" style={navLinkStyles}>Your Profile</Link>
+              <Link to="/profile" className="profile-link" style={profileLinkStyles}>Your Profile</Link>
             )}
             <button className="logout-button" onClick={onLogout} style={logoutButtonStyles}>Log Out</button>
           </>
@@ -116,13 +128,13 @@ function App() {
 
   // Forcing color scheme styles
   const appStyles = {
-    backgroundColor: '#1a3b8f',
+    backgroundColor: '#121212',
     color: '#ffffff'
   };
 
   const footerStyles = {
-    backgroundColor: '#183075',
-    color: '#d0d5e9'
+    backgroundColor: '#1e1e1e',
+    color: 'rgba(255, 255, 255, 0.7)'
   };
 
   return (
@@ -135,15 +147,15 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/athletes" element={<Athletes />} />
             <Route path="/teams" element={<Teams />} />
-            <Route path="/universities" element={<Universities />} />
             <Route path="/events" element={<Events />} />
             <Route path="/profile" element={<Profile userRole={userRole} />} />
+            <Route path="/profile/:id" element={<Profile userRole={userRole} viewMode="player" />} />
             <Route path="/team-profile" element={<TeamProfile userRole={userRole} />} />
             <Route path="/login" element={<Login />} />
           </Routes>
         </main>
         <footer className="footer" style={footerStyles}>
-          <p>&copy; {new Date().getFullYear()} Elevo. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AthleX. All rights reserved.</p>
         </footer>
       </div>
     </Router>

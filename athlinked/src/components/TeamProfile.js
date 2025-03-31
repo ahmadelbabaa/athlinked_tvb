@@ -113,51 +113,51 @@ function TeamProfile() {
   ]);
 
   return (
-    <div className="elevo-profile-page">
-      <div className="elevo-profile-header">
-        <div className="elevo-profile-picture">
+    <div className="profile-page">
+      <div className="profile-header">
+        <div className="profile-picture">
           <img src="https://via.placeholder.com/300x300/3498db/ffffff?text=CD" alt={teamData.name} />
         </div>
-        <h1 className="elevo-profile-name">
+        <h1 className="profile-name">
           {teamData.name}
-          {teamData.isVerified && <span className="elevo-verified-badge">✓</span>}
+          {teamData.isVerified && <span className="verified-badge">✓</span>}
         </h1>
-        <p className="elevo-profile-position">{teamData.league} | Est. {teamData.founded}</p>
+        <p className="profile-position">{teamData.league} | Est. {teamData.founded}</p>
         
-        <div className="elevo-profile-details">
-          <div className="elevo-profile-detail">
+        <div className="profile-details">
+          <div className="profile-detail">
             <span>Location: {teamData.location}</span>
           </div>
         </div>
       </div>
 
-      <div className="elevo-profile-sections">
+      <div className="profile-sections">
         {/* New Looking For Section */}
-        <section className="elevo-profile-section">
+        <section className="profile-section">
           <h2>Looking For</h2>
-          <p className="elevo-section-description">
+          <p className="section-description">
             Our recruitment team is currently scouting for the following positions with specific profile requirements:
           </p>
           
-          <div className="elevo-recruitment-needs">
+          <div className="recruitment-needs">
             {recruitmentNeeds.map((need, index) => (
-              <div className="elevo-recruitment-card" key={index}>
-                <div className="elevo-recruitment-header">
-                  <h3 className="elevo-position-title">{need.position}</h3>
-                  <span className={`elevo-priority-badge elevo-priority-${need.priority.toLowerCase()}`}>
+              <div className="recruitment-card" key={index}>
+                <div className="recruitment-header">
+                  <h3 className="position-title">{need.position}</h3>
+                  <span className={`priority-badge priority-${need.priority.toLowerCase()}`}>
                     {need.priority} Priority
                   </span>
                 </div>
                 
-                <p className="elevo-position-description">{need.description}</p>
+                <p className="position-description">{need.description}</p>
                 
-                <div className="elevo-requirements-container">
-                  <h4 className="elevo-requirements-title">Requirements</h4>
-                  <div className="elevo-requirements-list">
+                <div className="requirements-container">
+                  <h4 className="requirements-title">Requirements</h4>
+                  <div className="requirements-list">
                     {need.requirements.map((req, reqIndex) => (
-                      <div className="elevo-requirement-item" key={reqIndex}>
-                        <span className="elevo-requirement-name">{req.name}:</span>
-                        <span className="elevo-requirement-value">{req.value}</span>
+                      <div className="requirement-item" key={reqIndex}>
+                        <span className="requirement-name">{req.name}:</span>
+                        <span className="requirement-value">{req.value}</span>
                       </div>
                     ))}
                   </div>
@@ -167,56 +167,56 @@ function TeamProfile() {
           </div>
         </section>
 
-        <section className="elevo-profile-section">
+        <section className="profile-section">
           <h2>Academy Statistics</h2>
-          <div className="elevo-stats-grid">
-            <div className="elevo-stat-card">
-              <div className="elevo-stat-value">{teamData.stats.playersPromoted}</div>
-              <div className="elevo-stat-label">Players Promoted</div>
+          <div className="stats-grid">
+            <div className="stat-card">
+              <div className="stat-value">{teamData.stats.playersPromoted}</div>
+              <div className="stat-label">Players Promoted</div>
             </div>
-            <div className="elevo-stat-card">
-              <div className="elevo-stat-value">{teamData.stats.totalPlayers}</div>
-              <div className="elevo-stat-label">Academy Players</div>
+            <div className="stat-card">
+              <div className="stat-value">{teamData.stats.totalPlayers}</div>
+              <div className="stat-label">Academy Players</div>
             </div>
-            <div className="elevo-stat-card">
-              <div className="elevo-stat-value">{teamData.stats.successRate}%</div>
-              <div className="elevo-stat-label">Success Rate</div>
+            <div className="stat-card">
+              <div className="stat-value">{teamData.stats.successRate}%</div>
+              <div className="stat-label">Success Rate</div>
             </div>
-            <div className="elevo-stat-card">
-              <div className="elevo-stat-value">{teamData.stats.averageAge}</div>
-              <div className="elevo-stat-label">Average Age</div>
+            <div className="stat-card">
+              <div className="stat-value">{teamData.stats.averageAge}</div>
+              <div className="stat-label">Average Age</div>
             </div>
           </div>
         </section>
 
-        <section className="elevo-profile-section">
+        <section className="profile-section">
           <h2>Club Achievements</h2>
-          <div className="elevo-achievements-list">
+          <div className="achievements-list">
             {teamData.achievements.map((achievement, index) => (
-              <div className="elevo-achievement-item" key={index}>
-                <div className="elevo-achievement-title">{achievement.title}</div>
-                <div className="elevo-achievement-year">{achievement.year}</div>
+              <div className="achievement-item" key={index}>
+                <div className="achievement-title">{achievement.title}</div>
+                <div className="achievement-year">{achievement.year}</div>
               </div>
             ))}
           </div>
         </section>
 
-        <section className="elevo-profile-section">
+        <section className="profile-section">
           <h2>Top Prospects</h2>
-          <div className="elevo-stats-grid">
+          <div className="stats-grid">
             {prospects.map((prospect, index) => (
-              <div className="elevo-stat-card" key={index}>
-                <h3 style={{ color: 'var(--elevo-blue)', fontSize: '1.2rem', marginBottom: '1rem' }}>
+              <div className="stat-card" key={index}>
+                <h3 className="prospect-name">
                   {prospect.name}
                 </h3>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', fontSize: '0.9rem' }}>
+                <div className="prospect-details">
                   <div><strong>Age:</strong> {prospect.age}</div>
                   <div><strong>Position:</strong> {prospect.position}</div>
-                  <div><strong>Potential:</strong> 
-                    <span style={{ 
-                      color: prospect.potential === 'Very High' ? 'var(--elevo-pink)' : 
-                             prospect.potential === 'High' ? '#2ecc71' : '#f39c12'
-                    }}> {prospect.potential}</span>
+                  <div>
+                    <strong>Potential:</strong> 
+                    <span className={`potential-level potential-${prospect.potential.toLowerCase().replace(' ', '-')}`}>
+                      {prospect.potential}
+                    </span>
                   </div>
                   <div><strong>Status:</strong> {prospect.status}</div>
                 </div>
@@ -225,24 +225,24 @@ function TeamProfile() {
           </div>
         </section>
 
-        <section className="elevo-profile-section">
+        <section className="profile-section">
           <h2>Highlight Videos</h2>
-          <div className="elevo-highlights-grid">
+          <div className="highlights-grid">
             {teamData.highlights.map((video) => (
-              <div className="elevo-video-card" key={video.id}>
-                <div className="elevo-video-thumbnail">
+              <div className="video-card" key={video.id}>
+                <div className="video-thumbnail">
                   <img src={video.thumbnail} alt={video.title} />
-                  <div className="elevo-play-button">
+                  <div className="play-button">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
                       <circle cx="12" cy="12" r="11" fill="rgba(0,0,0,0.5)" />
                       <path d="M10 8l6 4-6 4V8z" fill="#ffffff" />
                     </svg>
                   </div>
-                  <div className="elevo-video-duration">{video.duration}</div>
+                  <div className="video-duration">{video.duration}</div>
                 </div>
-                <div className="elevo-video-info">
-                  <h3 className="elevo-video-title">{video.title}</h3>
-                  <p className="elevo-video-views">{video.views} views</p>
+                <div className="video-info">
+                  <h3 className="video-title">{video.title}</h3>
+                  <p className="video-views">{video.views} views</p>
                 </div>
               </div>
             ))}

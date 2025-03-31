@@ -163,19 +163,19 @@ function Teams() {
         backgroundImage="url(https://images.unsplash.com/photo-1486286701208-1d58e9338013?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80)"
       />
       
-      <div className="elevo-page">
-        <div className="elevo-search-container">
+      <div className="athletes-page">
+        <div className="search-container">
           <input
             type="text"
-            className="elevo-search-input"
+            className="search-input"
             placeholder="Search teams by name or country..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           
-          <div className="elevo-filter-container">
+          <div className="filter-container">
             <select 
-              className="elevo-filter-select"
+              className="filter-select"
               value={leagueFilter}
               onChange={(e) => setLeagueFilter(e.target.value)}
             >
@@ -186,7 +186,7 @@ function Teams() {
             </select>
             
             <select 
-              className="elevo-filter-select"
+              className="filter-select"
               value={countryFilter}
               onChange={(e) => setCountryFilter(e.target.value)}
             >
@@ -196,59 +196,86 @@ function Teams() {
               ))}
             </select>
             
-            <button className="elevo-filter-button" onClick={resetFilters}>
+            <button className="filter-button" onClick={resetFilters}>
               Reset Filters
             </button>
           </div>
         </div>
         
-        <div className="elevo-players-grid">
+        <div className="players-grid">
           {filteredTeams.map((team) => (
-            <div className={`elevo-player-card ${team.featured ? 'elevo-featured-card' : ''}`} key={team.id}>
-              {team.featured && <div className="elevo-featured-badge">Featured</div>}
-              <div className="elevo-player-image-container">
+            <div className={`player-card ${team.featured ? 'featured-card' : ''}`} key={team.id}>
+              {team.featured && <div className="rank-badge">Featured</div>}
+              <div className="player-image-container">
                 <img 
                   src={team.logo} 
                   alt={team.name} 
-                  className="elevo-player-image"
+                  className="player-image"
                 />
               </div>
-              <div className="elevo-event-content">
-                <h3 className="elevo-event-title">{team.name}</h3>
-                <p className="elevo-event-subtitle">{team.league} • {team.country}</p>
-                
-                <p className="elevo-event-description">{team.description}</p>
-                
-                <div className="elevo-player-stats">
-                  <div className="elevo-stat">
-                    <div className="elevo-stat-value">{team.stats.leagueTitles}</div>
-                    <div className="elevo-stat-label">League Titles</div>
-                  </div>
-                  <div className="elevo-stat">
-                    <div className="elevo-stat-value">{team.stats.europeanTitles}</div>
-                    <div className="elevo-stat-label">European Cups</div>
-                  </div>
-                  <div className="elevo-stat">
-                    <div className="elevo-stat-value">#{team.stats.worldRanking}</div>
-                    <div className="elevo-stat-label">World Rank</div>
+              <div className="player-content">
+                <div className="player-header">
+                  <h3 className="player-name">{team.name}</h3>
+                  <div className="player-info">
+                    <div className="player-position">{team.league}</div>
+                    <div className="player-club">{team.country}</div>
                   </div>
                 </div>
                 
-                <div className="elevo-university-achievements">
-                  <h4>Key Achievements</h4>
-                  <ul>
+                <p className="player-story">{team.description}</p>
+                
+                <div className="player-stats">
+                  <div className="player-stat">
+                    <div className="stat-value">{team.stats.leagueTitles}</div>
+                    <div className="stat-label">League Titles</div>
+                  </div>
+                  <div className="player-stat">
+                    <div className="stat-value">{team.stats.europeanTitles}</div>
+                    <div className="stat-label">European Cups</div>
+                  </div>
+                  <div className="player-stat">
+                    <div className="stat-value">#{team.stats.worldRanking}</div>
+                    <div className="stat-label">World Rank</div>
+                  </div>
+                </div>
+                
+                <div className="team-achievements" style={{
+                  marginBottom: "1.5rem",
+                  backgroundColor: "rgba(0, 0, 0, 0.2)",
+                  borderRadius: "8px",
+                  padding: "1rem"
+                }}>
+                  <h4 style={{
+                    fontSize: "1rem",
+                    fontWeight: "600",
+                    marginBottom: "0.5rem",
+                    color: "var(--accent-color)"
+                  }}>Key Achievements</h4>
+                  <ul style={{
+                    listStylePosition: "inside",
+                    paddingLeft: "0",
+                    margin: "0"
+                  }}>
                     {team.achievements.map((achievement, i) => (
-                      <li key={i}>{achievement}</li>
+                      <li key={i} style={{
+                        marginBottom: "0.5rem",
+                        fontSize: "0.9rem",
+                        color: "rgba(255, 255, 255, 0.8)"
+                      }}>{achievement}</li>
                     ))}
                   </ul>
                 </div>
                 
-                <div className="elevo-team-info">
+                <div className="team-info" style={{
+                  marginBottom: "1.5rem",
+                  fontSize: "0.9rem",
+                  color: "rgba(255, 255, 255, 0.8)"
+                }}>
                   <p><strong>Founded:</strong> {team.founded}</p>
-                  <p><strong>Stadium:</strong> {team.stadium}</p>
+                  <p style={{marginBottom: "0"}}><strong>Stadium:</strong> {team.stadium}</p>
                 </div>
                 
-                <Link to={`/team/${team.id}`} className="elevo-view-profile-button">
+                <Link to={`/team/${team.id}`} className="view-player-button">
                   VIEW TEAM PROFILE
                 </Link>
               </div>
@@ -257,9 +284,15 @@ function Teams() {
         </div>
         
         {filteredTeams.length === 0 && (
-          <div className="elevo-no-results">
+          <div className="no-results" style={{
+            textAlign: "center",
+            padding: "3rem",
+            backgroundColor: "var(--secondary-color)",
+            borderRadius: "12px",
+            margin: "2rem 0"
+          }}>
             <p>No teams found matching your criteria</p>
-            <button className="elevo-filter-button" onClick={resetFilters}>
+            <button className="filter-button" onClick={resetFilters} style={{marginTop: "1rem"}}>
               Reset Filters
             </button>
           </div>

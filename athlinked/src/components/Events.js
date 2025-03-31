@@ -150,19 +150,19 @@ function Events() {
         backgroundImage="url(https://images.unsplash.com/photo-1459865264687-595d652de67e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80)"
       />
       
-      <div className="elevo-page">
-        <div className="elevo-search-container">
+      <div className="athletes-page">
+        <div className="search-container">
           <input
             type="text"
-            className="elevo-search-input"
+            className="search-input"
             placeholder="Search events, locations, or descriptions..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           
-          <div className="elevo-filter-container">
+          <div className="filter-container">
             <select 
-              className="elevo-filter-select"
+              className="filter-select"
               value={categoryFilter}
               onChange={(e) => setCategoryFilter(e.target.value)}
             >
@@ -176,7 +176,7 @@ function Events() {
             </select>
             
             <select 
-              className="elevo-filter-select"
+              className="filter-select"
               value={dateFilter}
               onChange={(e) => setDateFilter(e.target.value)}
             >
@@ -186,61 +186,63 @@ function Events() {
               <option value="past">Past</option>
             </select>
             
-            <button className="elevo-filter-button" onClick={resetFilters}>
+            <button className="filter-button" onClick={resetFilters}>
               Reset Filters
             </button>
           </div>
         </div>
         
-        <div className="elevo-players-grid">
+        <div className="players-grid">
           {filteredEvents.map((event) => (
-            <div className={`elevo-player-card ${event.featured ? 'elevo-featured-card' : ''}`} key={event.id}>
-              {event.featured && <div className="elevo-featured-badge">Featured</div>}
-              <div className="elevo-player-image-container">
+            <div className={`player-card event-card ${event.featured ? 'featured-card' : ''}`} key={event.id}>
+              {event.featured && <div className="rank-badge">Featured</div>}
+              <div className="player-image-container">
                 <img 
                   src={event.image} 
                   alt={event.title} 
-                  className="elevo-player-image"
+                  className="player-image"
                 />
               </div>
-              <div className="elevo-event-content">
-                <h3 className="elevo-event-title">{event.title}</h3>
-                <p className="elevo-event-subtitle">{event.category}</p>
+              <div className="player-content">
+                <div className="player-header">
+                  <h3 className="player-name">{event.title}</h3>
+                  <div className="player-info">
+                    <div className="player-position">{event.category}</div>
+                  </div>
+                </div>
                 
-                <div className="elevo-event-details">
-                  <div className="elevo-event-detail">
-                    <span className="elevo-detail-icon">📅</span>
+                <div className="event-details">
+                  <div className="event-detail">
+                    <span>📅</span>
                     <span>{formatDate(event.date)}</span>
                   </div>
-                  <div className="elevo-event-detail">
-                    <span className="elevo-detail-icon">⏰</span>
+                  <div className="event-detail">
+                    <span>⏰</span>
                     <span>{event.time}</span>
                   </div>
-                  <div className="elevo-event-detail">
-                    <span className="elevo-detail-icon">📍</span>
+                  <div className="event-detail">
+                    <span>📍</span>
                     <span>{event.location}</span>
                   </div>
-                  <div className="elevo-event-detail">
-                    <span className="elevo-detail-icon">👥</span>
+                  <div className="event-detail">
+                    <span>👥</span>
                     <span>{event.currentParticipants}/{event.maxParticipants} Participants</span>
                   </div>
                 </div>
                 
-                <p className="elevo-event-description">{event.description}</p>
+                <p className="player-story">{event.description}</p>
                 
-                <div className="elevo-event-registration">
-                  <div className="elevo-registration-info">
-                    <p><strong>Registration:</strong> {event.registrationFee}</p>
-                    <p><strong>Deadline:</strong> {formatDate(event.registrationDeadline)}</p>
-                  </div>
+                <div className="event-registration">
+                  <p><strong>Registration:</strong> {event.registrationFee}</p>
+                  <p><strong>Deadline:</strong> {formatDate(event.registrationDeadline)}</p>
                 </div>
                 
-                <div className="elevo-card-footer">
-                  <Link to={`/event/${event.id}`} className="elevo-view-profile-button">
+                <div className="event-actions">
+                  <Link to={`/event/${event.id}`} className="view-player-button">
                     VIEW DETAILS
                   </Link>
-                  <button className="elevo-register-button">
-                    REGISTER NOW
+                  <button className="register-button">
+                    REGISTER
                   </button>
                 </div>
               </div>
@@ -249,9 +251,9 @@ function Events() {
         </div>
         
         {filteredEvents.length === 0 && (
-          <div className="elevo-no-results">
+          <div className="no-results">
             <p>No events found matching your criteria</p>
-            <button className="elevo-filter-button" onClick={resetFilters}>
+            <button className="filter-button" onClick={resetFilters}>
               Reset Filters
             </button>
           </div>

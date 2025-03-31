@@ -37,8 +37,8 @@ function Navbar() {
     <nav className="elevo-navbar">
       <div className="elevo-navbar-container">
         <div className="elevo-navbar-brand">
-          <div className="elevo-brand-badge">EL</div>
-          <Link to="/" className="elevo-brand-text">ELEVO</Link>
+          <div className="elevo-brand-badge">AX</div>
+          <Link to="/" className="elevo-brand-text">AthleX</Link>
         </div>
         
         <div className="elevo-navbar-links">

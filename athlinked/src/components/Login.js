@@ -39,7 +39,7 @@ function Login() {
   return (
     <div className="login-page">
       <div className="login-container" data-aos="zoom-in">
-        <h2 data-aos="fade-down" data-aos-delay="200">Welcome to Elevo</h2>
+        <h2 data-aos="fade-down" data-aos-delay="200">Welcome to AthleX</h2>
         <p className="login-subtitle" data-aos="fade-up" data-aos-delay="300">Select your role to continue</p>
         
         <div className="role-selector">
@@ -105,9 +105,9 @@ function Login() {
           </button>
           
           <div className="login-footer" data-aos="fade-up" data-aos-delay="800">
-            <a href="#">Create an account</a>
+            <button className="text-button">Create an account</button>
             <span className="separator">|</span>
-            <a href="#">Forgot password?</a>
+            <button className="text-button">Forgot password?</button>
           </div>
         </form>
       </div>

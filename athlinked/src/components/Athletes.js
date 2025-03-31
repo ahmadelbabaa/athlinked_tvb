@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import PageHeader from './PageHeader';
 
@@ -9,24 +9,9 @@ function Athletes() {
   const [isTeam, setIsTeam] = useState(false);
   const [similarityScores, setSimilarityScores] = useState({});
   const [sortBySimilarity, setSortBySimilarity] = useState(true);
-
-  // Check if user is logged in as a team
-  useEffect(() => {
-    const userRole = localStorage.getItem('userRole');
-    setIsTeam(userRole === 'team');
-    
-    // Generate hypothetical similarity scores if user is a team
-    if (userRole === 'team') {
-      const scores = {};
-      footballPlayers.forEach(player => {
-        // Generate a random score between 40% and 95%
-        scores[player.id] = Math.floor(Math.random() * 56) + 40;
-      });
-      setSimilarityScores(scores);
-    }
-  }, []);
-
-  const footballPlayers = [
+  
+  // Use useMemo to memoize the footballPlayers array
+  const footballPlayers = useMemo(() => [
     {
       id: 1,
       name: "Alex Johnson",
@@ -91,7 +76,23 @@ function Athletes() {
       image: "https://images.unsplash.com/photo-1614632537423-1e6c2e7e0aab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z29hbGtlZXBlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
       location: "Birmingham, UK"
     }
-  ];
+  ], []);
+
+  // Check if user is logged in as a team
+  useEffect(() => {
+    const userRole = localStorage.getItem('userRole');
+    setIsTeam(userRole === 'team');
+    
+    // Generate hypothetical similarity scores if user is a team
+    if (userRole === 'team') {
+      const scores = {};
+      footballPlayers.forEach(player => {
+        // Generate a random score between 40% and 95%
+        scores[player.id] = Math.floor(Math.random() * 56) + 40;
+      });
+      setSimilarityScores(scores);
+    }
+  }, [footballPlayers]);
 
   // Filter players
   const filteredPlayers = footballPlayers.filter(player => {
@@ -140,19 +141,19 @@ function Athletes() {
         backgroundImage="url(https://images.unsplash.com/photo-1508098682722-e99c643e7f0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80)"
       />
       
-      <div className="elevo-page">
-        <div className="elevo-search-container">
+      <div className="athletes-page">
+        <div className="search-container">
           <input
             type="text"
-            className="elevo-search-input"
+            className="search-input"
             placeholder="Search players, clubs, or locations..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           
-          <div className="elevo-filter-container">
+          <div className="filter-container">
             <select 
-              className="elevo-filter-select"
+              className="filter-select"
               value={positionFilter}
               onChange={(e) => setPositionFilter(e.target.value)}
             >
@@ -164,7 +165,7 @@ function Athletes() {
             </select>
             
             <select 
-              className="elevo-filter-select"
+              className="filter-select"
               value={ageFilter}
               onChange={(e) => setAgeFilter(e.target.value)}
             >
@@ -174,17 +175,14 @@ function Athletes() {
               <option value="over25">Over 25</option>
             </select>
             
-            <button className="elevo-filter-button" onClick={resetFilters}>
+            <button className="filter-button" onClick={resetFilters}>
               Reset Filters
             </button>
             
             {isTeam && (
               <button 
-                className="elevo-filter-button" 
+                className={`filter-button ${sortBySimilarity ? "active" : ""}`}
                 onClick={toggleSorting}
-                style={{ 
-                  backgroundColor: sortBySimilarity ? 'var(--elevo-pink)' : 'rgba(255, 255, 255, 0.1)'
-                }}
               >
                 {sortBySimilarity ? "Sorted by Match %" : "Sort by Match %"}
               </button>
@@ -192,70 +190,70 @@ function Athletes() {
           </div>
         </div>
         
-        <div className="elevo-players-grid">
+        <div className="players-grid">
           {sortedPlayers.map((player, index) => (
-            <div className="elevo-player-card" key={player.id}>
-              <div className="elevo-player-image-container">
+            <div className="player-card" key={player.id}>
+              <div className="player-image-container">
                 <img 
                   src={player.image} 
                   alt={player.name} 
-                  className="elevo-player-image"
+                  className="player-image"
                 />
-                <div className="elevo-player-age">
+                <div className="player-age">
                   <span>{player.age}</span>
                 </div>
                 {isTeam && (
                   <>
                     <div 
-                      className="elevo-similarity-badge" 
+                      className="similarity-badge" 
                       style={{ backgroundColor: getScoreColor(similarityScores[player.id]) }}
                     >
                       {similarityScores[player.id]}% Match
                     </div>
                     {sortBySimilarity && (
-                      <div className="elevo-rank-badge">
+                      <div className="rank-badge">
                         #{index + 1}
                       </div>
                     )}
                   </>
                 )}
               </div>
-              <div className="elevo-player-content">
-                <div className="elevo-player-header">
-                  <h3 className="elevo-player-name">
-                    {player.name} {player.isVerified && <span className="elevo-verified-badge">✓</span>}
+              <div className="player-content">
+                <div className="player-header">
+                  <h3 className="player-name">
+                    {player.name} {player.isVerified && <span className="verified-badge">✓</span>}
                   </h3>
-                  <div className="elevo-player-info">
-                    <div className="elevo-player-position">{player.position}</div>
-                    <div className="elevo-player-club">{player.club}</div>
+                  <div className="player-info">
+                    <div className="player-position">{player.position}</div>
+                    <div className="player-club">{player.club}</div>
                   </div>
                 </div>
-                <p className="elevo-player-story">
+                <p className="player-story">
                   {player.story}
                 </p>
-                <div className="elevo-player-stats">
-                  <div className="elevo-stat">
-                    <div className="elevo-stat-value">{player.stats.appearances}</div>
-                    <div className="elevo-stat-label">Apps</div>
+                <div className="player-stats">
+                  <div className="player-stat">
+                    <div className="stat-value">{player.stats.appearances}</div>
+                    <div className="stat-label">Apps</div>
                   </div>
-                  <div className="elevo-stat">
-                    <div className="elevo-stat-value">
+                  <div className="player-stat">
+                    <div className="stat-value">
                       {player.position === "Goalkeeper" ? player.stats.cleanSheets : player.stats.goals}
                     </div>
-                    <div className="elevo-stat-label">
+                    <div className="stat-label">
                       {player.position === "Goalkeeper" ? "Clean" : "Goals"}
                     </div>
                   </div>
-                  <div className="elevo-stat">
-                    <div className="elevo-stat-value">
+                  <div className="player-stat">
+                    <div className="stat-value">
                       {player.position === "Goalkeeper" ? player.stats.saves : player.stats.assists}
                     </div>
-                    <div className="elevo-stat-label">
+                    <div className="stat-label">
                       {player.position === "Goalkeeper" ? "Saves" : "Assists"}
                     </div>
                   </div>
                 </div>
-                <Link to="/profile" className="elevo-view-profile-button">
+                <Link to={`/profile/${player.id}`} className="view-player-button">
                   VIEW PROFILE
                 </Link>
               </div>
@@ -264,9 +262,15 @@ function Athletes() {
         </div>
         
         {sortedPlayers.length === 0 && (
-          <div className="elevo-no-results">
+          <div className="no-results" style={{
+            textAlign: "center",
+            padding: "3rem",
+            backgroundColor: "var(--secondary-color)",
+            borderRadius: "12px",
+            margin: "2rem 0"
+          }}>
             <p>No players found matching your criteria</p>
-            <button className="elevo-filter-button" onClick={resetFilters}>
+            <button className="filter-button" onClick={resetFilters} style={{marginTop: "1rem"}}>
               Reset Filters
             </button>
           </div>
