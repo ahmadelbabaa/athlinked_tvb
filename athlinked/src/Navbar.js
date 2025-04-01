@@ -46,6 +46,7 @@ function Navbar() {
           <Link to="/universities" className="elevo-nav-link">Universities</Link>
           <Link to="/teams" className="elevo-nav-link">Teams</Link>
           <Link to="/events" className="elevo-nav-link">Events</Link>
+          <Link to="/agents" className="elevo-nav-link">Agents</Link>
         </div>
         
         <div className="elevo-navbar-actions">

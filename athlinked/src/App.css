@@ -1966,10 +1966,13 @@ html, body {
 }
 
 .stats-grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
-  justify-content: center;
-  margin-bottom: 2rem;
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  margin-left: calc(50% + 30px);
+  transform: translateX(-50%);
 }
 
 .stat-card {
@@ -1979,6 +1982,18 @@ html, body {
   min-width: 150px;
   border: 1px solid rgba(123, 46, 142, 0.3);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+  }
 }
 
 .stat-number {
@@ -1986,12 +2001,17 @@ html, body {
   font-weight: 700;
   margin-bottom: 0.5rem;
   color: var(--accent-color);
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .stat-label {
   font-size: 1rem;
   font-weight: 500;
   color: var(--text-color);
+  text-align: center;
+  width: 100%;
 }
 
 .stats-description {
@@ -2771,4 +2791,304 @@ div:not(.prospect-card) > .potential-badge,
   border-color: rgba(123, 46, 142, 0.8);
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(123, 46, 142, 0.3);
+}
+
+/* Profile page styles for visualizations */
+.visualizations-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.visualization-card {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid rgba(123, 46, 142, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.visualization-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+.radar-chart-container {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.heatmap-container {
+  width: 100%;
+  text-align: center;
+}
+
+.heatmap-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.heatmap-caption {
+  font-size: 0.9rem;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+.visualization-note {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--text-color);
+  opacity: 0.7;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .visualizations-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .radar-chart-container {
+    height: 250px;
+  }
+}
+
+/* Heatmap field styles */
+.heatmap-field {
+  width: 100%;
+  padding-bottom: 75%; /* Maintain aspect ratio */
+  position: relative;
+  margin: 0 auto;
+}
+
+.field-outline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #307944;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.field-center-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transform: translateY(-50%);
+}
+
+.field-center-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20%;
+  height: 20%;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.penalty-area {
+  position: absolute;
+  width: 30%;
+  height: 20%;
+  border: 2px solid #ffffff;
+}
+
+.penalty-area-top {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.penalty-area-bottom {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.goal {
+  position: absolute;
+  width: 15%;
+  height: 5%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #ffffff;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.goal-top {
+  top: -2px;
+}
+
+.goal-bottom {
+  bottom: -2px;
+}
+
+/* Position-specific heat overlays */
+.heat-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  border-radius: 4px;
+}
+
+/* Striker heatmap */
+.heat-overlay-striker {
+  background: radial-gradient(
+    circle at 50% 20%,
+    rgba(255, 0, 0, 0.8) 0%,
+    rgba(255, 0, 0, 0.5) 30%,
+    rgba(255, 0, 0, 0.2) 50%,
+    transparent 70%
+  );
+}
+
+/* Forward heatmap */
+.heat-overlay-forward {
+  background: radial-gradient(
+    circle at 50% 20%,
+    rgba(255, 0, 0, 0.8) 0%,
+    rgba(255, 0, 0, 0.5) 30%,
+    rgba(255, 0, 0, 0.2) 50%,
+    transparent 70%
+  );
+}
+
+/* Left Winger heatmap */
+.heat-overlay-left-winger {
+  background: radial-gradient(
+    circle at 20% 30%,
+    rgba(255, 0, 0, 0.8) 0%,
+    rgba(255, 0, 0, 0.5) 30%,
+    rgba(255, 0, 0, 0.2) 50%,
+    transparent 70%
+  );
+}
+
+/* Right Winger heatmap */
+.heat-overlay-right-winger {
+  background: radial-gradient(
+    circle at 80% 30%,
+    rgba(255, 0, 0, 0.8) 0%,
+    rgba(255, 0, 0, 0.5) 30%,
+    rgba(255, 0, 0, 0.2) 50%,
+    transparent 70%
+  );
+}
+
+/* Midfielder heatmap */
+.heat-overlay-midfielder {
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(255, 165, 0, 0.8) 0%,
+    rgba(255, 165, 0, 0.5) 30%,
+    rgba(255, 165, 0, 0.2) 50%,
+    transparent 70%
+  );
+}
+
+/* Central Midfielder heatmap */
+.heat-overlay-central-midfielder {
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(255, 165, 0, 0.8) 0%,
+    rgba(255, 165, 0, 0.5) 30%,
+    rgba(255, 165, 0, 0.2) 50%,
+    transparent 70%
+  );
+}
+
+/* Defensive Midfielder heatmap */
+.heat-overlay-defensive-midfielder {
+  background: radial-gradient(
+    circle at 50% 65%,
+    rgba(255, 165, 0, 0.8) 0%,
+    rgba(255, 165, 0, 0.5) 30%,
+    rgba(255, 165, 0, 0.2) 50%,
+    transparent 70%
+  );
+}
+
+/* Attacking Midfielder heatmap */
+.heat-overlay-attacking-midfielder {
+  background: radial-gradient(
+    circle at 50% 35%,
+    rgba(255, 165, 0, 0.8) 0%,
+    rgba(255, 165, 0, 0.5) 30%,
+    rgba(255, 165, 0, 0.2) 50%,
+    transparent 70%
+  );
+}
+
+/* Defender heatmap */
+.heat-overlay-defender {
+  background: radial-gradient(
+    circle at 50% 80%,
+    rgba(0, 0, 255, 0.8) 0%,
+    rgba(0, 0, 255, 0.5) 30%,
+    rgba(0, 0, 255, 0.2) 50%,
+    transparent 70%
+  );
+}
+
+/* Centre-Back heatmap */
+.heat-overlay-centre-back {
+  background: radial-gradient(
+    circle at 50% 80%,
+    rgba(0, 0, 255, 0.8) 0%,
+    rgba(0, 0, 255, 0.5) 30%,
+    rgba(0, 0, 255, 0.2) 50%,
+    transparent 70%
+  );
+}
+
+/* Left-Back heatmap */
+.heat-overlay-left-back {
+  background: radial-gradient(
+    circle at 20% 70%,
+    rgba(0, 0, 255, 0.8) 0%,
+    rgba(0, 0, 255, 0.5) 30%,
+    rgba(0, 0, 255, 0.2) 50%,
+    transparent 70%
+  );
+}
+
+/* Right-Back heatmap */
+.heat-overlay-right-back {
+  background: radial-gradient(
+    circle at 80% 70%,
+    rgba(0, 0, 255, 0.8) 0%,
+    rgba(0, 0, 255, 0.5) 30%,
+    rgba(0, 0, 255, 0.2) 50%,
+    transparent 70%
+  );
+}
+
+/* Goalkeeper heatmap */
+.heat-overlay-goalkeeper {
+  background: radial-gradient(
+    circle at 50% 90%,
+    rgba(128, 0, 128, 0.8) 0%,
+    rgba(128, 0, 128, 0.5) 20%,
+    rgba(128, 0, 128, 0.2) 40%,
+    transparent 60%
+  );
 }

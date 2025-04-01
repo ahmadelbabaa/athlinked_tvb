@@ -162,6 +162,11 @@ function Home() {
             <h3 className="stat-number">85%</h3>
             <p className="stat-label">Match Rate</p>
           </div>
+          
+          <div className="stat-card">
+            <h3 className="stat-number">20+</h3>
+            <p className="stat-label">Agents</p>
+          </div>
         </div>
         
         <p className="stats-description">

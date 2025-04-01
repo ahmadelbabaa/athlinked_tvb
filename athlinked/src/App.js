@@ -10,6 +10,8 @@ import Events from './components/Events';
 import Profile from './components/Profile';
 import TeamProfile from './components/TeamProfile';
 import Login from './components/Login';
+import Agents from './components/Agents';
+import Messaging from './components/Messaging';
 
 function NavBar({ userRole, onLogout }) {
   // Inline styles for navbar elements
@@ -53,6 +55,36 @@ function NavBar({ userRole, onLogout }) {
     transition: 'all 0.3s ease'
   };
 
+  // Add messaging icon styles
+  const messagingIconStyles = {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    position: "relative",
+    marginRight: "1rem",
+    backgroundColor: "rgba(123, 46, 142, 0.1)",
+    width: "40px",
+    height: "40px",
+    borderRadius: "50%",
+    transition: "all 0.3s ease"
+  };
+
+  const unreadBadgeStyles = {
+    position: "absolute",
+    top: "-5px",
+    right: "-5px",
+    backgroundColor: "#7b2e8e",
+    color: "white",
+    borderRadius: "50%",
+    width: "18px",
+    height: "18px",
+    fontSize: "0.7rem",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontWeight: "bold"
+  };
+
   return (
     <nav className="navbar" style={navbarStyles}>
       <div className="navbar-logo">
@@ -70,10 +102,20 @@ function NavBar({ userRole, onLogout }) {
         <Link to="/athletes" style={navLinkStyles}>Athletes</Link>
         <Link to="/teams" style={navLinkStyles}>Teams</Link>
         <Link to="/events" style={navLinkStyles}>Events</Link>
+        <Link to="/agents" style={navLinkStyles}>Agents</Link>
       </div>
-      <div className="navbar-auth">
+      <div className="navbar-auth" style={{
+        display: "flex",
+        alignItems: "center"
+      }}>
         {userRole ? (
           <>
+            <Link to="/messaging" style={messagingIconStyles}>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2Z" fill="white" />
+              </svg>
+              <span style={unreadBadgeStyles}>2</span>
+            </Link>
             {userRole === 'team' ? (
               <Link to="/team-profile" className="profile-link" style={profileLinkStyles}>Team Profile</Link>
             ) : (
@@ -148,6 +190,8 @@ function App() {
             <Route path="/athletes" element={<Athletes />} />
             <Route path="/teams" element={<Teams />} />
             <Route path="/events" element={<Events />} />
+            <Route path="/agents" element={<Agents />} />
+            <Route path="/messaging" element={<Messaging userRole={userRole} />} />
             <Route path="/profile" element={<Profile userRole={userRole} />} />
             <Route path="/profile/:id" element={<Profile userRole={userRole} viewMode="player" />} />
             <Route path="/team-profile" element={<TeamProfile userRole={userRole} />} />

@@ -1,6 +1,26 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import '../App.css';
+import { Radar } from 'react-chartjs-2';
+import {
+  Chart as ChartJS,
+  RadialLinearScale,
+  PointElement,
+  LineElement,
+  Filler,
+  Tooltip,
+  Legend
+} from 'chart.js';
+
+// Register Chart.js components
+ChartJS.register(
+  RadialLinearScale,
+  PointElement,
+  LineElement,
+  Filler,
+  Tooltip,
+  Legend
+);
 
 function Profile({ userRole, viewMode }) {
   const { id } = useParams();
@@ -265,6 +285,177 @@ function Profile({ userRole, viewMode }) {
     );
   };
 
+  // Generate radar chart data based on player position
+  const getRadarChartData = () => {
+    // Common chart options
+    const chartOptions = {
+      scales: {
+        r: {
+          angleLines: {
+            display: true,
+            color: 'rgba(255, 255, 255, 0.15)'
+          },
+          grid: {
+            color: 'rgba(255, 255, 255, 0.1)'
+          },
+          pointLabels: {
+            color: '#fff',
+            font: {
+              size: 12
+            }
+          },
+          ticks: {
+            display: false,
+            stepSize: 20
+          },
+          min: 0,
+          max: 100
+        }
+      },
+      plugins: {
+        legend: {
+          display: false
+        }
+      },
+      maintainAspectRatio: false
+    };
+
+    // Default chart colors
+    const chartColors = {
+      backgroundColor: 'rgba(123, 46, 142, 0.5)',
+      borderColor: 'rgba(123, 46, 142, 1)',
+      pointBackgroundColor: '#ffffff',
+      pointBorderColor: 'rgba(123, 46, 142, 1)',
+      pointHoverBackgroundColor: '#ffffff',
+      pointHoverBorderColor: 'rgba(123, 46, 142, 1)'
+    };
+
+    // Convert skills array to object for easier access
+    const skillsObj = {};
+    userData.skills.forEach(skill => {
+      skillsObj[skill.name.toLowerCase()] = skill.value;
+    });
+
+    // Generate different radar data based on position
+    let radarData = {};
+    let labels = [];
+    let data = [];
+
+    switch(userData.position) {
+      case 'Striker':
+      case 'Forward':
+      case 'Left Winger':
+      case 'Right Winger':
+        labels = ['Pace', 'Shooting', 'Dribbling', 'Physical', 'Finishing', 'Positioning'];
+        data = [
+          skillsObj['speed'] || 70,
+          skillsObj['shooting'] || 75,
+          skillsObj['dribbling'] || 80,
+          skillsObj['physical'] || 65,
+          skillsObj['shooting'] + 5 || 80, // Approximate finishing from shooting
+          skillsObj['positioning'] || (skillsObj['shooting'] - 5) || 70 // Approximate positioning
+        ];
+        break;
+
+      case 'Midfielder':
+      case 'Central Midfielder':
+      case 'Defensive Midfielder':
+      case 'Attacking Midfielder':
+        labels = ['Passing', 'Vision', 'Stamina', 'Dribbling', 'Defending', 'Shooting'];
+        data = [
+          skillsObj['passing'] || 85,
+          skillsObj['passing'] + 5 || 85, // Approximate vision from passing
+          skillsObj['physical'] + 5 || 80, // Approximate stamina from physical
+          skillsObj['dribbling'] || 75,
+          skillsObj['defending'] || 70,
+          skillsObj['shooting'] || 65
+        ];
+        break;
+
+      case 'Defender':
+      case 'Centre-Back':
+      case 'Left-Back':
+      case 'Right-Back':
+        labels = ['Defending', 'Physical', 'Heading', 'Tackling', 'Positioning', 'Speed'];
+        data = [
+          skillsObj['defending'] || 85,
+          skillsObj['physical'] || 80,
+          skillsObj['physical'] - 5 || 75, // Approximate heading from physical
+          skillsObj['defending'] + 5 || 85, // Approximate tackling from defending
+          skillsObj['defending'] - 5 || 75, // Approximate positioning from defending
+          skillsObj['speed'] || 70
+        ];
+        break;
+
+      case 'Goalkeeper':
+        labels = ['Reflexes', 'Handling', 'Positioning', 'Kicking', 'Communication', 'Leadership'];
+        data = [
+          skillsObj['reflexes'] || 85,
+          skillsObj['handling'] || 80,
+          skillsObj['positioning'] || 82,
+          skillsObj['kicking'] || 75,
+          skillsObj['communication'] || 78,
+          skillsObj['leadership'] || 76
+        ];
+        break;
+        
+      default:
+        // Generic chart for any other position
+        labels = userData.skills.map(skill => skill.name);
+        data = userData.skills.map(skill => skill.value);
+    }
+
+    // Construct chart data object
+    radarData = {
+      data: {
+        labels: labels,
+        datasets: [
+          {
+            data: data,
+            backgroundColor: chartColors.backgroundColor,
+            borderColor: chartColors.borderColor,
+            borderWidth: 2,
+            pointBackgroundColor: chartColors.pointBackgroundColor,
+            pointBorderColor: chartColors.pointBorderColor,
+            pointHoverBackgroundColor: chartColors.pointHoverBackgroundColor,
+            pointHoverBorderColor: chartColors.pointHoverBorderColor,
+            pointRadius: 4,
+            pointHoverRadius: 6
+          }
+        ]
+      },
+      options: chartOptions
+    };
+
+    return radarData;
+  };
+
+  // Generate field heatmap data based on player position
+  const getPositionHeatmap = () => {
+    const position = userData.position;
+    
+    // Use SVG-based heatmap representation instead of external images
+    // This ensures we don't have missing images and gives us more control
+    return (
+      <div className="heatmap-field">
+        <div className="field-outline">
+          <div className="field-center-line"></div>
+          <div className="field-center-circle"></div>
+          <div className="penalty-area penalty-area-top"></div>
+          <div className="penalty-area penalty-area-bottom"></div>
+          <div className="goal goal-top"></div>
+          <div className="goal goal-bottom"></div>
+          
+          {/* Position-specific heat overlay */}
+          <div className={`heat-overlay heat-overlay-${position.toLowerCase().replace(/[^a-z0-9]/g, '-')}`}></div>
+        </div>
+      </div>
+    );
+  };
+
+  // Get chart data
+  const radarChartData = getRadarChartData();
+
   return (
     <div className="profile-page">
       <div className="profile-header">
@@ -309,6 +500,31 @@ function Profile({ userRole, viewMode }) {
               </div>
             ))}
           </div>
+        </section>
+
+        <section className="profile-section">
+          <h2>Performance Analysis</h2>
+          
+          <div className="visualizations-container">
+            <div className="visualization-card">
+              <h3>Skills Radar</h3>
+              <div className="radar-chart-container">
+                <Radar data={radarChartData.data} options={radarChartData.options} />
+              </div>
+            </div>
+            
+            <div className="visualization-card">
+              <h3>Position Heatmap</h3>
+              {getPositionHeatmap()}
+              <p className="heatmap-caption">Field coverage based on {userData.position} position</p>
+            </div>
+          </div>
+          
+          <p className="visualization-note">
+            Data visualizations are based on player position and performance metrics. 
+            The radar chart shows key attributes for a {userData.position.toLowerCase()}, 
+            while the heatmap displays typical field coverage.
+          </p>
         </section>
 
         <section className="profile-section">

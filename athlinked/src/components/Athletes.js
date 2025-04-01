@@ -10,6 +10,9 @@ function Athletes() {
   const [similarityScores, setSimilarityScores] = useState({});
   const [sortBySimilarity, setSortBySimilarity] = useState(true);
   
+  // Check if user is logged in
+  const isLoggedIn = localStorage.getItem('userRole') !== null;
+
   // Use useMemo to memoize the footballPlayers array
   const footballPlayers = useMemo(() => [
     {
@@ -253,9 +256,42 @@ function Athletes() {
                     </div>
                   </div>
                 </div>
-                <Link to={`/profile/${player.id}`} className="view-player-button">
-                  VIEW PROFILE
-                </Link>
+                <div style={{ display: "flex", gap: "8px" }}>
+                  <Link to={`/profile/${player.id}`} className="view-player-button" style={{ 
+                    flex: isLoggedIn ? "3" : "initial",
+                    fontSize: "0.75rem",
+                    padding: "0.6rem 0"
+                  }}>
+                    VIEW PROFILE
+                  </Link>
+                  
+                  {isLoggedIn && (
+                    <Link 
+                      to={`/messaging?contact=player-${player.id}`} 
+                      className="message-button"
+                      style={{
+                        flex: "2",
+                        padding: "0.6rem 0",
+                        textAlign: "center",
+                        backgroundColor: "rgba(123, 46, 142, 0.8)",
+                        color: "white",
+                        textDecoration: "none",
+                        borderRadius: "4px",
+                        fontWeight: "500",
+                        fontSize: "0.75rem",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        gap: "3px"
+                      }}
+                    >
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2Z" fill="currentColor" />
+                      </svg>
+                      MSG
+                    </Link>
+                  )}
+                </div>
               </div>
             </div>
           ))}
